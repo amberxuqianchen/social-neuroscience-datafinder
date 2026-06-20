@@ -1,0 +1,20 @@
+{
+  "id": "nki-rockland-sample",
+  "name": "NKI-Rockland Sample (Enhanced)",
+  "shortName": "NKI-RS",
+  "description": "A large community-ascertained lifespan dataset (ages 6-85) combining resting-state and task fMRI, structural and diffusion MRI, and deep psychiatric, cognitive, and behavioral phenotyping, including naturalistic movie-viewing scans. Its breadth supports the study of social and emotional function across development, adulthood, and aging, and the dimensional links between social-emotional traits and brain function.",
+  "modality": ["fMRI", "Structural MRI", "Behavioral"],
+  "topics": ["development", "aging", "emotion", "mental health"],
+  "sampleSize": 1000,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://fcon_1000.projects.nitrc.org/indi/enhanced/",
+  "repository": "NITRC / INDI",
+  "citation": "Nooner KB, Colcombe SJ, Tobe RH, et al. (2012). The NKI-Rockland Sample: A Model for Accelerating the Pace of Discovery Science in Psychiatry. Frontiers in Neuroscience, 6, 152.",
+  "doi": "10.3389/fnins.2012.00152",
+  "year": 2012,
+  "tags": ["lifespan", "community sample", "deep phenotyping", "movie fMRI"]
+}

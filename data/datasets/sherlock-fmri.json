@@ -1,0 +1,29 @@
+{
+  "id": "sherlock-fmri",
+  "name": "Sherlock — Naturalistic Movie Watching & Recall (ds001132)",
+  "shortName": "Sherlock",
+  "description": "An OpenNeuro dataset (ds001132) in which 16 participants watched the first ~50 minutes of BBC's 'Sherlock' during fMRI, then verbally recalled the episode while being scanned. The shared narrative and rich social content (intentions, deception, social inference) make it a benchmark for naturalistic memory, event segmentation, and shared social experience.",
+  "modality": ["fMRI", "Naturalistic", "Behavioral"],
+  "topics": ["naturalistic viewing", "memory", "social cognition", "theory of mind", "communication"],
+  "sampleSize": 16,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds001132",
+  "downloadUrl": "https://openneuro.org/datasets/ds001132",
+  "repository": "OpenNeuro",
+  "citation": "Chen J, Leong YC, Honey CJ, Yong CH, Norman KA, Hasson U (2017). Shared memories reveal shared structure in neural activity across individuals. Nature Neuroscience, 20, 115–125.",
+  "doi": "10.1038/nn.4450",
+  "year": 2017,
+  "publications": [
+    {
+      "title": "A functional neuroimaging dataset acquired during naturalistic movie watching and narrated recall of short cinematic films",
+      "url": "https://www.sciencedirect.com/science/article/pii/S235234092200991X",
+      "year": 2023
+    }
+  ],
+  "tags": ["BBC Sherlock", "narrative recall", "event segmentation", "shared experience"],
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dandi",
+  "name": "DANDI — Distributed Archives for Neurophysiology Data Integration",
+  "shortName": "DANDI",
+  "description": "A BRAIN Initiative cloud archive and collaboration platform for cellular neurophysiology data, standardized on the Neurodata Without Borders (NWB) format. It hosts well over 1,000 'dandisets' of electrophysiology, optophysiology, and behavioral time series across species, including social-behavior and decision-making experiments — the primary home for open systems-neuroscience data.",
+  "modality": ["Electrophysiology", "Calcium Imaging", "Behavioral", "Multimodal"],
+  "topics": ["decision making", "social learning", "communication", "group behavior"],
+  "sampleSize": 0,
+  "species": "Multiple",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://dandiarchive.org/",
+  "downloadUrl": "https://dandiarchive.org/",
+  "repository": "DANDI",
+  "citation": "Rübel O, Tritt A, Ly R, et al. (2022). The Neurodata Without Borders ecosystem for neurophysiological data science. eLife, 11, e78362. (DANDI Archive: dandiarchive.org)",
+  "doi": "10.7554/eLife.78362",
+  "year": 2022,
+  "publications": [
+    {
+      "title": "Facilitating analysis of open neurophysiology data on the DANDI Archive using large language model tools",
+      "url": "https://www.nature.com/articles/s41597-025-06285-x",
+      "year": 2025
+    }
+  ],
+  "tags": ["repository", "NWB", "electrophysiology", "BRAIN Initiative"],
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "abcd-study",
+  "name": "Adolescent Brain Cognitive Development Study (ABCD)",
+  "shortName": "ABCD",
+  "description": "The largest long-term longitudinal study of brain development and child health in the United States, following 11,878 children recruited at ages 9–10 from 21 sites. Biennial multimodal MRI (structural, resting-state and task fMRI, diffusion) is paired with deep phenotyping of cognition, mental health, social relationships, culture/environment, screen and social media use, and peer networks — a rich substrate for developmental social neuroscience.",
+  "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "Developmental", "Behavioral", "Multimodal", "Genetics"],
+  "topics": ["development", "social cognition", "decision making", "mental health", "identity", "culture"],
+  "sampleSize": 11878,
+  "species": "Human",
+  "longitudinal": true,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://abcdstudy.org/",
+  "downloadUrl": "https://nda.nih.gov/abcd",
+  "repository": "NIMH Data Archive (NDA)",
+  "citation": "Casey BJ, Cannonier T, Conley MI, et al. (2018). The Adolescent Brain Cognitive Development (ABCD) study: Imaging acquisition across 21 sites. Developmental Cognitive Neuroscience, 32, 43–54.",
+  "doi": "10.1016/j.dcn.2018.03.001",
+  "year": 2018,
+  "publications": [
+    {
+      "title": "The ABCD study: understanding the development of risk for mental and physical health outcomes",
+      "url": "https://www.nature.com/articles/s41386-020-0736-6",
+      "year": 2020
+    }
+  ],
+  "tags": ["adolescence", "longitudinal cohort", "screen time", "peer relationships"],
+  "featured": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "abide",
+  "name": "Autism Brain Imaging Data Exchange (ABIDE I)",
+  "shortName": "ABIDE",
+  "description": "A large multi-site aggregation of resting-state fMRI and structural MRI from 1,112 individuals — 539 with autism spectrum disorder and 573 typical controls — with accompanying phenotypic data. Because autism centrally involves social cognition and social interaction, ABIDE is a heavily used resource for studying the neural basis of social-brain differences and for building predictive models of social-cognitive phenotypes.",
+  "modality": ["fMRI", "Structural MRI"],
+  "topics": ["social cognition", "social interaction", "mental health", "development"],
+  "sampleSize": 1112,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://fcon_1000.projects.nitrc.org/indi/abide/",
+  "repository": "NITRC / INDI",
+  "citation": "Di Martino A, Yan C-G, Li Q, et al. (2014). The autism brain imaging data exchange: towards a large-scale evaluation of the intrinsic brain architecture in autism. Molecular Psychiatry, 19(6), 659-667.",
+  "doi": "10.1038/mp.2013.78",
+  "year": 2014,
+  "tags": ["autism", "resting-state", "multi-site", "social cognition"]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "studyforrest",
+  "name": "studyforrest",
+  "shortName": "studyforrest",
+  "description": "A pioneering naturalistic-stimulation project built around the movie 'Forrest Gump'. The core 7T dataset includes 20 participants listening to the audio film, with extensions adding audio-visual movie fMRI (15 participants), simultaneous eye-tracking, and a public MEG recording (11 participants). Its rich social narrative supports research on language, emotion, and social perception in continuous real-world contexts.",
+  "modality": ["fMRI", "MEG", "Naturalistic", "Eye Tracking", "Structural MRI", "Multimodal"],
+  "topics": ["naturalistic viewing", "emotion", "communication", "social cognition"],
+  "sampleSize": 20,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://www.studyforrest.org/",
+  "downloadUrl": "https://openneuro.org/datasets/ds000113",
+  "repository": "OpenNeuro / studyforrest.org",
+  "citation": "Hanke M, Adelhöfer N, Kottke D, et al. (2016). A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation. Scientific Data, 3, 160092.",
+  "doi": "10.1038/sdata.2016.92",
+  "year": 2016,
+  "publications": [
+    {
+      "title": "A studyforrest extension, MEG recordings while watching the audio-visual movie 'Forrest Gump'",
+      "url": "https://www.nature.com/articles/s41597-022-01299-1",
+      "year": 2022
+    }
+  ],
+  "tags": ["Forrest Gump", "7T", "movie", "eye gaze"],
+  "featured": false
+}

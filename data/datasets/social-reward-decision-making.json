@@ -1,0 +1,29 @@
+{
+  "id": "social-reward-decision-making",
+  "name": "Social Reward Processing & Decision Making Across the Lifespan (ds005123)",
+  "shortName": "Social Reward fMRI",
+  "description": "An OpenNeuro interim multi-echo fMRI and diffusion dataset from 114 adults ages 21-80 completing social and nonsocial reward tasks. The task battery includes social and monetary doors tasks, a trust game where participants invest with friend, stranger, or computer partners, a shared reward/loss task with social and nonsocial partners, and Ultimatum/Dictator Game conditions. Its explicit partner and reward manipulations make it a direct resource for cooperation, fairness, trust, social reward, financial-exploitation risk, and aging-related differences in social decision making.",
+  "modality": ["fMRI", "Diffusion MRI", "Behavioral", "Multimodal"],
+  "topics": ["decision making", "cooperation", "competition", "moral judgment", "social cognition", "aging"],
+  "sampleSize": 114,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds005123",
+  "downloadUrl": "https://openneuro.org/datasets/ds005123",
+  "repository": "OpenNeuro",
+  "citation": "Smith DV, Sharp CJ, Dachs A, Wyngaarden J, Sazhin D, Yang J, Kos M, Tropea T, Kohli I, Clithero JA, Olson I, Giovannetti T, Fareri D, Jarcho JM (2024). Social Reward and Nonsocial Reward Processing Across the Adult Lifespan: An Interim Multi-echo fMRI and Diffusion Dataset. Data in Brief, 110810.",
+  "doi": "10.1016/j.dib.2024.110810",
+  "year": 2024,
+  "publications": [
+    {
+      "title": "Social Reward and Nonsocial Reward Processing Across the Adult Lifespan: An Interim Multi-echo fMRI and Diffusion Dataset",
+      "url": "https://doi.org/10.1016/j.dib.2024.110810",
+      "year": 2024
+    }
+  ],
+  "tags": ["ultimatum game", "dictator game", "trust game", "shared reward", "friend", "stranger", "computer", "multi-echo fMRI", "economic games", "older adults"],
+  "featured": false
+}

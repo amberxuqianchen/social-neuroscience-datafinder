@@ -1,0 +1,29 @@
+{
+  "id": "allen-brain-observatory",
+  "name": "Allen Brain Observatory — Visual Coding (2-Photon)",
+  "shortName": "Allen Visual Coding",
+  "description": "The largest publicly available standardized survey of in-vivo two-photon calcium imaging from awake, head-fixed mice, recording ~60,000 cells across six visual cortical areas, multiple layers and 13 Cre lines during a battery of visual stimuli including natural movies. While not itself a social paradigm, it is a flagship open neurophysiology resource and a model for standardized data sharing in systems neuroscience.",
+  "modality": ["Calcium Imaging", "Electrophysiology"],
+  "topics": ["naturalistic viewing", "decision making"],
+  "sampleSize": 243,
+  "species": "Mouse",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://portal.brain-map.org/explore/circuits/visual-coding-2p",
+  "downloadUrl": "https://registry.opendata.aws/allen-brain-observatory/",
+  "repository": "Allen Institute / AWS Open Data",
+  "citation": "de Vries SEJ, Lecoq JA, Buice MA, et al. (2020). A large-scale standardized physiological survey reveals functional organization of the mouse visual cortex. Nature Neuroscience, 23, 138–151.",
+  "doi": "10.1038/s41593-019-0550-9",
+  "year": 2020,
+  "publications": [
+    {
+      "title": "Sharing neurophysiology data from the Allen Brain Observatory",
+      "url": "https://elifesciences.org/articles/85550",
+      "year": 2023
+    }
+  ],
+  "tags": ["mouse", "two-photon", "visual cortex", "AllenSDK"],
+  "featured": false
+}

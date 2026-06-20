@@ -1,0 +1,29 @@
+{
+  "id": "hcp-aging-aabc",
+  "name": "HCP-Aging / Aging Adult Brain Connectome (AABC)",
+  "shortName": "HCP-A / AABC",
+  "description": "A large adult-aging extension of the Human Connectome Project combining HCP-Aging (HCA) and the Aging Adult Brain Connectome (AABC) extension. Current AABC releases include cross-sectional and longitudinal 3T multimodal MRI sessions from typically aging adults ages 36-90+, with structural MRI, resting-state fMRI, task fMRI, diffusion MRI, ASL, high-resolution hippocampal T2 imaging, selected 7T MRS data, and broad non-imaging behavioral, cognitive, health, and biomeasure variables. It is a flagship resource for studying healthy brain aging, resilience, cognition, and age-related change in brain networks.",
+  "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "Behavioral", "Multimodal"],
+  "topics": ["aging", "memory", "emotion", "social cognition", "mental health"],
+  "sampleSize": 1396,
+  "species": "Human",
+  "longitudinal": true,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://www.humanconnectome.org/study/hcp-lifespan-aging",
+  "downloadUrl": "https://balsa.wustl.edu/",
+  "repository": "ConnectomeDB powered by BALSA / NDA",
+  "citation": "Bookheimer SY, Salat DH, Terpstra M, et al. (2019). The Lifespan Human Connectome Project in Aging: An overview. NeuroImage, 185, 335-348.",
+  "doi": "10.1016/j.neuroimage.2018.10.009",
+  "year": 2026,
+  "publications": [
+    {
+      "title": "The Lifespan Human Connectome Project in Aging: An overview",
+      "url": "https://doi.org/10.1016/j.neuroimage.2018.10.009",
+      "year": 2019
+    }
+  ],
+  "tags": ["healthy aging", "lifespan", "connectome", "longitudinal", "BALSA", "NDA", "FACENAME task"],
+  "featured": false
+}

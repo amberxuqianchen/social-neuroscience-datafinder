@@ -1,0 +1,29 @@
+{
+  "id": "copenhagen-networks-study",
+  "name": "Copenhagen Networks Study — Interaction Data",
+  "shortName": "Copenhagen Networks",
+  "description": "A multi-layer temporal social network connecting more than 700 university students over four weeks, collected via smartphones. Layers include physical proximity (Bluetooth), phone calls, text messages, and Facebook friendships (no message content). One of the richest open human social-interaction datasets, ideal for collective behavior, social-network, and computational social-science research.",
+  "modality": ["Social Network", "Behavioral"],
+  "topics": ["social networks", "collective behavior", "communication", "friendship", "group behavior"],
+  "sampleSize": 700,
+  "species": "Human",
+  "longitudinal": true,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": true,
+  "url": "https://www.nature.com/articles/s41597-019-0325-x",
+  "downloadUrl": "https://figshare.com/articles/dataset/The_Copenhagen_Networks_Study_interaction_data/7267433",
+  "repository": "figshare",
+  "citation": "Sapiezynski P, Stopczynski A, Lassen DD, Lehmann S (2019). Interaction data from the Copenhagen Networks Study. Scientific Data, 6, 315.",
+  "doi": "10.1038/s41597-019-0325-x",
+  "year": 2019,
+  "publications": [
+    {
+      "title": "Measuring large-scale social networks with high resolution",
+      "url": "https://doi.org/10.1371/journal.pone.0095978",
+      "year": 2014
+    }
+  ],
+  "tags": ["temporal network", "proximity", "smartphone sensing", "computational social science"],
+  "featured": false
+}

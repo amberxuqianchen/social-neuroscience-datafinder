@@ -1,0 +1,29 @@
+{
+  "id": "richardson-partly-cloudy",
+  "name": "Partly Cloudy — Theory of Mind Development (ds000228)",
+  "shortName": "Partly Cloudy ToM",
+  "description": "An OpenNeuro dataset (ds000228) in which 122 children (ages 3–12) and 33 adults watched Pixar's short film 'Partly Cloudy' during fMRI. The film richly depicts characters' mental states and bodily sensations, enabling study of how the theory-of-mind and pain networks develop and dissociate across childhood. A foundational open dataset for developmental social neuroscience.",
+  "modality": ["fMRI", "Naturalistic", "Developmental"],
+  "topics": ["theory of mind", "social cognition", "development", "empathy", "naturalistic viewing"],
+  "sampleSize": 155,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds000228",
+  "downloadUrl": "https://openneuro.org/datasets/ds000228",
+  "repository": "OpenNeuro",
+  "citation": "Richardson H, Lisandrelli G, Riobueno-Naylor A, Saxe R (2018). Development of the social brain from age three to twelve years. Nature Communications, 9, 1027.",
+  "doi": "10.1038/s41467-018-03399-2",
+  "year": 2018,
+  "publications": [
+    {
+      "title": "Development of predictive responses in theory of mind brain regions",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31125472/",
+      "year": 2019
+    }
+  ],
+  "tags": ["Pixar", "children", "ToM network", "movie watching"],
+  "featured": false
+}

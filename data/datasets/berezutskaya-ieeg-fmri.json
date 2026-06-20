@@ -1,0 +1,29 @@
+{
+  "id": "berezutskaya-ieeg-fmri",
+  "name": "Multimodal iEEG–fMRI Naturalistic Film (ds003688)",
+  "shortName": "iEEG–fMRI Film",
+  "description": "An open OpenNeuro dataset (ds003688) pairing intracranial EEG from 51 participants (ages 5–55) with fMRI from 30 participants during the same short audiovisual film, with 18 individuals completing both (non-simultaneously). Its combination of high temporal and spatial resolution during naturalistic social stimulation supports cross-modal study of perception, language, and social scene processing.",
+  "modality": ["iEEG", "fMRI", "Naturalistic", "Multimodal", "Developmental"],
+  "topics": ["naturalistic viewing", "communication", "social cognition", "face perception"],
+  "sampleSize": 51,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds003688",
+  "downloadUrl": "https://openneuro.org/datasets/ds003688",
+  "repository": "OpenNeuro",
+  "citation": "Berezutskaya J, Vansteensel MJ, Aarnoutse EJ, et al. (2022). Open multimodal iEEG-fMRI dataset from naturalistic stimulation with a short audiovisual film. Scientific Data, 9, 91.",
+  "doi": "10.1038/s41597-022-01173-0",
+  "year": 2022,
+  "publications": [
+    {
+      "title": "Open multimodal iEEG-fMRI dataset from naturalistic stimulation with a short audiovisual film",
+      "url": "https://www.nature.com/articles/s41597-022-01173-0",
+      "year": 2022
+    }
+  ],
+  "tags": ["intracranial", "audiovisual film", "cross-modal", "BIDS"],
+  "featured": false
+}

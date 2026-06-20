@@ -1,0 +1,29 @@
+{
+  "id": "seed-eeg-emotion",
+  "name": "SEED — SJTU Emotion EEG Dataset",
+  "shortName": "SEED",
+  "description": "A widely used EEG emotion-recognition dataset from the BCMI Lab at Shanghai Jiao Tong University. Fifteen participants watched 15 emotionally evocative Chinese film clips (positive, neutral, negative) across repeated sessions while 62-channel EEG was recorded. It is a standard benchmark for affective computing and the neural basis of emotion — a building block of social-affective processing.",
+  "modality": ["EEG", "Naturalistic", "Behavioral"],
+  "topics": ["emotion", "social cognition"],
+  "sampleSize": 15,
+  "species": "Human",
+  "longitudinal": true,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://bcmi.sjtu.edu.cn/home/seed/",
+  "downloadUrl": "https://bcmi.sjtu.edu.cn/home/seed/seed.html",
+  "repository": "BCMI Lab, SJTU",
+  "citation": "Zheng WL, Lu BL (2015). Investigating critical frequency bands and channels for EEG-based emotion recognition with deep neural networks. IEEE Transactions on Autonomous Mental Development, 7(3), 162–175.",
+  "doi": "10.1109/TAMD.2015.2431497",
+  "year": 2015,
+  "publications": [
+    {
+      "title": "Identifying stable patterns over time for emotion recognition from EEG",
+      "url": "https://doi.org/10.1109/TAFFC.2017.2712143",
+      "year": 2019
+    }
+  ],
+  "tags": ["affective computing", "62-channel EEG", "film clips", "benchmark"],
+  "featured": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ucla-cnp",
+  "name": "UCLA Consortium for Neuropsychiatric Phenomics (CNP)",
+  "shortName": "UCLA CNP",
+  "description": "Multimodal MRI from 272 participants — healthy adults and people with schizophrenia, bipolar disorder, or ADHD — performing tasks including emotional face matching, social and affective processing, working memory, and response inhibition. A widely used open dataset for linking dimensional psychiatric phenotypes to brain function, including social and emotional processing.",
+  "modality": ["fMRI", "Structural MRI"],
+  "topics": ["emotion", "face perception", "decision making", "mental health", "memory"],
+  "sampleSize": 272,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds000030",
+  "repository": "OpenNeuro",
+  "citation": "Poldrack RA, Congdon E, Triplett W, et al. (2016). A phenome-wide examination of neural and cognitive function (UCLA Consortium for Neuropsychiatric Phenomics LA5c Study). Scientific Data, 3, 160110.",
+  "doi": "10.1038/sdata.2016.110",
+  "year": 2016,
+  "tags": ["psychiatry", "emotional faces", "transdiagnostic", "phenomics"]
+}

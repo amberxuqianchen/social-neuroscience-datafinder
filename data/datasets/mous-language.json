@@ -1,0 +1,20 @@
+{
+  "id": "mous-language",
+  "name": "Mother of Unification Studies (MOUS)",
+  "shortName": "MOUS",
+  "description": "A 204-participant multimodal dataset for studying language processing, pairing MEG and fMRI as participants read or listened to sentences (versus word-scrambled controls). Because comprehending language is a core channel of human communication, MOUS is a large, openly available resource for the neural basis of communication, combining high temporal (MEG) and spatial (fMRI) resolution in the same cohort.",
+  "modality": ["MEG", "fMRI"],
+  "topics": ["communication"],
+  "sampleSize": 204,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds003688",
+  "repository": "OpenNeuro",
+  "citation": "Schoffelen J-M, Oostenveld R, Lam NHL, et al. (2019). A 204-subject multimodal neuroimaging dataset to study language processing. Scientific Data, 6, 17.",
+  "doi": "10.1038/s41597-019-0020-y",
+  "year": 2019,
+  "tags": ["language", "MEG", "sentence processing", "communication"]
+}

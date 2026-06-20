@@ -1,0 +1,9 @@
+# Part 1 (behavioral demo) -- enough to start immediately
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.8
+
+# Part 2/3 (real OpenNeuro events + optional fMRI GLM)
+nilearn>=0.10
+openneuro-py>=2024.1

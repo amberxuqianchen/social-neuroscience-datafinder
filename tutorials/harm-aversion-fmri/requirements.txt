@@ -1,0 +1,9 @@
+# Part 1 (computational modeling) — these are all you need to start
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.8        # >=3.8 so the same env also satisfies nilearn
+
+# Part 2 (real choices + model-based fMRI)
+pandas>=2.0
+nilearn>=0.10          # fMRI GLM + plotting (needs matplotlib>=3.8)
+openneuro-py>=2024.1   # download one NARPS subject from OpenNeuro

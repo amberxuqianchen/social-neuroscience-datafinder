@@ -1,0 +1,29 @@
+{
+  "id": "uk-biobank-imaging",
+  "name": "UK Biobank Brain Imaging",
+  "shortName": "UK Biobank",
+  "description": "A population-scale imaging enhancement aiming for multimodal brain MRI from 100,000 UK Biobank participants (structural, diffusion, resting-state and task fMRI), linked to extensive health, lifestyle, cognitive, genetic, and social-circumstance data. Its scale supports population and individual-differences approaches to social behavior, loneliness, and mental health.",
+  "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "Multimodal", "Genetics", "Behavioral"],
+  "topics": ["decision making", "emotion", "mental health", "aging", "social cognition"],
+  "sampleSize": 100000,
+  "species": "Human",
+  "longitudinal": true,
+  "openAccess": false,
+  "accessType": "restricted",
+  "socialNetworkData": false,
+  "url": "https://www.ukbiobank.ac.uk/enable-your-research/about-our-data/imaging-data",
+  "downloadUrl": "https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access",
+  "repository": "UK Biobank",
+  "citation": "Miller KL, Alfaro-Almagro F, Bangerter NK, et al. (2016). Multimodal population brain imaging in the UK Biobank prospective epidemiological study. Nature Neuroscience, 19(11), 1523–1536.",
+  "doi": "10.1038/nn.4393",
+  "year": 2016,
+  "publications": [
+    {
+      "title": "The UK Biobank imaging enhancement of 100,000 participants: rationale, data collection, management and future directions",
+      "url": "https://www.nature.com/articles/s41467-020-15948-9",
+      "year": 2020
+    }
+  ],
+  "tags": ["population imaging", "biobank", "individual differences"],
+  "featured": false
+}

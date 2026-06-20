@@ -1,0 +1,29 @@
+{
+  "id": "courtois-neuromod",
+  "name": "Courtois Project on Neural Modelling (CNeuroMod)",
+  "shortName": "CNeuroMod",
+  "description": "A deeply sampled fMRI database collecting more than 80 hours of data per subject from 6 participants since 2018, who watch large amounts of naturalistic media including all six seasons of the sitcom 'Friends' (the 'friends' dataset) and four feature films (the 'movie10' dataset), plus controlled tasks. The extensive social narrative content per individual makes it uniquely suited to modelling social cognition and language in the brain.",
+  "modality": ["fMRI", "Naturalistic", "Behavioral", "Multimodal"],
+  "topics": ["naturalistic viewing", "social cognition", "theory of mind", "communication", "memory"],
+  "sampleSize": 6,
+  "species": "Human",
+  "longitudinal": true,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://www.cneuromod.ca/",
+  "downloadUrl": "https://docs.cneuromod.ca/en/latest/DATASETS.html",
+  "repository": "CNeuroMod / DataLad",
+  "citation": "Boyle J, Pinsard B, Boukhdhir A, et al. (2020). The Courtois project on neural modelling — a dataset of densely-sampled individual fMRI during naturalistic stimulation. Courtois NeuroMod.",
+  "doi": "10.18112/openneuro.ds002837.v1.1.1",
+  "year": 2020,
+  "publications": [
+    {
+      "title": "CNeuroMod-THINGS, a densely-sampled fMRI dataset for visual neuroscience",
+      "url": "https://www.nature.com/articles/s41597-026-06591-y",
+      "year": 2026
+    }
+  ],
+  "tags": ["dense sampling", "Friends", "movie10", "individual brains", "deep learning"],
+  "featured": true
+}

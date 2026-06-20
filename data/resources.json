@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": "getting-started",
+      "title": "Tutorials & Getting Started",
+      "description": "Entry points for researchers new to neuroimaging data analysis and social neuroscience methods.",
+      "links": [
+        { "name": "Neuroimaging Analysis Replication and Prediction Study (NARPS)", "url": "https://www.narps.info/", "blurb": "How analytic choices shape fMRI results — a lesson in reproducibility." },
+        { "name": "Andy's Brain Book", "url": "https://andysbrainbook.readthedocs.io/", "blurb": "Free, hands-on tutorials for FSL, AFNI, SPM, and fMRI analysis." },
+        { "name": "Neuromatch Academy — Computational Neuroscience", "url": "https://compneuro.neuromatch.io/", "blurb": "Open curriculum covering modelling, statistics, and neural data analysis." },
+        { "name": "Naturalistic Data Analysis", "url": "https://naturalistic-data.org/", "blurb": "A community resource for analyzing movie- and narrative-based neuroimaging data." }
+      ]
+    },
+    {
+      "id": "preprocessing",
+      "title": "Preprocessing Pipelines",
+      "description": "Standardized, validated pipelines for turning raw acquisitions into analysis-ready data.",
+      "links": [
+        { "name": "fMRIPrep", "url": "https://fmriprep.org/", "blurb": "Robust, BIDS-native preprocessing pipeline for task and resting-state fMRI." },
+        { "name": "MRIQC", "url": "https://mriqc.readthedocs.io/", "blurb": "Automated quality-control metrics and reports for structural and functional MRI." },
+        { "name": "MNE-Python", "url": "https://mne.tools/", "blurb": "Preprocessing and analysis of MEG, EEG, and iEEG data." },
+        { "name": "EEGLAB", "url": "https://eeglab.org/", "blurb": "MATLAB toolbox for EEG/MEG processing, central to the NEMAR ecosystem." },
+        { "name": "QSIPrep", "url": "https://qsiprep.readthedocs.io/", "blurb": "Configurable preprocessing for diffusion MRI." }
+      ]
+    },
+    {
+      "id": "bids",
+      "title": "BIDS — Brain Imaging Data Structure",
+      "description": "The community standard for organizing and describing neuroimaging datasets.",
+      "links": [
+        { "name": "BIDS Specification", "url": "https://bids-specification.readthedocs.io/", "blurb": "The formal, versioned standard for MRI, MEG, EEG, iEEG, and more." },
+        { "name": "BIDS Starter Kit", "url": "https://bids-standard.github.io/bids-starter-kit/", "blurb": "Tutorials, templates, and examples for getting your data BIDS-compliant." },
+        { "name": "BIDS Validator", "url": "https://bids-standard.github.io/bids-validator/", "blurb": "Check whether a dataset conforms to the BIDS standard before sharing." },
+        { "name": "PyBIDS", "url": "https://bids-standard.github.io/pybids/", "blurb": "Python library for querying and manipulating BIDS datasets." }
+      ]
+    },
+    {
+      "id": "repositories",
+      "title": "Repositories & Archives",
+      "description": "Where to find and deposit open neuroscience data.",
+      "links": [
+        { "name": "OpenNeuro", "url": "https://openneuro.org/", "blurb": "Free hosting for BIDS-formatted MRI, MEG, EEG, and iEEG datasets." },
+        { "name": "DANDI Archive", "url": "https://dandiarchive.org/", "blurb": "Cellular neurophysiology data in the NWB standard." },
+        { "name": "NEMAR", "url": "https://nemar.org/", "blurb": "EEG/MEG/iEEG archive with integrated compute via the Neuroscience Gateway." },
+        { "name": "NeuroVault", "url": "https://neurovault.org/", "blurb": "Repository for unthresholded statistical maps and atlases." },
+        { "name": "OpenNeuro Datasets on GitHub", "url": "https://github.com/OpenNeuroDatasets", "blurb": "Version-controlled mirrors of every OpenNeuro dataset." }
+      ]
+    },
+    {
+      "id": "data-sharing",
+      "title": "Data Sharing & FAIR Practices",
+      "description": "Guidance for sharing data responsibly, ethically, and reproducibly.",
+      "links": [
+        { "name": "FAIR Guiding Principles", "url": "https://www.go-fair.org/fair-principles/", "blurb": "Findable, Accessible, Interoperable, Reusable — the foundation of open data." },
+        { "name": "DataLad", "url": "https://www.datalad.org/", "blurb": "Git-based distributed data management used by many neuroimaging archives." },
+        { "name": "INCF — International Neuroinformatics Coordinating Facility", "url": "https://www.incf.org/", "blurb": "Standards and best practices for neuroscience data sharing." },
+        { "name": "NIH Data Management & Sharing Policy", "url": "https://sharing.nih.gov/data-management-and-sharing-policy", "blurb": "Funder requirements that increasingly shape how data must be shared." }
+      ]
+    },
+    {
+      "id": "social-neuro",
+      "title": "Social Neuroscience Methods",
+      "description": "Tools and references specific to studying the social brain.",
+      "links": [
+        { "name": "Inter-Subject Correlation (ISC) Toolbox", "url": "https://www.nitrc.org/projects/isc-toolbox/", "blurb": "Analyze shared neural responses across people during naturalistic stimuli." },
+        { "name": "BrainIAK", "url": "https://brainiak.org/", "blurb": "Advanced fMRI methods including ISC, shared response models, and decoding." },
+        { "name": "Hyperscanning resources (fNIRS Society)", "url": "https://fnirs.org/", "blurb": "Methods and community for measuring two or more interacting brains." },
+        { "name": "Neurosynth", "url": "https://neurosynth.org/", "blurb": "Large-scale automated meta-analysis of the fMRI literature, including social terms." }
+      ]
+    }
+  ]
+}

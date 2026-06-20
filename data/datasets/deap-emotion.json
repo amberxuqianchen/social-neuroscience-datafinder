@@ -1,0 +1,20 @@
+{
+  "id": "deap-emotion",
+  "name": "DEAP — Database for Emotion Analysis using Physiological Signals",
+  "shortName": "DEAP",
+  "description": "A multimodal affective-computing dataset in which 32 participants watched 40 one-minute music videos while 32-channel EEG and peripheral physiology were recorded, rating each video on valence, arousal, dominance, and liking. Widely used as a benchmark for decoding emotional states from brain and body signals.",
+  "modality": ["EEG", "Behavioral"],
+  "topics": ["emotion", "naturalistic viewing"],
+  "sampleSize": 32,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://www.eecs.qmul.ac.uk/mmv/datasets/deap/",
+  "repository": "Queen Mary University of London",
+  "citation": "Koelstra S, Muhl C, Soleymani M, et al. (2012). DEAP: A Database for Emotion Analysis using Physiological Signals. IEEE Transactions on Affective Computing, 3(1), 18-31.",
+  "doi": "10.1109/T-AFFC.2011.15",
+  "year": 2012,
+  "tags": ["emotion recognition", "EEG", "affective computing", "valence-arousal"]
+}

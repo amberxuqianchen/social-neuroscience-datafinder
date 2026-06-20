@@ -1,0 +1,29 @@
+{
+  "id": "openneuro",
+  "name": "OpenNeuro",
+  "shortName": "OpenNeuro",
+  "description": "A free and open platform for sharing BIDS-formatted neuroimaging data (MRI, MEG, EEG, iEEG, PET, ASL). It hosts thousands of public datasets — including many naturalistic and social-cognition studies — with versioning, DOIs, and validation. The single best starting point for discovering openly available human brain-imaging data for social neuroscience.",
+  "modality": ["fMRI", "EEG", "MEG", "iEEG", "Structural MRI", "Diffusion MRI", "Multimodal"],
+  "topics": ["social cognition", "naturalistic viewing", "decision making", "emotion", "theory of mind"],
+  "sampleSize": 0,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/",
+  "downloadUrl": "https://openneuro.org/",
+  "repository": "OpenNeuro",
+  "citation": "Markiewicz CJ, Gorgolewski KJ, Feingold F, et al. (2021). The OpenNeuro resource for sharing of neuroscience data. eLife, 10, e71774.",
+  "doi": "10.7554/eLife.71774",
+  "year": 2021,
+  "publications": [
+    {
+      "title": "The OpenNeuro resource for sharing of neuroscience data",
+      "url": "https://elifesciences.org/articles/71774",
+      "year": 2021
+    }
+  ],
+  "tags": ["repository", "BIDS", "platform", "data sharing"],
+  "featured": false
+}

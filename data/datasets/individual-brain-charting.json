@@ -1,0 +1,20 @@
+{
+  "id": "individual-brain-charting",
+  "name": "Individual Brain Charting (IBC)",
+  "shortName": "IBC",
+  "description": "A deep-phenotyping fMRI dataset in which a fixed cohort of 12 participants each performed dozens of cognitive tasks at high spatial resolution (1.5 mm), yielding hundreds of functional contrasts per person. The task battery includes social-cognition and theory-of-mind paradigms (e.g., false-belief and animated social-interaction tasks), making IBC a precise within-subject reference for localizing the social brain.",
+  "modality": ["fMRI", "Naturalistic", "Multimodal"],
+  "topics": ["theory of mind", "social cognition", "decision making", "face perception"],
+  "sampleSize": 12,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds002685",
+  "repository": "OpenNeuro",
+  "citation": "Pinho AL, Amadon A, Gauthier B, et al. (2020). Individual Brain Charting dataset extension, second release of high-resolution fMRI data for cognitive mapping. Scientific Data, 7, 353.",
+  "doi": "10.18112/openneuro.ds002685",
+  "year": 2020,
+  "tags": ["deep phenotyping", "task battery", "theory of mind", "cognitive atlas"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "amigos",
+  "name": "AMIGOS — Affect, Personality & Mood in Individual and Group Settings",
+  "shortName": "AMIGOS",
+  "description": "A multimodal dataset in which 40 participants watched emotional videos both alone and in groups while EEG, ECG, and galvanic skin response plus frontal video were recorded, with affect and personality annotations. Its individual-versus-group design makes it especially useful for studying how social context shapes emotional responses.",
+  "modality": ["EEG", "Behavioral"],
+  "topics": ["emotion", "group behavior", "social interaction", "identity"],
+  "sampleSize": 40,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/",
+  "repository": "Queen Mary University of London",
+  "citation": "Miranda-Correa JA, Abadi MK, Sebe N, Patras I (2021). AMIGOS: A Dataset for Affect, Personality and Mood Research on Individuals and Groups. IEEE Transactions on Affective Computing, 12(2), 479-493.",
+  "doi": "10.1109/TAFFC.2018.2884461",
+  "year": 2021,
+  "tags": ["affect", "personality", "social context", "wearable physiology"]
+}

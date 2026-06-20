@@ -1,0 +1,20 @@
+{
+  "id": "hcp-development",
+  "name": "HCP-Development (Lifespan Human Connectome Project in Development)",
+  "shortName": "HCP-D",
+  "description": "A large developmental extension of the Human Connectome Project: high-quality multimodal MRI (resting and task fMRI, structural, diffusion) from more than 1,300 children and adolescents ages 5-21 across four U.S. sites, including an emotion-processing task and rich cognitive and social-emotional measures. A key resource for charting how social and emotional brain systems mature. Distributed through the NIMH Data Archive.",
+  "modality": ["fMRI", "Structural MRI", "Diffusion MRI"],
+  "topics": ["development", "emotion", "social cognition"],
+  "sampleSize": 1305,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://www.humanconnectome.org/study/hcp-lifespan-development",
+  "repository": "NIMH Data Archive",
+  "citation": "Somerville LH, Bookheimer SY, Buckner RL, et al. (2018). The Lifespan Human Connectome Project in Development: A large-scale study of brain connectivity development in 5-21 year olds. NeuroImage, 183, 456-468.",
+  "doi": "10.1016/j.neuroimage.2018.09.060",
+  "year": 2018,
+  "tags": ["development", "adolescence", "connectome", "emotion task"]
+}

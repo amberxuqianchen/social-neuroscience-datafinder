@@ -1,0 +1,29 @@
+{
+  "id": "microns",
+  "name": "MICrONS — Cubic Millimeter of Mouse Visual Cortex",
+  "shortName": "MICrONS",
+  "description": "A landmark functional-connectomics dataset pairing dense two-photon calcium imaging of ~75,000 neurons in mouse visual cortex with a co-registered electron-microscopy reconstruction of more than 200,000 cells and ~0.5 billion synapses across one cubic millimeter. It links activity to wiring at unprecedented scale and is openly explorable for connectomics research.",
+  "modality": ["Connectomics", "Calcium Imaging"],
+  "topics": ["naturalistic viewing"],
+  "sampleSize": 1,
+  "species": "Mouse",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://www.microns-explorer.org/cortical-mm3",
+  "downloadUrl": "https://www.microns-explorer.org/",
+  "repository": "MICrONS Explorer",
+  "citation": "The MICrONS Consortium (2025). Functional connectomics spanning multiple areas of mouse visual cortex. Nature, 640, 435–447.",
+  "doi": "10.1038/s41586-025-08790-w",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "Functional connectomics reveals general wiring rule in mouse visual cortex",
+      "url": "https://www.nature.com/articles/s41586-025-08840-3",
+      "year": 2025
+    }
+  ],
+  "tags": ["connectome", "electron microscopy", "mouse", "synapses"],
+  "featured": false
+}

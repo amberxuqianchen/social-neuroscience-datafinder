@@ -1,0 +1,21 @@
+{
+  "id": "grand-budapest-hotel-fmri",
+  "name": "The Grand Budapest Hotel — Socially-Rich Naturalistic Movie fMRI",
+  "shortName": "Budapest fMRI",
+  "description": "fMRI from 25 participants who watched a ~50-minute segment of Wes Anderson's 'The Grand Budapest Hotel', a film deliberately chosen for its dense social content — many characters, interactions, emotions, and shifting mental states. An openly available BIDS dataset well suited to studying face and person perception, theory of mind, and social-event understanding during naturalistic viewing.",
+  "modality": ["fMRI", "Naturalistic"],
+  "topics": ["naturalistic viewing", "face perception", "social cognition", "theory of mind"],
+  "sampleSize": 25,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds003017",
+  "repository": "OpenNeuro",
+  "citation": "Visconti di Oleggio Castello M, Chauhan V, Jiahui G, Gobbini MI (2020). An fMRI dataset in response to 'The Grand Budapest Hotel', a socially-rich, naturalistic movie. Scientific Data, 7, 383.",
+  "doi": "10.1038/s41597-020-00735-4",
+  "year": 2020,
+  "tags": ["naturalistic movie", "face perception", "theory of mind", "BIDS"],
+  "featured": true
+}

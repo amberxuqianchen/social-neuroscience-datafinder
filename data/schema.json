@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://social-neuroscience-datafinder.vercel.app/schema.json",
+  "title": "Social Neuroscience Dataset",
+  "description": "Schema for a single dataset entry in the Social Neuroscience DataFinder directory. Each dataset is one JSON file in data/datasets/.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "modality",
+    "topics",
+    "sampleSize",
+    "species",
+    "longitudinal",
+    "openAccess",
+    "url",
+    "citation",
+    "year"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "URL-safe unique slug, e.g. 'human-connectome-project'."
+    },
+    "name": { "type": "string", "minLength": 2 },
+    "shortName": { "type": "string" },
+    "description": { "type": "string", "minLength": 20 },
+    "modality": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "fMRI", "EEG", "MEG", "iEEG", "fNIRS", "Behavioral",
+          "Social Network", "Multimodal", "Developmental", "Naturalistic",
+          "Electrophysiology", "Calcium Imaging", "Connectomics", "Genetics",
+          "Eye Tracking", "Structural MRI", "Diffusion MRI"
+        ]
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "social cognition", "friendship", "social networks", "moral judgment",
+          "cooperation", "competition", "empathy", "theory of mind",
+          "impression formation", "social learning", "group behavior", "identity",
+          "culture", "decision making", "communication", "collective behavior",
+          "emotion", "face perception", "social interaction", "naturalistic viewing",
+          "memory", "development", "aging", "mental health"
+        ]
+      }
+    },
+    "sampleSize": { "type": "integer", "minimum": 0 },
+    "species": { "type": "string" },
+    "longitudinal": { "type": "boolean" },
+    "openAccess": { "type": "boolean" },
+    "accessType": { "enum": ["open", "registered", "restricted"] },
+    "socialNetworkData": { "type": "boolean" },
+    "url": { "type": "string", "format": "uri" },
+    "downloadUrl": { "type": "string", "format": "uri" },
+    "repository": { "type": "string" },
+    "citation": { "type": "string" },
+    "doi": { "type": "string" },
+    "year": { "type": "integer", "minimum": 1990, "maximum": 2100 },
+    "publications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "year": { "type": "integer" }
+        }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "featured": { "type": "boolean" }
+  }
+}

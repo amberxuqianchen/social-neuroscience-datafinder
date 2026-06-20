@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Semantic color tokens. Tailwind reads these via rgb(var(--token) / <alpha>)
+  (see tailwind.config.ts). Light theme is the default; .dark overrides.
+*/
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  --bg: 248 250 252;          /* slate-50 */
+  --surface: 255 255 255;     /* white */
+  --surface-2: 241 245 249;   /* slate-100 */
+  --border: 226 232 240;      /* slate-200 */
+  --fg: 15 23 42;             /* slate-900 */
+  --muted: 100 116 139;       /* slate-500 */
+  --brand: 37 99 235;         /* blue-600 */
+  --brand-fg: 255 255 255;
+  --accent: 13 148 136;       /* teal-600 */
+}
+
+.dark {
+  --bg: 2 6 23;               /* slate-950 */
+  --surface: 15 23 42;        /* slate-900 */
+  --surface-2: 30 41 59;      /* slate-800 */
+  --border: 51 65 85;         /* slate-700 */
+  --fg: 226 232 240;          /* slate-200 */
+  --muted: 148 163 184;       /* slate-400 */
+  --brand: 96 165 250;        /* blue-400 */
+  --brand-fg: 2 6 23;
+  --accent: 45 212 191;       /* teal-400 */
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Prevent theme flash: hide content until the inline theme script runs. */
+.no-fouc {
+  visibility: hidden;
+}
+
+/* Thin, data-centric focus ring for accessibility. */
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 2px solid rgb(var(--brand));
+  outline-offset: 2px;
+}
+
+/* Subtle custom scrollbar for filter panels. */
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--border));
+  border-radius: 9999px;
+}

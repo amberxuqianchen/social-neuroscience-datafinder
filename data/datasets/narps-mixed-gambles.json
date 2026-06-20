@@ -1,0 +1,28 @@
+{
+  "id": "narps-mixed-gambles",
+  "name": "NARPS — Mixed Gambles (Neuroimaging Analysis Replication and Prediction Study)",
+  "shortName": "NARPS",
+  "description": "fMRI from 108 participants performing a mixed-gambles task: on each trial they accept or reject a 50/50 gamble with a potential monetary gain and an equal-or-smaller loss — the classic paradigm for studying loss aversion and value-based decision making. Fully BIDS-formatted with fMRIPrep derivatives, NARPS is an ideal teaching dataset for model-based fMRI: fit a participant's loss-aversion parameter from their choices, then map trial-wise subjective value onto the brain.",
+  "modality": ["fMRI", "Behavioral"],
+  "topics": ["decision making", "emotion"],
+  "sampleSize": 108,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds001734",
+  "repository": "OpenNeuro",
+  "citation": "Botvinik-Nezer R, Iwanir R, Holzmeister F, et al. (2019). fMRI data of mixed gambles from the Neuroimaging Analysis Replication and Prediction Study. Scientific Data, 6, 106.",
+  "doi": "10.18112/openneuro.ds001734",
+  "year": 2019,
+  "publications": [
+    {
+      "title": "Variability in the analysis of a single neuroimaging dataset by many teams",
+      "url": "https://www.nature.com/articles/s41586-020-2314-9",
+      "year": 2020
+    }
+  ],
+  "tags": ["loss aversion", "model-based fMRI", "value-based decision making", "BIDS", "reproducibility"],
+  "featured": true
+}

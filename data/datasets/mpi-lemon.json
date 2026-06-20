@@ -1,0 +1,20 @@
+{
+  "id": "mpi-lemon",
+  "name": "MPI-Leipzig Mind-Brain-Body (LEMON)",
+  "shortName": "LEMON",
+  "description": "A cross-sectional mind-brain-body dataset from 228 healthy adults in two age groups (young, ~20-35; older, ~59-77) combining 3T MRI (resting-state fMRI, structural, diffusion), 62-channel resting EEG, and extensive cognition, emotion, and personality measures. Useful for studying emotional and social-affective traits and how they differ across healthy aging.",
+  "modality": ["EEG", "fMRI", "Structural MRI", "Behavioral"],
+  "topics": ["emotion", "aging", "mental health", "decision making"],
+  "sampleSize": 228,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds000221",
+  "repository": "OpenNeuro",
+  "citation": "Babayan A, Erbey M, Kumral D, et al. (2019). A mind-brain-body dataset of MRI, EEG, cognition, emotion, and peripheral physiology in young and old adults. Scientific Data, 6, 180308.",
+  "doi": "10.1038/sdata.2018.308",
+  "year": 2019,
+  "tags": ["EEG", "multimodal", "aging", "emotion"]
+}

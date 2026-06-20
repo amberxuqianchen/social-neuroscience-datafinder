@@ -1,0 +1,29 @@
+{
+  "id": "neurovault",
+  "name": "NeuroVault",
+  "shortName": "NeuroVault",
+  "description": "A web-based repository for collecting and sharing unthresholded statistical maps, parcellations, and atlases of the human brain. It enables meta-analysis, image-based decoding, and reuse of group-level results from thousands of studies, including many social-cognition and emotion paradigms — a key resource for cumulative social neuroscience.",
+  "modality": ["fMRI", "Structural MRI", "Multimodal"],
+  "topics": ["social cognition", "emotion", "moral judgment", "empathy", "theory of mind"],
+  "sampleSize": 0,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://neurovault.org/",
+  "downloadUrl": "https://neurovault.org/",
+  "repository": "NeuroVault",
+  "citation": "Gorgolewski KJ, Varoquaux G, Rivera G, et al. (2015). NeuroVault.org: a web-based repository for collecting and sharing unthresholded statistical maps of the human brain. Frontiers in Neuroinformatics, 9, 8.",
+  "doi": "10.3389/fninf.2015.00008",
+  "year": 2015,
+  "publications": [
+    {
+      "title": "NeuroVault.org: a web-based repository for collecting and sharing unthresholded statistical maps of the human brain",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2015.00008/full",
+      "year": 2015
+    }
+  ],
+  "tags": ["repository", "statistical maps", "meta-analysis", "decoding"],
+  "featured": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "crockett-harm-aversion",
+  "name": "Harm Aversion & Moral Decision-Making (Crockett)",
+  "shortName": "Harm Aversion",
+  "description": "The canonical computational study of moral decision-making: participants choose between options trading off money against painful electric shocks delivered either to themselves or to an anonymous stranger. A computational model estimates each person's 'harm aversion' — the subjective exchange rate between money and pain — separately for self and other, revealing that most people are 'hyper-altruistic', requiring more compensation to harm others than themselves. The 2017 fMRI study links these model-derived values to activity in the brain's valuation network. Raw data are available from the authors on request; the paradigm and computational model are fully specified in the papers, so the behavioral analysis can be reproduced from simulation.",
+  "modality": ["fMRI", "Behavioral"],
+  "topics": ["moral judgment", "decision making", "empathy", "social cognition"],
+  "sampleSize": 28,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "restricted",
+  "socialNetworkData": false,
+  "url": "https://www.nature.com/articles/nn.4557",
+  "repository": "On request (corresponding author)",
+  "citation": "Crockett MJ, Siegel JZ, Kurth-Nelson Z, Dayan P, Dolan RJ (2017). Moral transgressions corrupt neural representations of value. Nature Neuroscience, 20(6), 879-885.",
+  "doi": "10.1038/nn.4557",
+  "year": 2017,
+  "publications": [
+    {
+      "title": "Harm to others outweighs harm to self in moral decision making (PNAS)",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1408988111",
+      "year": 2014
+    }
+  ],
+  "tags": ["harm aversion", "computational modeling", "moral cognition", "prosociality", "value-based decision making"],
+  "featured": true
+}

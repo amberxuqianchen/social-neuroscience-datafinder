@@ -1,0 +1,21 @@
+{
+  "id": "narratives-story-listening",
+  "name": "Narratives — Naturalistic Story-Listening fMRI",
+  "shortName": "Narratives",
+  "description": "An aggregated collection of fMRI data from 345 participants listening to 27 naturalistic spoken stories (~4.6 hours of unique audio, ~43,000 words). Because the stories are rich in characters, intentions, and social situations, Narratives is widely used to study language comprehension, theory of mind, and how the brain tracks unfolding social narratives. Fully BIDS-formatted on OpenNeuro with preprocessing derivatives.",
+  "modality": ["fMRI", "Naturalistic"],
+  "topics": ["naturalistic viewing", "communication", "social cognition", "theory of mind", "memory"],
+  "sampleSize": 345,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds002345",
+  "repository": "OpenNeuro",
+  "citation": "Nastase SA, Liu Y-F, Hillman H, et al. (2021). The 'Narratives' fMRI dataset for evaluating models of naturalistic language comprehension. Scientific Data, 8, 250.",
+  "doi": "10.18112/openneuro.ds002345",
+  "year": 2021,
+  "tags": ["naturalistic language", "spoken narratives", "inter-subject correlation", "BIDS"],
+  "featured": true
+}

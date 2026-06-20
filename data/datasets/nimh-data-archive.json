@@ -1,0 +1,29 @@
+{
+  "id": "nimh-data-archive",
+  "name": "NIMH Data Archive (NDA)",
+  "shortName": "NDA",
+  "description": "An NIH informatics platform that shares de-identified human-subjects data — harmonized to common standards — from hundreds of mental-health and neurodevelopment projects. It hosts major collections including ABCD, the Connectome Coordination Facility, and many autism and psychiatric studies, providing access (via Data Use Certification) to large-scale social, behavioral, and imaging data.",
+  "modality": ["fMRI", "Behavioral", "Genetics", "Multimodal", "Developmental"],
+  "topics": ["mental health", "development", "social cognition", "identity"],
+  "sampleSize": 0,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://nda.nih.gov/",
+  "downloadUrl": "https://nda.nih.gov/",
+  "repository": "NIMH Data Archive",
+  "citation": "National Institute of Mental Health Data Archive (NDA). National Institutes of Health. https://nda.nih.gov/",
+  "doi": "",
+  "year": 2024,
+  "publications": [
+    {
+      "title": "NIMH Data Archive — about",
+      "url": "https://nda.nih.gov/about/",
+      "year": 2024
+    }
+  ],
+  "tags": ["repository", "data use certification", "psychiatry", "ABCD host"],
+  "featured": false
+}

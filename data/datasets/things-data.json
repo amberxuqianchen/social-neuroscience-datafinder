@@ -1,0 +1,21 @@
+{
+  "id": "things-data",
+  "name": "THINGS-data (fMRI, MEG & Behavior)",
+  "shortName": "THINGS",
+  "description": "A multimodal collection probing how the brain represents objects and concepts: dense 7T fMRI from 3 participants and MEG from 4 participants viewing thousands of images spanning 1,854 object concepts, plus a 12,340-participant behavioral similarity dataset. Many concepts are people, faces, and socially meaningful objects, making THINGS useful for situating face and social perception within a broad, well-characterized semantic space.",
+  "modality": ["fMRI", "MEG", "Behavioral"],
+  "topics": ["face perception", "social cognition", "memory"],
+  "sampleSize": 3,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds004192",
+  "downloadUrl": "https://things-initiative.org/",
+  "repository": "OpenNeuro / THINGS Initiative",
+  "citation": "Hebart MN, Contier O, Teichmann L, et al. (2023). THINGS-data, a multimodal collection of large-scale datasets for investigating object representations in human brain and behavior. eLife, 12, e82580.",
+  "doi": "10.7554/eLife.82580",
+  "year": 2023,
+  "tags": ["object recognition", "semantic space", "multimodal", "7T"]
+}

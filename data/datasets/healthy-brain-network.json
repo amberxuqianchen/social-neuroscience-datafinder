@@ -1,0 +1,29 @@
+{
+  "id": "healthy-brain-network",
+  "name": "Healthy Brain Network Biobank (HBN)",
+  "shortName": "HBN",
+  "description": "An ongoing Child Mind Institute initiative building an open biobank from a target of 10,000 New York-area participants aged 5–21. Each participant contributes psychiatric, behavioral, cognitive and lifestyle phenotyping plus multimodal brain imaging (resting and naturalistic-viewing fMRI, diffusion and morphometric MRI), EEG, eye-tracking, voice/video, genetics and actigraphy — a transdiagnostic resource for developmental and social neuroscience.",
+  "modality": ["fMRI", "EEG", "Structural MRI", "Diffusion MRI", "Developmental", "Naturalistic", "Eye Tracking", "Behavioral", "Multimodal"],
+  "topics": ["development", "mental health", "social cognition", "emotion", "naturalistic viewing"],
+  "sampleSize": 5000,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://childmind.org/science/global-open-science/healthy-brain-network/",
+  "downloadUrl": "https://data.healthybrainnetwork.org/",
+  "repository": "Child Mind Institute / FCP-INDI",
+  "citation": "Alexander LM, Escalera J, Ai L, et al. (2017). An open resource for transdiagnostic research in pediatric mental health and learning disorders: the Healthy Brain Network. Scientific Data, 4, 170181.",
+  "doi": "10.1038/sdata.2017.181",
+  "year": 2017,
+  "publications": [
+    {
+      "title": "HBN-EEG: The FAIR implementation of the Healthy Brain Network electroencephalography dataset",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.10.03.615261",
+      "year": 2024
+    }
+  ],
+  "tags": ["pediatric", "transdiagnostic", "movie watching", "EEG"],
+  "featured": false
+}

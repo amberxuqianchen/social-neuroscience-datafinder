@@ -1,0 +1,10 @@
+# Part 1 (ISC mechanics on simulated data) — all you need to start
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.8        # >=3.8 so the same env also satisfies nilearn
+
+# Part 2 (real movie fMRI — "Partly Cloudy", fetched by nilearn)
+nilearn>=0.10          # fetch_development_fmri + atlas ROI extraction + plotting
+openneuro-py>=2024.1   # only for the Grand Budapest variant (isc_naturalistic.py)
+# Optional, for production-grade ISC with built-in permutation inference:
+# brainiak

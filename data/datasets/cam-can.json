@@ -1,0 +1,29 @@
+{
+  "id": "cam-can",
+  "name": "Cambridge Centre for Ageing and Neuroscience (Cam-CAN)",
+  "shortName": "Cam-CAN",
+  "description": "A cross-sectional, population-based adult lifespan sample (~700 participants aged 18–87) with multimodal MRI, MEG, and cognitive-behavioral data spanning attention, emotion, action, language and memory. Its emotion and face-processing tasks and rich lifespan coverage make it valuable for studying how social and affective processing changes with age.",
+  "modality": ["MEG", "fMRI", "Structural MRI", "Behavioral", "Multimodal"],
+  "topics": ["aging", "emotion", "face perception", "social cognition", "memory"],
+  "sampleSize": 700,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://www.cam-can.org/",
+  "downloadUrl": "https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/",
+  "repository": "MRC CBU Cam-CAN Archive",
+  "citation": "Taylor JR, Williams N, Cusack R, et al. (2017). The Cambridge Centre for Ageing and Neuroscience (Cam-CAN) data repository: Structural and functional MRI, MEG, and cognitive data from a cross-sectional adult lifespan sample. NeuroImage, 144, 262–269.",
+  "doi": "10.1016/j.neuroimage.2015.09.018",
+  "year": 2017,
+  "publications": [
+    {
+      "title": "The Cam-CAN study protocol: a cross-sectional, lifespan, multidisciplinary examination of healthy cognitive ageing",
+      "url": "https://doi.org/10.1186/s12883-014-0204-1",
+      "year": 2014
+    }
+  ],
+  "tags": ["lifespan", "ageing", "MEG", "emotion processing"],
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "human-connectome-project",
+  "name": "Human Connectome Project — Young Adult (HCP-YA)",
+  "shortName": "HCP-YA",
+  "description": "The WU-Minn HCP 1200 Subjects release provides high-quality 3T (and 7T subset) multimodal MRI from 1,206 healthy young adults aged 22–35, including structural, resting-state and task fMRI, and diffusion imaging, plus extensive behavioral and demographic measures. Task fMRI includes social cognition (animated-shapes theory-of-mind), emotion, gambling, language, and working-memory paradigms, making it a cornerstone resource for social and cognitive neuroscience.",
+  "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "MEG", "Multimodal", "Behavioral"],
+  "topics": ["social cognition", "theory of mind", "emotion", "decision making", "face perception"],
+  "sampleSize": 1206,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://www.humanconnectome.org/study/hcp-young-adult",
+  "downloadUrl": "https://db.humanconnectome.org/",
+  "repository": "ConnectomeDB / AWS Open Data",
+  "citation": "Van Essen DC, Smith SM, Barch DM, Behrens TEJ, Yacoub E, Ugurbil K, WU-Minn HCP Consortium (2013). The WU-Minn Human Connectome Project: an overview. NeuroImage, 80, 62–79.",
+  "doi": "10.1016/j.neuroimage.2013.05.041",
+  "year": 2013,
+  "publications": [
+    {
+      "title": "The WU-Minn Human Connectome Project: an overview",
+      "url": "https://doi.org/10.1016/j.neuroimage.2013.05.041",
+      "year": 2013
+    }
+  ],
+  "tags": ["connectome", "resting-state", "task fMRI", "7T", "theory of mind localizer"],
+  "featured": true
+}

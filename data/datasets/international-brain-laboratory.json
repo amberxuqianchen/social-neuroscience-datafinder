@@ -1,0 +1,29 @@
+{
+  "id": "international-brain-laboratory",
+  "name": "International Brain Laboratory — Brain-Wide Map",
+  "shortName": "IBL Brain-Wide Map",
+  "description": "A brain-wide map of single-neuron activity during a standardized perceptual decision-making task in mice, pooled across 12 labs. The release comprises 459 Neuropixels sessions (699 recordings) from 139 mice, covering 241 brain regions — a landmark open dataset for the neural basis of decision making and a model of large-scale collaborative, standardized data collection.",
+  "modality": ["Electrophysiology", "Behavioral"],
+  "topics": ["decision making", "social learning"],
+  "sampleSize": 139,
+  "species": "Mouse",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://www.internationalbrainlab.com/",
+  "downloadUrl": "https://registry.opendata.aws/ibl-brain-wide-map/",
+  "repository": "IBL / AWS Open Data",
+  "citation": "International Brain Laboratory (2025). A brain-wide map of neural activity during complex behaviour. Nature, 645, 177–191.",
+  "doi": "10.1038/s41586-025-09235-0",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "Brain-wide representations of prior information in mouse decision-making",
+      "url": "https://www.nature.com/articles/s41586-025-09226-1",
+      "year": 2025
+    }
+  ],
+  "tags": ["mouse", "Neuropixels", "decision making", "multi-lab"],
+  "featured": false
+}

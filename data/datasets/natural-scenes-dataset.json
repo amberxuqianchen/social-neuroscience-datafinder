@@ -1,0 +1,20 @@
+{
+  "id": "natural-scenes-dataset",
+  "name": "Natural Scenes Dataset (NSD)",
+  "shortName": "NSD",
+  "description": "A massive 7T fMRI dataset in which 8 participants each viewed tens of thousands of natural photographs (from MS-COCO) across 30-40 scan sessions while performing a continuous recognition-memory task. Many images depict people, faces, and social scenes, so NSD supports high-powered within-subject studies of face and social-scene perception, visual memory, and image-computable models of the brain.",
+  "modality": ["fMRI", "Naturalistic"],
+  "topics": ["face perception", "naturalistic viewing", "memory"],
+  "sampleSize": 8,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://naturalscenesdataset.org/",
+  "repository": "AWS Open Data / NSD",
+  "citation": "Allen EJ, St-Yves G, Wu Y, et al. (2022). A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence. Nature Neuroscience, 25(1), 116-126.",
+  "doi": "10.1038/s41593-021-00962-x",
+  "year": 2022,
+  "tags": ["7T", "natural images", "encoding models", "recognition memory"]
+}

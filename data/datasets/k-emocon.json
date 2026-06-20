@@ -1,0 +1,20 @@
+{
+  "id": "k-emocon",
+  "name": "K-EmoCon — Continuous Emotion in Naturalistic Conversations",
+  "shortName": "K-EmoCon",
+  "description": "A multimodal dataset capturing 16 paired participants (32 people) during naturalistic debate conversations, with wearable EEG, ECG, and physiology plus audio-video, and continuous emotion annotations from self, partner, and external raters. Designed for studying affect during real social interaction, including the gap between felt and perceived emotion.",
+  "modality": ["EEG", "Behavioral"],
+  "topics": ["emotion", "social interaction", "communication"],
+  "sampleSize": 32,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://www.nature.com/articles/s41597-020-00630-y",
+  "repository": "Zenodo",
+  "citation": "Park CY, Cha N, Kang S, et al. (2020). K-EmoCon, a multimodal sensor dataset for continuous emotion recognition in naturalistic conversations. Scientific Data, 7, 293.",
+  "doi": "10.1038/s41597-020-00630-y",
+  "year": 2020,
+  "tags": ["social interaction", "continuous emotion", "wearables", "debate"]
+}

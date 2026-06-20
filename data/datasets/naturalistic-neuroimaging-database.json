@@ -1,0 +1,29 @@
+{
+  "id": "naturalistic-neuroimaging-database",
+  "name": "Naturalistic Neuroimaging Database (NNDb)",
+  "shortName": "NNDb",
+  "description": "An OpenNeuro dataset (ds002837) of 86 participants who each watched one of 10 full-length feature films during fMRI, alongside high-resolution anatomical scans and NIH Toolbox measures. The full-narrative social content (characters, dialogue, intentions, emotions) makes it well suited to studying social cognition, theory of mind, and language in ecologically valid settings.",
+  "modality": ["fMRI", "Naturalistic", "Structural MRI"],
+  "topics": ["naturalistic viewing", "social cognition", "theory of mind", "communication", "emotion"],
+  "sampleSize": 86,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds002837",
+  "downloadUrl": "https://openneuro.org/datasets/ds002837",
+  "repository": "OpenNeuro",
+  "citation": "Aliko S, Huang J, Gheorghiu F, Meliss S, Skipper JI (2020). A naturalistic neuroimaging database for understanding the brain using ecological stimuli. Scientific Data, 7, 347.",
+  "doi": "10.1038/s41597-020-00680-2",
+  "year": 2020,
+  "publications": [
+    {
+      "title": "A naturalistic neuroimaging database for understanding the brain using ecological stimuli",
+      "url": "https://www.nature.com/articles/s41597-020-00680-2",
+      "year": 2020
+    }
+  ],
+  "tags": ["movies", "full-length films", "BIDS", "ecological stimuli"],
+  "featured": true
+}

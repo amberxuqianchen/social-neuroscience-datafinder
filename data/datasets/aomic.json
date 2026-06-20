@@ -1,0 +1,29 @@
+{
+  "id": "aomic",
+  "name": "Amsterdam Open MRI Collection (AOMIC)",
+  "shortName": "AOMIC",
+  "description": "Three open multimodal 3T MRI datasets (ID1000, PIOP1, PIOP2) totaling over 1,300 participants, with structural, diffusion, resting-state and task fMRI plus rich demographics and psychometrics. Task fMRI includes emotion-matching and face-perception (Hariri-style) paradigms, making AOMIC a strong resource for individual-differences research on face processing, emotion, and social-affective perception.",
+  "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "Behavioral", "Multimodal"],
+  "topics": ["face perception", "emotion", "social cognition", "impression formation", "decision making"],
+  "sampleSize": 1370,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://nilab-uva.github.io/AOMIC.github.io/",
+  "downloadUrl": "https://openneuro.org/datasets/ds003097",
+  "repository": "OpenNeuro",
+  "citation": "Snoek L, van der Miesen MM, Beemsterboer T, van der Leij A, Eigenhuis A, Scholte HS (2021). The Amsterdam Open MRI Collection, a set of multimodal MRI datasets for individual difference analyses. Scientific Data, 8, 85.",
+  "doi": "10.1038/s41597-021-00870-6",
+  "year": 2021,
+  "publications": [
+    {
+      "title": "The Amsterdam Open MRI Collection, a set of multimodal MRI datasets for individual difference analyses",
+      "url": "https://www.nature.com/articles/s41597-021-00870-6",
+      "year": 2021
+    }
+  ],
+  "tags": ["individual differences", "emotion matching", "face perception", "BIDS"],
+  "featured": false
+}

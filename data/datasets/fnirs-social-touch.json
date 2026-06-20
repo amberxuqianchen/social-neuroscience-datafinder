@@ -1,0 +1,29 @@
+{
+  "id": "fnirs-social-touch",
+  "name": "fNIRS Hyperscanning — Social Touch & Inter-Brain Synchrony",
+  "shortName": "fNIRS Social Touch",
+  "description": "An open fNIRS hyperscanning dataset of 47 female dyads (24 friend pairs, 23 stranger pairs) measuring concurrent hemodynamic activity in both partners during social touch, with trial-by-trial valence/arousal ratings and extensive questionnaires. It enables study of inter-brain synchrony, social relationship, and affective touch — a model two-brain dataset for real-world social neuroscience.",
+  "modality": ["fNIRS", "Behavioral", "Social Network"],
+  "topics": ["social interaction", "friendship", "empathy", "emotion", "communication", "cooperation"],
+  "sampleSize": 94,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": true,
+  "url": "https://www.nature.com/articles/s41597-025-06233-9",
+  "downloadUrl": "https://www.nature.com/articles/s41597-025-06233-9",
+  "repository": "Scientific Data / OSF",
+  "citation": "An fNIRS hyperscanning dataset on the modulation of synchrony by social relationship during social touch (2025). Scientific Data, 12.",
+  "doi": "10.1038/s41597-025-06233-9",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "fNIRS Hyperscanning: A door to real-world social neuroscience research",
+      "url": "https://fnirs.org/fnirs-hyperscanning-2018/",
+      "year": 2018
+    }
+  ],
+  "tags": ["hyperscanning", "inter-brain synchrony", "dyads", "affective touch"],
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nemar",
+  "name": "NEMAR — NeuroElectroMagnetic Data Archive and Tools Resource",
+  "shortName": "NEMAR",
+  "description": "An open-access gateway for human neuroelectromagnetic data (EEG, MEG, iEEG) that mirrors the MEEG datasets on OpenNeuro and connects directly to the Neuroscience Gateway (NSG) for high-performance compute at the San Diego Supercomputer Center. It lets researchers browse, quality-check, and analyze EEG/MEG/iEEG datasets — including social and naturalistic paradigms — without downloading them.",
+  "modality": ["EEG", "MEG", "iEEG", "Multimodal"],
+  "topics": ["social cognition", "emotion", "communication", "naturalistic viewing"],
+  "sampleSize": 0,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://nemar.org/",
+  "downloadUrl": "https://nemar.org/",
+  "repository": "NEMAR / SCCN UCSD",
+  "citation": "Delorme A, Truong D, Youn C, et al. (2022). NEMAR: an open access data, tools and compute resource operating on neuroelectromagnetic data. Database, 2022, baac096.",
+  "doi": "10.1093/database/baac096",
+  "year": 2022,
+  "publications": [
+    {
+      "title": "NEMAR: an open access data, tools and compute resource operating on neuroelectromagnetic data",
+      "url": "https://academic.oup.com/database/article/doi/10.1093/database/baac096/6823529",
+      "year": 2022
+    }
+  ],
+  "tags": ["repository", "EEG", "MEG", "iEEG", "compute"],
+  "featured": false
+}

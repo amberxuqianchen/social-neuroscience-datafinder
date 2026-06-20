@@ -1,0 +1,29 @@
+{
+  "id": "parkinson-friendship-fmri",
+  "name": "Neural Homophily — Similar Neural Responses Predict Friendship",
+  "shortName": "Friendship fMRI",
+  "description": "fMRI data from 42 first-year graduate students embedded in a fully characterized real-world social network (N=279). Participants free-viewed naturalistic videos while brain responses were recorded, allowing the study of 'neural homophily': friends exhibit exceptionally similar neural responses, and similarity decreases with social distance. A landmark dataset connecting brain activity to social-network structure.",
+  "modality": ["fMRI", "Social Network", "Naturalistic", "Behavioral"],
+  "topics": ["friendship", "social networks", "social cognition", "naturalistic viewing", "collective behavior"],
+  "sampleSize": 42,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": true,
+  "url": "https://doi.org/10.1038/s41467-017-02722-7",
+  "downloadUrl": "https://datadryad.org/",
+  "repository": "Author repository / Dryad",
+  "citation": "Parkinson C, Kleinbaum AM, Wheatley T (2018). Similar neural responses predict friendship. Nature Communications, 9, 332.",
+  "doi": "10.1038/s41467-017-02722-7",
+  "year": 2018,
+  "publications": [
+    {
+      "title": "Neural similarity predicts whether strangers become friends",
+      "url": "https://www.nature.com/articles/s41562-025-02266-7",
+      "year": 2025
+    }
+  ],
+  "tags": ["social network analysis", "naturalistic viewing", "inter-subject correlation"],
+  "featured": true
+}
