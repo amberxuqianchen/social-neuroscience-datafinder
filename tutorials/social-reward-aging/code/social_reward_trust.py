@@ -9,17 +9,17 @@ This script supports a lifespan social-neuroscience tutorial in three layers:
 2. A real-event summary for OpenNeuro ds005123 when BIDS events are downloaded.
 3. One optional first-level fMRI GLM with nilearn: friend > stranger.
 
-Run the demo:
+Run the demo (from the repository root):
 
-    python social_reward_trust.py
+    python tutorials/social-reward-aging/code/social_reward_trust.py
 
 Run real events, if downloaded:
 
-    SOCIAL_REWARD_DIR=/path/to/ds005123 python social_reward_trust.py --real
+    SOCIAL_REWARD_DIR=/path/to/ds005123 python tutorials/social-reward-aging/code/social_reward_trust.py --real
 
 Run one GLM, if preprocessed derivatives or one raw echo are available:
 
-    SOCIAL_REWARD_DIR=/path/to/ds005123 python social_reward_trust.py --glm
+    SOCIAL_REWARD_DIR=/path/to/ds005123 python tutorials/social-reward-aging/code/social_reward_trust.py --glm
 """
 
 from __future__ import annotations

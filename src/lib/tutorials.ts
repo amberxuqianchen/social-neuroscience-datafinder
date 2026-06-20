@@ -35,7 +35,7 @@ export const TUTORIALS: Tutorial[] = [
     title: "Value-Based Modeling from Harm Aversion to fMRI",
     blurb:
       "Start with a moral question — would you hurt someone for money? — and the value-based choice model behind it. Then transfer the same machinery to real, open NARPS loss-aversion data: fit choices, and use each person’s fitted parameter to map value in the brain.",
-    level: "Beginner Python",
+    level: "Intermediate",
     time: "~2–3 hours",
     tags: ["Computational modeling", "Model-based fMRI", "Decision making", "Real NARPS data"],
     image: "/tutorials/narps-behavioral-modeling.png",
@@ -87,7 +87,7 @@ export const TUTORIALS: Tutorial[] = [
     title: "Inter-Subject Correlation on a Naturalistic Movie",
     blurb:
       "When people watch the same socially-rich film, their brains respond in similar, time-locked ways. Measure that shared response — no stimulus model needed — and watch the social brain track a movie full of people.",
-    level: "Beginner Python",
+    level: "Beginner → Intermediate",
     time: "~2 hours",
     tags: ["Naturalistic fMRI", "Inter-subject correlation", "Social brain", "nilearn"],
     image: "/tutorials/partly-cloudy-isc-map.png",
@@ -139,7 +139,7 @@ export const TUTORIALS: Tutorial[] = [
     title: "Social Reward and Trust Across Adulthood",
     blurb:
       "Use a lifespan social-neuroscience question — do younger and older adults respond differently to friends, strangers, and computer partners? — to learn age-group comparisons, partner effects, and one first-level friend-versus-stranger fMRI GLM.",
-    level: "Beginner/intermediate Python",
+    level: "Beginner",
     time: "~2–4 hours",
     tags: ["Aging", "Trust game", "Social reward", "fMRI GLM"],
     image: "/tutorials/social-reward-trust-aging.png",

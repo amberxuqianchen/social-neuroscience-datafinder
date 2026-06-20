@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { readFile } from "fs/promises";
 import path from "path";
 import type { ReactNode } from "react";
+import { SITE } from "@/lib/constants";
 import { getTutorial, TUTORIALS, type Tutorial } from "@/lib/tutorials";
 
 interface PageProps {
@@ -39,6 +40,10 @@ async function readTutorialMarkdown(tutorial: Tutorial) {
   return markdown.replace(/^# .+\n+/, "");
 }
 
+function getSourceUrl(tutorial: Tutorial, filePath: string) {
+  return `${SITE.repo}/blob/main/tutorials/${tutorial.dir}/${filePath}`;
+}
+
 function normalizeHref(href: string, tutorial: Tutorial) {
   if (href.startsWith("http://") || href.startsWith("https://") || href.startsWith("mailto:")) {
     return href;
@@ -58,19 +63,19 @@ function normalizeHref(href: string, tutorial: Tutorial) {
   }
 
   if (href === tutorial.notebook || href.endsWith(".ipynb")) {
-    return "#notebook";
+    return getSourceUrl(tutorial, href);
   }
 
   if (href.startsWith("code/")) {
-    return "#code-files";
+    return getSourceUrl(tutorial, href);
   }
 
   if (href.startsWith("results/")) {
-    return "#result-files";
+    return getSourceUrl(tutorial, href);
   }
 
   if (href === "requirements.txt") {
-    return "#code-files";
+    return getSourceUrl(tutorial, href);
   }
 
   return "#tutorial-files";
@@ -405,10 +410,12 @@ export default async function TutorialPage({ params }: PageProps) {
               Start reading
             </a>
             <a
-              href="#notebook"
+              href={getSourceUrl(tutorial, tutorial.notebook)}
+              target="_blank"
+              rel="noreferrer noopener"
               className="rounded-lg border border-border px-4 py-2 text-sm font-medium hover:bg-surface-2"
             >
-              Notebook file
+              Open notebook
             </a>
             <a
               href="#code-files"
@@ -435,28 +442,40 @@ export default async function TutorialPage({ params }: PageProps) {
         <div id="notebook" className="scroll-mt-20 rounded-xl border border-border bg-surface p-5">
           <h2 className="text-lg font-semibold tracking-tight">Notebook</h2>
           <p className="mt-2 text-sm text-muted">
-            The runnable notebook is included in the repository. From the project root, open:
+            The runnable notebook is included in the repository and can be viewed on GitHub.
           </p>
-          <code className="mt-3 block overflow-x-auto rounded-lg bg-surface-2 p-3 font-mono text-xs">
-            tutorials/{tutorial.dir}/{tutorial.notebook}
-          </code>
+          <a
+            href={getSourceUrl(tutorial, tutorial.notebook)}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="mt-3 block rounded-lg border border-border bg-surface-2 p-3 hover:border-brand/50"
+          >
+            <span className="text-sm font-medium text-brand">Open notebook on GitHub →</span>
+            <code className="mt-1 block overflow-x-auto font-mono text-xs text-muted">
+              tutorials/{tutorial.dir}/{tutorial.notebook}
+            </code>
+          </a>
         </div>
 
         <div id="code-files" className="scroll-mt-20 rounded-xl border border-border bg-surface p-5">
           <h2 className="text-lg font-semibold tracking-tight">Code Files</h2>
           <div className="mt-3 space-y-2">
             {tutorial.files.map((file) => (
-              <div key={file.path} className="rounded-lg border border-border p-3">
+              <a
+                key={file.path}
+                href={getSourceUrl(tutorial, file.path)}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="block rounded-lg border border-border p-3 hover:border-brand/50 hover:bg-surface-2"
+              >
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <span className="text-sm font-medium">{file.label}</span>
-                  <span className="rounded-full bg-surface-2 px-2 py-0.5 text-xs text-muted">
-                    {file.kind}
-                  </span>
+                  <span className="text-sm font-medium text-brand">{file.label} →</span>
+                  <span className="rounded-full bg-surface px-2 py-0.5 text-xs text-muted">{file.kind}</span>
                 </div>
                 <code className="mt-1 block overflow-x-auto font-mono text-xs text-muted">
                   tutorials/{tutorial.dir}/{file.path}
                 </code>
-              </div>
+              </a>
             ))}
           </div>
         </div>

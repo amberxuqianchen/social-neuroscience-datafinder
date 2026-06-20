@@ -78,7 +78,7 @@ the same column-normalization and model code when OpenNeuro files are present.
 
 ---
 
-## Part 1 - Behavioral question
+## Part 1 — Behavioral question
 
 The trust task asks participants to make decisions involving different partners.
 A social reward question can be stated compactly:
@@ -98,7 +98,7 @@ whether the social context effect differs between age groups.
 
 ---
 
-## Part 2 - Real OpenNeuro events
+## Part 2 — Real OpenNeuro events
 
 Download the dataset or a subset from OpenNeuro. Event files are small, while
 raw multi-echo imaging files are much larger.
@@ -134,7 +134,7 @@ discovered columns and you can map them explicitly in the code.
 
 ---
 
-## Part 3 - One first-level GLM
+## Part 3 — One first-level GLM
 
 The GLM asks where one participant's brain response is stronger for trust
 decisions involving a friend than a stranger.
@@ -186,6 +186,32 @@ structure enters a reproducible neuroimaging model.
   older groups at the second level.
 - Pair this with social-network aging data such as NSHAP for a behavioral
   tutorial on social connectedness and health.
+
+---
+
+## Putting it together
+
+You framed aging as a *social* question, quantified a partner effect with a
+transparent linear model, tested whether that effect shifts across the lifespan,
+and saw how the same task structure (`friend`, `stranger`, `computer`) becomes
+regressors in a first-level fMRI GLM. That arc — a behavioral model first, then
+the same structure in the brain — is the connective tissue across all three
+tutorials in this series.
+
+---
+
+## References
+
+- Smith DV, Sharp CJ, Dachs A, et al. (2024). *Social Reward and Nonsocial Reward
+  Processing Across the Adult Lifespan: An Interim Multi-echo fMRI and Diffusion
+  Dataset.* Data in Brief, 110810. <https://openneuro.org/datasets/ds005123>
+- Berg J, Dickhaut J, McCabe K (1995). *Trust, Reciprocity, and Social History.*
+  Games and Economic Behavior, 10(1), 122–142.
+- Fareri DS, Delgado MR (2014). *Social rewards and social networks in the human
+  brain.* The Neuroscientist, 20(4), 387–402.
+- Mather M (2016). *The affective neuroscience of aging.* Annual Review of
+  Psychology, 67, 213–238.
+- nilearn — *Machine learning for neuroimaging in Python.* <https://nilearn.github.io/>
 
 ---
 
