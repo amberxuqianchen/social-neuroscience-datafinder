@@ -1,0 +1,31 @@
+{
+  "id": "attention-nastase",
+  "name": "Attention to Naturalistic Animal Stimuli fMRI",
+  "shortName": "Attention",
+  "description": "OpenNeuro dataset (ds000233) probing how attentional goals reshape responses to naturalistic audiovisual clips of animal behavior. Used to study attention's role in social and category-level perception.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing"
+  ],
+  "sampleSize": 12,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds000233",
+  "downloadUrl": "https://openneuro.org/datasets/ds000233",
+  "repository": "OpenNeuro",
+  "citation": "Nastase SA, et al. (2018). Attention selectively reshapes the geometry of distributed semantic representation. Frontiers in Neuroscience, 12, 316.",
+  "doi": "10.3389/fnins.2018.00316",
+  "year": 2018,
+  "tags": [
+    "PDDL",
+    "attention",
+    "OpenNeuro ds000233"
+  ],
+  "featured": false
+}

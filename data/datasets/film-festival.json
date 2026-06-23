@@ -1,0 +1,33 @@
+{
+  "id": "film-festival",
+  "name": "FilmFestival — Short Films fMRI",
+  "shortName": "FilmFestival",
+  "description": "OpenNeuro dataset (ds004042) of participants watching a set of emotionally engaging short films. Supports research on affective and social responses to diverse cinematic narratives.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "emotion",
+    "social cognition"
+  ],
+  "sampleSize": 20,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds004042",
+  "downloadUrl": "https://openneuro.org/datasets/ds004042",
+  "repository": "OpenNeuro",
+  "citation": "Lee H, et al. (2023). A multimodal dataset of naturalistic short films. Data in Brief, 46, 108788.",
+  "doi": "10.1016/j.dib.2022.108788",
+  "year": 2022,
+  "tags": [
+    "CC0",
+    "short films",
+    "OpenNeuro ds004042"
+  ],
+  "featured": false
+}

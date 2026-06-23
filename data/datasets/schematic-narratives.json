@@ -1,0 +1,33 @@
+{
+  "id": "schematic-narratives",
+  "name": "Schematic Narratives — Event Structure fMRI",
+  "shortName": "Schematic Narratives",
+  "description": "OpenNeuro dataset (ds001510) using audiovisual and audio narratives that share underlying event schemas. Used to study how the brain represents abstract event structure and social scripts across different stories.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "memory",
+    "social cognition"
+  ],
+  "sampleSize": 31,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds001510",
+  "downloadUrl": "https://openneuro.org/datasets/ds001510",
+  "repository": "OpenNeuro",
+  "citation": "Baldassano C, et al. (2018). Representation of real-world event schemas during narrative perception. Journal of Neuroscience, 38(45), 9689–9699.",
+  "doi": "10.1523/JNEUROSCI.0251-18.2018",
+  "year": 2018,
+  "tags": [
+    "CC0",
+    "event schema",
+    "OpenNeuro ds001510"
+  ],
+  "featured": false
+}

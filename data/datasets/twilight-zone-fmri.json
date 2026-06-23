@@ -1,0 +1,33 @@
+{
+  "id": "twilight-zone-fmri",
+  "name": "Twilight Zone — Narrative fMRI",
+  "shortName": "Twilight Zone",
+  "description": "fMRI from participants watching an episode of 'The Twilight Zone', shared on OpenNeuro (ds001145). A naturalistic narrative dataset used to study how the brain integrates information over long timescales and constructs situation models.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "social cognition",
+    "memory"
+  ],
+  "sampleSize": 24,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds001145",
+  "downloadUrl": "https://openneuro.org/datasets/ds001145",
+  "repository": "OpenNeuro",
+  "citation": "Chen J, et al. (2016). Accessing real-life episodic information from minutes versus moments of experience. Cerebral Cortex.",
+  "doi": "10.1093/cercor/bhv155",
+  "year": 2016,
+  "tags": [
+    "CC0",
+    "narrative",
+    "OpenNeuro ds001145"
+  ],
+  "featured": false
+}

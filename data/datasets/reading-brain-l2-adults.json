@@ -1,0 +1,33 @@
+{
+  "id": "reading-brain-l2-adults",
+  "name": "Reading Brain Project — L2 Adults fMRI",
+  "shortName": "Reading Brain L2",
+  "description": "OpenNeuro dataset (ds003988) of second-language readers during naturalistic text reading, complementing the L1 Reading Brain Project. Used to study bilingual and second-language comprehension.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication"
+  ],
+  "sampleSize": 56,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds003988",
+  "downloadUrl": "https://openneuro.org/datasets/ds003988",
+  "repository": "OpenNeuro",
+  "citation": "Li P, Clariana RB (2019). Reading comprehension in L1 and L2: an integrative approach. Journal of Neurolinguistics.",
+  "doi": "10.1016/j.jneuroling.2018.03.005",
+  "year": 2019,
+  "tags": [
+    "CC0",
+    "reading",
+    "L2",
+    "OpenNeuro ds003988"
+  ],
+  "featured": false
+}

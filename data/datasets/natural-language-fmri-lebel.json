@@ -1,0 +1,33 @@
+{
+  "id": "natural-language-fmri-lebel",
+  "name": "Natural Language fMRI Dataset (LeBel)",
+  "shortName": "Natural Language fMRI",
+  "description": "OpenNeuro dataset (ds003020) of 8 participants listening to many hours of naturalistic spoken stories during fMRI. A large per-subject resource for building voxel-wise language encoding models.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication"
+  ],
+  "sampleSize": 8,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds003020",
+  "downloadUrl": "https://openneuro.org/datasets/ds003020",
+  "repository": "OpenNeuro",
+  "citation": "LeBel A, et al. (2023). A natural language fMRI dataset for voxelwise encoding models. Scientific Data, 10, 555.",
+  "doi": "10.1038/s41597-023-02437-z",
+  "year": 2023,
+  "tags": [
+    "CC0",
+    "spoken stories",
+    "encoding model",
+    "OpenNeuro ds003020"
+  ],
+  "featured": false
+}

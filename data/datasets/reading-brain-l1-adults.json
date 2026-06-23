@@ -1,0 +1,33 @@
+{
+  "id": "reading-brain-l1-adults",
+  "name": "Reading Brain Project — L1 Adults fMRI",
+  "shortName": "Reading Brain L1",
+  "description": "OpenNeuro dataset (ds003974) of native-English adults reading naturalistic texts during fMRI, part of the Reading Brain Project. Supports research on connected-text comprehension in a first language.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication"
+  ],
+  "sampleSize": 52,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds003974",
+  "downloadUrl": "https://openneuro.org/datasets/ds003974",
+  "repository": "OpenNeuro",
+  "citation": "Follmer DJ, et al. (2018). The reading brain: a multimodal investigation of connected text comprehension. Reading and Writing.",
+  "doi": "10.1007/s11145-017-9781-x",
+  "year": 2018,
+  "tags": [
+    "CC0",
+    "reading",
+    "L1",
+    "OpenNeuro ds003974"
+  ],
+  "featured": false
+}

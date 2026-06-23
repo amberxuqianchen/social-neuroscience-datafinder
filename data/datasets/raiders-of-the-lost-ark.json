@@ -1,0 +1,33 @@
+{
+  "id": "raiders-of-the-lost-ark",
+  "name": "Raiders of the Lost Ark — Hyperalignment fMRI",
+  "shortName": "Raiders",
+  "description": "fMRI responses from 11 young adults watching the full feature film 'Raiders of the Lost Ark' (~115 min). A foundational naturalistic dataset for functional hyperalignment, modeling shared representational geometry across brains during rich, socially complex viewing.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "social cognition",
+    "memory"
+  ],
+  "sampleSize": 11,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "http://datasets.datalad.org/?dir=/labs/haxby/raiders",
+  "downloadUrl": "http://datasets.datalad.org/?dir=/labs/haxby/raiders",
+  "repository": "DataLad Datasets",
+  "citation": "Haxby JV, et al. (2011). A common, high-dimensional model of the representational space in human ventral temporal cortex. Neuron, 72(2), 404–416.",
+  "doi": "10.1016/j.neuron.2011.08.026",
+  "year": 2011,
+  "tags": [
+    "PDDL",
+    "feature film",
+    "hyperalignment"
+  ],
+  "featured": false
+}

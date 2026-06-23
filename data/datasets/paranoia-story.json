@@ -1,0 +1,35 @@
+{
+  "id": "paranoia-story",
+  "name": "Paranoia — Spoken Narrative fMRI",
+  "shortName": "Paranoia",
+  "description": "OpenNeuro dataset (ds001338) in which 22 participants listened to an original spoken story engineered to evoke varying degrees of paranoia and suspicion. Designed to study individual differences in social inference and mentalizing during naturalistic listening.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "theory of mind",
+    "social cognition",
+    "communication"
+  ],
+  "sampleSize": 22,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds001338",
+  "downloadUrl": "https://openneuro.org/datasets/ds001338",
+  "repository": "OpenNeuro",
+  "citation": "Finn ES, et al. (2018). Idiosynchrony: from shared responses to individual differences during naturalistic neuroimaging. NeuroImage.",
+  "doi": "10.1093/gigascience/giw011",
+  "year": 2018,
+  "tags": [
+    "CC BY-NC 4.0",
+    "suspicion",
+    "mentalizing",
+    "OpenNeuro ds001338"
+  ],
+  "featured": false
+}

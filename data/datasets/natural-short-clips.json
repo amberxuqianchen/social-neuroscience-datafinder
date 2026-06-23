@@ -1,0 +1,31 @@
+{
+  "id": "natural-short-clips",
+  "name": "Natural Short Clips fMRI (Gallant Lab)",
+  "shortName": "Short Clips",
+  "description": "fMRI from 5 participants watching natural short video clips, shared on G-Node GIN. Used to build voxel-wise semantic models mapping how the brain represents object and action categories in continuous natural vision.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing"
+  ],
+  "sampleSize": 5,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://gin.g-node.org/gallantlab/shortclips",
+  "downloadUrl": "https://gin.g-node.org/gallantlab/shortclips",
+  "repository": "GIN (G-Node)",
+  "citation": "Huth AG, et al. (2012). A continuous semantic space describes the representation of thousands of object and action categories across the human brain. Neuron, 76(6), 1210–1224.",
+  "doi": "10.1016/j.neuron.2012.10.014",
+  "year": 2012,
+  "tags": [
+    "CC0",
+    "semantic model",
+    "Gallant Lab"
+  ],
+  "featured": false
+}

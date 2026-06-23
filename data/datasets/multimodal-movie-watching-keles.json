@@ -1,0 +1,35 @@
+{
+  "id": "multimodal-movie-watching-keles",
+  "name": "Multimodal Brain Responses During Movie Watching",
+  "shortName": "Multimodal Movie (Keles)",
+  "description": "OpenNeuro dataset (ds004798) of 20 clinical participants with multimodal brain responses recorded during naturalistic movie watching. Supports research on naturalistic processing in clinical populations.",
+  "modality": [
+    "EEG",
+    "fMRI",
+    "Naturalistic",
+    "Multimodal"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "mental health"
+  ],
+  "sampleSize": 20,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds004798",
+  "downloadUrl": "https://openneuro.org/datasets/ds004798",
+  "repository": "OpenNeuro",
+  "citation": "Keles U, et al. (2024). Multimodal single-trial brain responses to naturalistic movie stimuli. Scientific Data, 11, 116.",
+  "doi": "10.1038/s41597-024-03029-1",
+  "year": 2024,
+  "tags": [
+    "CC0",
+    "clinical",
+    "movie",
+    "OpenNeuro ds004798"
+  ],
+  "featured": false
+}

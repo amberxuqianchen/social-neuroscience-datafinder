@@ -1,0 +1,34 @@
+{
+  "id": "magic-memory-curiosity",
+  "name": "Magic, Memory & Curiosity (MMC) fMRI",
+  "shortName": "MMC",
+  "description": "OpenNeuro dataset (ds004182) of 50 participants watching naturalistic magic-trick videos during fMRI. Designed to study curiosity, surprise, prediction error, and memory in a rich naturalistic setting.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "memory",
+    "decision making"
+  ],
+  "sampleSize": 50,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds004182",
+  "downloadUrl": "https://openneuro.org/datasets/ds004182",
+  "repository": "OpenNeuro",
+  "citation": "Meliss S, et al. (2024). The Magic, Memory, and Curiosity (MMC) Dataset. Scientific Data, 11, 1009.",
+  "doi": "10.1038/s41597-024-03675-5",
+  "year": 2024,
+  "tags": [
+    "CC0",
+    "curiosity",
+    "magic tricks",
+    "OpenNeuro ds004182"
+  ],
+  "featured": false
+}

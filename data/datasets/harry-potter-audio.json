@@ -1,0 +1,32 @@
+{
+  "id": "harry-potter-audio",
+  "name": "Harry Potter Audio fMRI",
+  "shortName": "Harry Potter",
+  "description": "fMRI from 8 participants listening to a chapter of 'Harry Potter and the Sorcerer's Stone' (~45 min), shared on Dryad. A naturalistic language comprehension dataset linking word-by-word narrative features to brain activity.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication"
+  ],
+  "sampleSize": 8,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gt413",
+  "downloadUrl": "https://datadryad.org/dataset/doi:10.5061/dryad.gt413",
+  "repository": "Dryad",
+  "citation": "Wehbe L, et al. (2014). Simultaneously uncovering the patterns of brain regions involved in different story reading subprocesses. PLOS ONE, 9(11), e112575.",
+  "doi": "10.1371/journal.pone.0112575",
+  "year": 2014,
+  "tags": [
+    "CC0",
+    "narrative listening",
+    "language"
+  ],
+  "featured": false
+}

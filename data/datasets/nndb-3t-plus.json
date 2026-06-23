@@ -1,0 +1,35 @@
+{
+  "id": "nndb-3t-plus",
+  "name": "NNDb-3T+ — Movie, Eye-Tracking & Cognitive Tasks",
+  "shortName": "NNDb-3T+",
+  "description": "OpenNeuro dataset (ds006642) of 40 young adults combining naturalistic movie watching, eye-tracking, sensorimotor mapping, and cognitive tasks at 3T. An extension of the Naturalistic Neuroimaging Database for multimodal naturalistic research.",
+  "modality": [
+    "fMRI",
+    "Naturalistic",
+    "Eye Tracking",
+    "Multimodal"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "social cognition"
+  ],
+  "sampleSize": 40,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds006642",
+  "downloadUrl": "https://openneuro.org/datasets/ds006642",
+  "repository": "OpenNeuro",
+  "citation": "Levchenko A, et al. (2025). NNDb-3T+: a neuroimaging database combining movie-watching, eye-tracking, sensorimotor mapping, and cognitive tasks. bioRxiv.",
+  "doi": "10.1101/2025.09.25.678556",
+  "year": 2025,
+  "tags": [
+    "CC0",
+    "eye-tracking",
+    "multimodal",
+    "OpenNeuro ds006642"
+  ],
+  "featured": false
+}

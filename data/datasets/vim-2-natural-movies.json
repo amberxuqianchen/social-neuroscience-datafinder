@@ -1,0 +1,31 @@
+{
+  "id": "vim-2-natural-movies",
+  "name": "vim-2 — Natural Movie fMRI (Gallant Lab)",
+  "shortName": "vim-2",
+  "description": "BOLD fMRI from 3 participants viewing hours of natural movie trailers, released via CRCNS. A widely used benchmark for encoding/decoding models of dynamic natural vision and reconstruction of perceived movies.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing"
+  ],
+  "sampleSize": 3,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://crcns.org/data-sets/vc/vim-2/",
+  "downloadUrl": "https://crcns.org/data-sets/vc/vim-2/",
+  "repository": "CRCNS",
+  "citation": "Nishimoto S, et al. (2011). Reconstructing visual experiences from brain activity evoked by natural movies. Current Biology, 21(19), 1641–1646.",
+  "doi": "10.1016/j.cub.2011.08.031",
+  "year": 2011,
+  "tags": [
+    "natural movies",
+    "encoding model",
+    "Gallant Lab"
+  ],
+  "featured": false
+}

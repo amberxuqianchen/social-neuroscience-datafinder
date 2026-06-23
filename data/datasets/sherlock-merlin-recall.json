@@ -1,0 +1,35 @@
+{
+  "id": "sherlock-merlin-recall",
+  "name": "Sherlock & Merlin — Encoding/Recall fMRI",
+  "shortName": "Sherlock/Merlin",
+  "description": "OpenNeuro dataset (ds001110) in which participants watched or listened to 'Sherlock' and 'Merlin' episodes and then freely recalled them during fMRI. Used to study how narrative comprehension and memory are shared across encoding and recall.",
+  "modality": [
+    "fMRI",
+    "Naturalistic",
+    "Behavioral"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "memory",
+    "communication",
+    "social cognition"
+  ],
+  "sampleSize": 37,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds001110",
+  "downloadUrl": "https://openneuro.org/datasets/ds001110",
+  "repository": "OpenNeuro",
+  "citation": "Zadbood A, et al. (2017). How we transmit memories to other brains: constructing shared neural representations via communication. Cerebral Cortex, 27(10), 4988–5000.",
+  "doi": "10.1093/cercor/bhx202",
+  "year": 2017,
+  "tags": [
+    "CC0",
+    "narrative recall",
+    "OpenNeuro ds001110"
+  ],
+  "featured": false
+}

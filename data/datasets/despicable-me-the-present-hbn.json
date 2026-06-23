@@ -1,0 +1,35 @@
+{
+  "id": "despicable-me-the-present-hbn",
+  "name": "Healthy Brain Network — Movie Clips fMRI",
+  "shortName": "HBN Movies",
+  "description": "Naturalistic movie fMRI from the Child Mind Institute Healthy Brain Network: ~830 children and adolescents viewed short films ('Despicable Me' and 'The Present'). A large developmental resource for naturalistic social and emotional processing.",
+  "modality": [
+    "fMRI",
+    "Naturalistic",
+    "Developmental"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "development",
+    "emotion",
+    "social cognition"
+  ],
+  "sampleSize": 830,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/",
+  "downloadUrl": "https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/",
+  "repository": "FCP/INDI",
+  "citation": "Alexander LM, et al. (2017). An open resource for transdiagnostic research in pediatric mental health and learning disorders. Scientific Data, 4, 170181.",
+  "doi": "10.1038/sdata.2017.181",
+  "year": 2017,
+  "tags": [
+    "CC BY-NC-SA 4.0",
+    "developmental",
+    "Healthy Brain Network"
+  ],
+  "featured": false
+}

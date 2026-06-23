@@ -1,0 +1,35 @@
+{
+  "id": "zuco-reading",
+  "name": "ZuCo — EEG & Eye-Tracking During Reading",
+  "shortName": "ZuCo",
+  "description": "The Zurich Cognitive Language Processing Corpus: simultaneous EEG and eye-tracking from 12 adults during natural and task-specific reading of sentences. A naturalistic language dataset bridging gaze, neural activity, and NLP.",
+  "modality": [
+    "EEG",
+    "Eye Tracking",
+    "Naturalistic",
+    "Behavioral"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication"
+  ],
+  "sampleSize": 12,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://doi.org/10.17605/OSF.IO/Q3ZWS",
+  "downloadUrl": "https://doi.org/10.17605/OSF.IO/Q3ZWS",
+  "repository": "OSF",
+  "citation": "Hollenstein N, et al. (2018). ZuCo, a simultaneous EEG and eye-tracking resource for natural sentence reading. Scientific Data, 5, 180291.",
+  "doi": "10.1038/sdata.2018.291",
+  "year": 2018,
+  "tags": [
+    "CC BY 4.0",
+    "reading",
+    "eye-tracking",
+    "NLP"
+  ],
+  "featured": false
+}

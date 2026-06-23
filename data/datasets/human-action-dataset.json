@@ -1,0 +1,32 @@
+{
+  "id": "human-action-dataset",
+  "name": "Human Action Naturalistic fMRI",
+  "shortName": "Human Action",
+  "description": "OpenNeuro dataset (ds004488) of participants viewing short clips of everyday human actions during fMRI. Supports research on action understanding and the social perception of others' behavior.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "social interaction"
+  ],
+  "sampleSize": 30,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds004488",
+  "downloadUrl": "https://openneuro.org/datasets/ds004488",
+  "repository": "OpenNeuro",
+  "citation": "Zhou Y, et al. (2023). A large-scale fMRI dataset for human action recognition. Scientific Data, 10, 415.",
+  "doi": "10.1038/s41597-023-02325-6",
+  "year": 2023,
+  "tags": [
+    "CC0",
+    "action perception",
+    "OpenNeuro ds004488"
+  ],
+  "featured": false
+}

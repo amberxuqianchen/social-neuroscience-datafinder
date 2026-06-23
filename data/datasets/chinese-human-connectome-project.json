@@ -1,0 +1,46 @@
+{
+  "id": "chinese-human-connectome-project",
+  "name": "Chinese Human Connectome Project (CHCP)",
+  "shortName": "CHCP",
+  "description": "An HCP-style multimodal neuroimaging resource of 366 Han Chinese adults acquired with protocols nearly identical to the Human Connectome Project. It includes high-resolution structural (T1w/T2w), resting-state and task fMRI (covering the HCP social-cognition/theory-of-mind, emotion, and other paradigms), high-angular diffusion MRI, and behavioral data, enabling cross-cultural comparison of brain organization and social cognition. Led by Jia-Hong Gao at Peking University.",
+  "modality": [
+    "fMRI",
+    "Structural MRI",
+    "Diffusion MRI",
+    "Multimodal"
+  ],
+  "topics": [
+    "social cognition",
+    "theory of mind",
+    "emotion",
+    "culture",
+    "decision making"
+  ],
+  "sampleSize": 366,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://www.scidb.cn/en/detail?dataSetId=f512d085f3d3452a9b14689e9997ca94",
+  "downloadUrl": "https://github.com/ChineseHCP/CHCP",
+  "repository": "Science Data Bank",
+  "citation": "Ge J, Yang G, Han M, et al. (2023). Increasing diversity in connectomics with the Chinese Human Connectome Project. Nature Neuroscience, 26, 163–172.",
+  "doi": "10.1038/s41593-022-01215-1",
+  "year": 2023,
+  "tags": [
+    "HCP protocol",
+    "Chinese population",
+    "cross-cultural",
+    "Peking University",
+    "shared by David Dai"
+  ],
+  "featured": false,
+  "publications": [
+    {
+      "title": "The Chinese Human Connectome Project",
+      "url": "https://www.nature.com/articles/s41592-023-01796-0",
+      "year": 2023
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "doctor-who-seeliger",
+  "name": "Doctor Who — Deep Movie fMRI",
+  "shortName": "Dr. Who",
+  "description": "A single-subject deep fMRI dataset from the Radboud Data Repository in which one participant watched ~23 hours ('Doctor Who') of audiovisual drama. Designed for high-power individual encoding/decoding models of naturalistic vision.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing"
+  ],
+  "sampleSize": 1,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://data.ru.nl/collections/di/dcc/DSC_2018.00082_134",
+  "downloadUrl": "https://data.ru.nl/collections/di/dcc/DSC_2018.00082_134",
+  "repository": "Radboud Data Repository",
+  "citation": "Seeliger K, et al. (2019). A large single-participant fMRI dataset for probing brain responses to naturalistic stimuli in space and time. bioRxiv.",
+  "doi": "10.1101/687681",
+  "year": 2019,
+  "tags": [
+    "deep imaging",
+    "single subject",
+    "encoding model"
+  ],
+  "featured": false
+}
