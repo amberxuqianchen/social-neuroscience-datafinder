@@ -1,0 +1,31 @@
+{
+  "id": "life-vanuden",
+  "name": "Life — Nature Documentary fMRI (Hyperalignment)",
+  "shortName": "Life",
+  "description": "fMRI from 18 participants watching the BBC 'Life' nature documentary, shared via DataLad. A naturalistic dataset for hyperalignment and modeling of dynamic audiovisual representation.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing"
+  ],
+  "sampleSize": 18,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "http://datasets.datalad.org/?dir=/labs/haxby/life/",
+  "downloadUrl": "http://datasets.datalad.org/?dir=/labs/haxby/life/",
+  "repository": "DataLad Datasets",
+  "citation": "Van Uden CE, et al. (2018). Modeling semantic encoding in a common neural representational space. Frontiers in Neuroscience, 12, 437.",
+  "doi": "10.3389/fnins.2018.00437",
+  "year": 2018,
+  "tags": [
+    "PDDL",
+    "documentary",
+    "hyperalignment"
+  ],
+  "featured": false
+}

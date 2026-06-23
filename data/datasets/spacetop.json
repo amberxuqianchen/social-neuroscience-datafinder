@@ -1,0 +1,39 @@
+{
+  "id": "spacetop",
+  "name": "Spacetop — Multimodal Naturalistic & Task fMRI",
+  "shortName": "Spacetop",
+  "description": "A deep multimodal fMRI dataset of 101 participants with ~6 hours of scanning each (>600 iso-hours of data), combining 6 multifaceted functional tasks spanning cognitive, affective, social, and somatic/interoceptive domains with 2 hours of naturalistic movie viewing, T1 structural and multi-shell diffusion imaging, and autonomic physiological recordings. Its scale and breadth make it well-suited for probing social and affective processes in naturalistic and task contexts.",
+  "modality": [
+    "fMRI",
+    "Naturalistic",
+    "Structural MRI",
+    "Diffusion MRI",
+    "Multimodal"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "emotion",
+    "social interaction",
+    "decision making",
+    "empathy"
+  ],
+  "sampleSize": 101,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://www.nature.com/articles/s41597-025-05154-x",
+  "repository": "Scientific Data (Nature)",
+  "citation": "Wager TD, et al. (2025). Spacetop: A multimodal fMRI dataset unifying naturalistic processes with a rich array of experimental tasks. Scientific Data, 12, 1465.",
+  "doi": "10.1038/s41597-025-05154-x",
+  "year": 2025,
+  "tags": [
+    "deep phenotyping",
+    "movie viewing",
+    "interoception",
+    "physiology",
+    "Dartmouth"
+  ],
+  "featured": true
+}

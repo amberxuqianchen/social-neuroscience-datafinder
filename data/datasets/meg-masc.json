@@ -1,0 +1,33 @@
+{
+  "id": "meg-masc",
+  "name": "MEG-MASC — Naturalistic Speech MEG",
+  "shortName": "MEG-MASC",
+  "description": "A MEG dataset of 27 participants listening to ~2 hours of naturalistic narrated stories (the MASC corpus), with rich linguistic annotations. A high-temporal-resolution resource for modeling continuous speech comprehension.",
+  "modality": [
+    "MEG",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication"
+  ],
+  "sampleSize": 27,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://doi.org/10.17605/OSF.IO/AG3KJ",
+  "downloadUrl": "https://doi.org/10.17605/OSF.IO/AG3KJ",
+  "repository": "OSF",
+  "citation": "Gwilliams L, et al. (2023). MEG-MASC: a high-quality magneto-encephalography dataset for evaluating natural speech processing. Scientific Data, 10, 862.",
+  "doi": "10.1038/s41597-023-02752-5",
+  "year": 2023,
+  "tags": [
+    "CC0",
+    "MEG",
+    "speech",
+    "MASC"
+  ],
+  "featured": false
+}

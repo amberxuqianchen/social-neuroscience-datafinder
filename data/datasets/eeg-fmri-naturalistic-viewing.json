@@ -1,0 +1,35 @@
+{
+  "id": "eeg-fmri-naturalistic-viewing",
+  "name": "Simultaneous EEG–fMRI Naturalistic Viewing",
+  "shortName": "EEG-fMRI Nat View",
+  "description": "An FCP/INDI dataset of 22 adults with simultaneous EEG and fMRI during naturalistic movie viewing, rest, and flicker tasks. A multimodal resource for studying dynamic brain activity during naturalistic social and emotional stimulation.",
+  "modality": [
+    "EEG",
+    "fMRI",
+    "Naturalistic",
+    "Multimodal"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "emotion",
+    "social cognition"
+  ],
+  "sampleSize": 22,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html",
+  "downloadUrl": "https://fcon_1000.projects.nitrc.org/indi/retro/nat_view.html",
+  "repository": "FCP/INDI",
+  "citation": "Telesford QK, et al. (2023). An open-access dataset of naturalistic viewing using simultaneous EEG-fMRI. Scientific Data, 10, 554.",
+  "doi": "10.1038/s41597-023-02458-8",
+  "year": 2023,
+  "tags": [
+    "CC BY 4.0",
+    "simultaneous EEG-fMRI",
+    "INDI"
+  ],
+  "featured": false
+}

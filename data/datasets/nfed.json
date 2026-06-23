@@ -1,0 +1,32 @@
+{
+  "id": "nfed",
+  "name": "NFED — Natural Foveal/Visual Encoding fMRI",
+  "shortName": "NFED",
+  "description": "OpenNeuro dataset (ds005047) of 5 participants viewing large numbers of natural scenes during fMRI. A deep per-subject resource for building and testing visual encoding models on naturalistic imagery.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing"
+  ],
+  "sampleSize": 5,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds005047",
+  "downloadUrl": "https://openneuro.org/datasets/ds005047",
+  "repository": "OpenNeuro",
+  "citation": "Chen Z, et al. (2024). A large-scale fMRI dataset for human visual encoding of natural scenes. Scientific Data, 11, 1209.",
+  "doi": "10.1038/s41597-024-04088-0",
+  "year": 2024,
+  "tags": [
+    "CC0",
+    "natural scenes",
+    "encoding model",
+    "OpenNeuro ds005047"
+  ],
+  "featured": false
+}

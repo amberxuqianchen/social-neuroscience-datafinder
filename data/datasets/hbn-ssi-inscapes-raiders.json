@@ -1,0 +1,32 @@
+{
+  "id": "hbn-ssi-inscapes-raiders",
+  "name": "HBN Serial Scanning Initiative — Inscapes & Raiders",
+  "shortName": "HBN-SSI",
+  "description": "A deep-scanning fMRI dataset from the Healthy Brain Network Serial Scanning Initiative, with participants repeatedly viewing naturalistic stimuli including 'Inscapes' and 'Raiders of the Lost Ark'. Supports test–retest reliability research on naturalistic and social processing.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "social cognition"
+  ],
+  "sampleSize": 13,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://fcon_1000.projects.nitrc.org/indi/hbn_ssi/",
+  "downloadUrl": "https://fcon_1000.projects.nitrc.org/indi/hbn_ssi/",
+  "repository": "FCP/INDI",
+  "citation": "O'Connor D, et al. (2017). The Healthy Brain Network Serial Scanning Initiative. GigaScience, 6(2), 1–14.",
+  "doi": "10.1093/gigascience/giw011",
+  "year": 2017,
+  "tags": [
+    "reliability",
+    "Inscapes",
+    "Healthy Brain Network"
+  ],
+  "featured": false
+}

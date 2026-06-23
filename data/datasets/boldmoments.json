@@ -1,0 +1,32 @@
+{
+  "id": "boldmoments",
+  "name": "BOLD Moments — Short Video fMRI",
+  "shortName": "BOLDmoments",
+  "description": "OpenNeuro dataset (ds005165) of 10 participants viewing thousands of brief (3 s) naturalistic video clips during fMRI. A dense event-related resource for modeling rapid dynamic visual and social scene perception.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "social interaction"
+  ],
+  "sampleSize": 10,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds005165",
+  "downloadUrl": "https://openneuro.org/datasets/ds005165",
+  "repository": "OpenNeuro",
+  "citation": "Lahner B, et al. (2024). Modeling short visual events through the BOLD moments video fMRI dataset and metadata. Nature Communications, 15, 6241.",
+  "doi": "10.1038/s41467-024-50310-3",
+  "year": 2024,
+  "tags": [
+    "CC0",
+    "short videos",
+    "OpenNeuro ds005165"
+  ],
+  "featured": false
+}

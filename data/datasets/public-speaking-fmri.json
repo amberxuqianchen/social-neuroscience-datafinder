@@ -1,0 +1,33 @@
+{
+  "id": "public-speaking-fmri",
+  "name": "Public Speaking — Naturalistic Social Stress fMRI",
+  "shortName": "Public Speaking",
+  "description": "OpenNeuro dataset (ds005920) of 31 young adults during a naturalistic public-speaking paradigm in fMRI. Designed to study social-evaluative stress, anxiety, and self-presentation.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "social interaction",
+    "emotion",
+    "communication"
+  ],
+  "sampleSize": 31,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds005920",
+  "downloadUrl": "https://openneuro.org/datasets/ds005920",
+  "repository": "OpenNeuro",
+  "citation": "Wang J, et al. (2025). A naturalistic fMRI dataset of public speaking. Scientific Data, 12, 712.",
+  "doi": "10.1038/s41597-025-05017-5",
+  "year": 2025,
+  "tags": [
+    "CC0",
+    "social stress",
+    "OpenNeuro ds005920"
+  ],
+  "featured": false
+}

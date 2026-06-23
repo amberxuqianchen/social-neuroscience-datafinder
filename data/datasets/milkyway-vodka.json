@@ -1,0 +1,34 @@
+{
+  "id": "milkyway-vodka",
+  "name": "MilkyWay / Vodka — Context & Interpretation fMRI",
+  "shortName": "MilkyWay/Vodka",
+  "description": "OpenNeuro dataset (ds001131) in which participants heard ambiguous spoken narratives ('MilkyWay' and 'Vodka') under different contextual primes. Designed to study how prior context shapes shared neural interpretation of the same social story.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication",
+    "social cognition"
+  ],
+  "sampleSize": 54,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds001131",
+  "downloadUrl": "https://openneuro.org/datasets/ds001131",
+  "repository": "OpenNeuro",
+  "citation": "Yeshurun Y, et al. (2017). Same story, different story: the neural representation of interpretive frameworks. PNAS, 114(15), 4072–4077.",
+  "doi": "10.1073/pnas.1701652114",
+  "year": 2017,
+  "tags": [
+    "CC0",
+    "spoken narrative",
+    "context",
+    "OpenNeuro ds001131"
+  ],
+  "featured": false
+}

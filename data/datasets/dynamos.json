@@ -1,0 +1,34 @@
+{
+  "id": "dynamos",
+  "name": "DynAMoS — Dynamic Affect in Social Interaction",
+  "shortName": "DynAMoS",
+  "description": "A multimodal dataset of naturalistic dyadic social interactions with synchronized audio, video, and facial-behavior coding from 83 adults. Designed for studying dynamic affect, facial expression, and communication during real conversations.",
+  "modality": [
+    "Behavioral",
+    "Naturalistic"
+  ],
+  "topics": [
+    "social interaction",
+    "emotion",
+    "communication",
+    "face perception"
+  ],
+  "sampleSize": 83,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://dynamos.gitlab-pages.partners.org/dynamos/",
+  "downloadUrl": "https://dynamos.gitlab-pages.partners.org/dynamos/",
+  "repository": "Project site",
+  "citation": "Girard JM, et al. (2023). DynAMoS: the Dynamic Affective Movie Clip and Social Interaction dataset. ACII 2023.",
+  "doi": "10.1109/ACII59096.2023.10388135",
+  "year": 2023,
+  "tags": [
+    "facial behavior",
+    "dyadic interaction",
+    "affect"
+  ],
+  "featured": false
+}

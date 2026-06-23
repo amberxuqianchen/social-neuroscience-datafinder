@@ -1,0 +1,34 @@
+{
+  "id": "smn4lang",
+  "name": "SMN4Lang — Speech & Music Naturalistic fMRI/MEG",
+  "shortName": "SMN4Lang",
+  "description": "OpenNeuro dataset (ds004078) pairing fMRI with rich speech and music stimuli and detailed linguistic annotations in Mandarin Chinese. Designed for fine-grained modeling of naturalistic language and auditory processing.",
+  "modality": [
+    "fMRI",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication",
+    "culture"
+  ],
+  "sampleSize": 12,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds004078",
+  "downloadUrl": "https://openneuro.org/datasets/ds004078",
+  "repository": "OpenNeuro",
+  "citation": "Wang S, et al. (2022). A synchronized multimodal neuroimaging dataset for studying brain language processing. Scientific Data, 9, 590.",
+  "doi": "10.1038/s41597-022-01708-5",
+  "year": 2022,
+  "tags": [
+    "CC0",
+    "Mandarin",
+    "speech",
+    "OpenNeuro ds004078"
+  ],
+  "featured": false
+}

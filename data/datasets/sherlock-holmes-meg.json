@@ -1,0 +1,32 @@
+{
+  "id": "sherlock-holmes-meg",
+  "name": "Sherlock Holmes — Deep MEG Narrative",
+  "shortName": "Sherlock (MEG)",
+  "description": "A Radboud Data Repository dataset of 3 participants who each underwent many hours of MEG while listening to a Sherlock Holmes audiobook (~9 hours total). A deep electrophysiological resource for naturalistic language processing.",
+  "modality": [
+    "MEG",
+    "Naturalistic"
+  ],
+  "topics": [
+    "naturalistic viewing",
+    "communication"
+  ],
+  "sampleSize": 3,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://data.ru.nl/collections/di/dccn/DSC_3011085.05_995",
+  "downloadUrl": "https://data.ru.nl/collections/di/dccn/DSC_3011085.05_995",
+  "repository": "Radboud Data Repository",
+  "citation": "Armeni K, et al. (2022). A 10-hour within-participant magnetoencephalography narrative dataset to test models of language comprehension. Scientific Data, 9, 278.",
+  "doi": "10.1038/s41597-022-01382-7",
+  "year": 2022,
+  "tags": [
+    "MEG",
+    "audiobook",
+    "deep imaging"
+  ],
+  "featured": false
+}
