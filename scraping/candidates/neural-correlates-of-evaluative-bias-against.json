@@ -1,0 +1,63 @@
+{
+  "id": "neural-correlates-of-evaluative-bias-against",
+  "name": "Neural correlates of evaluative bias against artificial intelligence-labeled versus human-labeled artworks",
+  "modality": [
+    "EEG",
+    "fNIRS"
+  ],
+  "topics": [
+    "emotion",
+    "memory",
+    "social learning"
+  ],
+  "citation": "Zhang W, Xie C, Jiang L, Yang L, Hu Z, Hao N. (2025). Neural correlates of evaluative bias against artificial intelligence-labeled versus human-labeled artworks. SCAN.",
+  "doi": "10.1093/scan/nsaf071",
+  "year": 2025,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Neural correlates of evaluative bias against artificial intelligence-labeled versus human-labeled artworks",
+      "url": "https://doi.org/10.1093/scan/nsaf071",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "40644344",
+    "pmcid": "PMC12342175",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [
+      "Artificial Intelligence"
+    ],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

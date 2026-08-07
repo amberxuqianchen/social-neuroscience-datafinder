@@ -1,0 +1,61 @@
+{
+  "id": "theta-gamma-phase-amplitude-coupling-serves",
+  "name": "Theta-gamma phase amplitude coupling serves as a marker of social cognition and visual working memory deficits in individuals with elevated autistic traits",
+  "modality": [],
+  "topics": [
+    "memory",
+    "social cognition",
+    "social learning"
+  ],
+  "citation": "Friedrich EVC, Hilla Y, Sterner EF, Ostermeier SS, Behnke L, Sauseng P. (2026). Theta-gamma phase amplitude coupling serves as a marker of social cognition and visual working memory deficits in individuals with elevated autistic traits. Communications Psychology.",
+  "doi": "10.1038/s44271-025-00392-6",
+  "year": 2026,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/pabfv/",
+  "downloadUrl": "https://osf.io/pabfv/",
+  "publications": [
+    {
+      "title": "Theta-gamma phase amplitude coupling serves as a marker of social cognition and visual working memory deficits in individuals with elevated autistic traits",
+      "url": "https://doi.org/10.1038/s44271-025-00392-6",
+      "year": 2026
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41530414",
+    "pmcid": "PMC12881457",
+    "journal_matched": "Communications Psychology",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

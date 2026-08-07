@@ -1,0 +1,57 @@
+{
+  "id": "alcohol-attention-bias-modulates-neural-engagement",
+  "name": "Alcohol attention bias modulates neural engagement during moral processing",
+  "modality": [
+    "fMRI"
+  ],
+  "topics": [
+    "memory",
+    "social learning"
+  ],
+  "citation": "Fede SJ, Kisner MA, Dean SF, Buckler E, Chholak R, Momenan R. (2024). Alcohol attention bias modulates neural engagement during moral processing. Social Neuroscience.",
+  "doi": "10.1080/17470919.2024.2377666",
+  "year": 2024,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Alcohol attention bias modulates neural engagement during moral processing",
+      "url": "https://doi.org/10.1080/17470919.2024.2377666",
+      "year": 2024
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "39038485",
+    "pmcid": "PMC11382621",
+    "journal_matched": "Social Neuroscience",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": false,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "changes-in-political-attitudes-are-associated",
+  "name": "Changes in political attitudes are associated with changes in neural responses to political content",
+  "modality": [
+    "fMRI"
+  ],
+  "topics": [
+    "memory",
+    "social learning"
+  ],
+  "citation": "Boiman G, Ohad T, Zvi Y, Katabi N, Yeshurun Y. (2026). Changes in political attitudes are associated with changes in neural responses to political content. Communications Psychology.",
+  "doi": "10.1038/s44271-026-00395-x",
+  "year": 2026,
+  "tags": [],
+  "featured": false,
+  "repository": "NeuroVault",
+  "url": "https://neurovault.org/collections/19578/",
+  "downloadUrl": "https://neurovault.org/collections/19578/",
+  "publications": [
+    {
+      "title": "Changes in political attitudes are associated with changes in neural responses to political content",
+      "url": "https://doi.org/10.1038/s44271-026-00395-x",
+      "year": 2026
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41588155",
+    "pmcid": "PMC12905352",
+    "journal_matched": "Communications Psychology",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

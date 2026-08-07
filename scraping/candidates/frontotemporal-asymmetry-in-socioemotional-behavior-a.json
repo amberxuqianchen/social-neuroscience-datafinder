@@ -1,0 +1,58 @@
+{
+  "id": "frontotemporal-asymmetry-in-socioemotional-behavior-a",
+  "name": "Frontotemporal asymmetry in socioemotional behavior: A pilot study in frontotemporal dementia",
+  "modality": [],
+  "topics": [
+    "emotion"
+  ],
+  "citation": "Carr AR, Jimenez EE, Thompson PM, Mendez MF. (2020). Frontotemporal asymmetry in socioemotional behavior: A pilot study in frontotemporal dementia. Social Neuroscience.",
+  "doi": "10.1080/17470919.2019.1614478",
+  "year": 2020,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Frontotemporal asymmetry in socioemotional behavior: A pilot study in frontotemporal dementia",
+      "url": "https://doi.org/10.1080/17470919.2019.1614478",
+      "year": 2020
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "31064266",
+    "pmcid": "PMC6834891",
+    "journal_matched": "Social Neuroscience",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": false,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

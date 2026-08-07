@@ -1,0 +1,60 @@
+{
+  "id": "oxytocin-increases-eye-gaze-towards-novel",
+  "name": "Oxytocin increases eye-gaze towards novel social and non-social stimuli",
+  "modality": [],
+  "topics": [
+    "aging",
+    "development",
+    "social cognition"
+  ],
+  "citation": "Eckstein M, Bamert V, Stephens S, Wallen K, Young LJ, Ehlert U, Ditzen B. (2019). Oxytocin increases eye-gaze towards novel social and non-social stimuli. Social Neuroscience.",
+  "doi": "10.1080/17470919.2018.1542341",
+  "year": 2019,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Oxytocin increases eye-gaze towards novel social and non-social stimuli",
+      "url": "https://doi.org/10.1080/17470919.2018.1542341",
+      "year": 2019
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "30378456",
+    "pmcid": "PMC6494727",
+    "journal_matched": "Social Neuroscience",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": false,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

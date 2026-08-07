@@ -1,0 +1,59 @@
+{
+  "id": "intentional-binding-effect-depends-on-conscious",
+  "name": "Intentional binding effect depends on conscious access to the sensory consequences of action",
+  "modality": [],
+  "topics": [
+    "emotion",
+    "identity"
+  ],
+  "citation": "Veillette JP, Cheng Y, Joshi A, Nusbaum HC. (2025). Intentional binding effect depends on conscious access to the sensory consequences of action. Communications Psychology.",
+  "doi": "10.1038/s44271-025-00323-5",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Intentional binding effect depends on conscious access to the sensory consequences of action",
+      "url": "https://doi.org/10.1038/s44271-025-00323-5",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41023455",
+    "pmcid": "PMC12480506",
+    "journal_matched": "Communications Psychology",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

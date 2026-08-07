@@ -1,0 +1,63 @@
+{
+  "id": "acute-stress-impairs-decision-making-at",
+  "name": "Acute stress impairs decision-making at varying levels of decision complexity",
+  "modality": [],
+  "topics": [
+    "memory",
+    "social learning"
+  ],
+  "citation": "Doroc K, Yadav N, Murawski C. (2025). Acute stress impairs decision-making at varying levels of decision complexity. Communications Psychology.",
+  "doi": "10.1038/s44271-025-00355-x",
+  "year": 2025,
+  "tags": [
+    "Stress/physical health"
+  ],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Acute stress impairs decision-making at varying levels of decision complexity",
+      "url": "https://doi.org/10.1038/s44271-025-00355-x",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41315734",
+    "pmcid": "PMC12663459",
+    "journal_matched": "Communications Psychology",
+    "matched_topic_tags": [
+      "Stress/physical health"
+    ],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

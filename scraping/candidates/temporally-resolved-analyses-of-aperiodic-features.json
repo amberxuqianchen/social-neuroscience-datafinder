@@ -1,0 +1,57 @@
+{
+  "id": "temporally-resolved-analyses-of-aperiodic-features",
+  "name": "Temporally resolved analyses of aperiodic features track neural dynamics during sleep",
+  "modality": [
+    "EEG",
+    "iEEG"
+  ],
+  "topics": [],
+  "citation": "Ameen MS, Jacobs J, Schabus M, Hoedlmoser K, Donoghue T. (2025). Temporally resolved analyses of aperiodic features track neural dynamics during sleep. Communications Psychology.",
+  "doi": "10.1038/s44271-025-00334-2",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Temporally resolved analyses of aperiodic features track neural dynamics during sleep",
+      "url": "https://doi.org/10.1038/s44271-025-00334-2",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41258409",
+    "pmcid": "PMC12630853",
+    "journal_matched": "Communications Psychology",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "topics",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "topics",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

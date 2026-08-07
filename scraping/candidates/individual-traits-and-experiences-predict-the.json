@@ -1,0 +1,65 @@
+{
+  "id": "individual-traits-and-experiences-predict-the",
+  "name": "Individual traits and experiences predict the content of dreams",
+  "modality": [],
+  "topics": [
+    "communication",
+    "emotion",
+    "identity"
+  ],
+  "citation": "Elce V, Bontempi G, Scarpelli S, Pedreschi B, Pietrini P, De Gennaro L, Bellesi M, Bernardi G, Handjaras G. (2026). Individual traits and experiences predict the content of dreams. Communications Psychology.",
+  "doi": "10.1038/s44271-026-00447-2",
+  "year": 2026,
+  "tags": [
+    "COVID/Public Health"
+  ],
+  "featured": false,
+  "repository": "Zenodo",
+  "url": "https://zenodo.org/records/15230218",
+  "downloadUrl": "https://zenodo.org/records/15230218",
+  "publications": [
+    {
+      "title": "Individual traits and experiences predict the content of dreams",
+      "url": "https://doi.org/10.1038/s44271-026-00447-2",
+      "year": 2026
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "42050340",
+    "pmcid": "PMC13124594",
+    "journal_matched": "Communications Psychology",
+    "matched_topic_tags": [
+      "COVID/Public Health"
+    ],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

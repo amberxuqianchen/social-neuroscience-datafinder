@@ -1,0 +1,59 @@
+{
+  "id": "the-effect-of-induced-humility-on",
+  "name": "The effect of induced humility on anger and P3b responses to frustrating events",
+  "modality": [],
+  "topics": [
+    "emotion",
+    "identity"
+  ],
+  "citation": "Harmon-Jones E, Wang Q, Angus DJ, Szymaniak K, Lorraine G, Vu SQC, Harmon-Jones C. (2026). The effect of induced humility on anger and P3b responses to frustrating events. SCAN.",
+  "doi": "10.1093/scan/nsag013",
+  "year": 2026,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "The effect of induced humility on anger and P3b responses to frustrating events",
+      "url": "https://doi.org/10.1093/scan/nsag013",
+      "year": 2026
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41844543",
+    "pmcid": "PMC13071401",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

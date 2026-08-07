@@ -1,0 +1,57 @@
+{
+  "id": "effects-of-trns-on-perception-of",
+  "name": "Effects of tRNS on perception of static and dynamic displays of social-emotional communication",
+  "modality": [
+    "EEG"
+  ],
+  "topics": [
+    "emotion"
+  ],
+  "citation": "Dang C, Russo FA. (2026). Effects of tRNS on perception of static and dynamic displays of social-emotional communication. SCAN.",
+  "doi": "10.1093/scan/nsag011",
+  "year": 2026,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://doi.org/10.17605/OSF.IO/QS8FP",
+  "downloadUrl": "https://doi.org/10.17605/OSF.IO/QS8FP",
+  "publications": [
+    {
+      "title": "Effects of tRNS on perception of static and dynamic displays of social-emotional communication",
+      "url": "https://doi.org/10.1093/scan/nsag011",
+      "year": 2026
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41852260",
+    "pmcid": "PMC13000340",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

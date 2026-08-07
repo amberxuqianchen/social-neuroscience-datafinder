@@ -1,0 +1,61 @@
+{
+  "id": "common-neural-responses-to-romantic-rejection",
+  "name": "Common neural responses to romantic rejection and acceptance in healthy adults",
+  "modality": [
+    "fMRI"
+  ],
+  "topics": [
+    "identity",
+    "social cognition"
+  ],
+  "citation": "Hsu DT, Sankar A, Malik MA, Langenecker SA, Mickey BJ, Love TM. (2020). Common neural responses to romantic rejection and acceptance in healthy adults. Social Neuroscience.",
+  "doi": "10.1080/17470919.2020.1801502",
+  "year": 2020,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Common neural responses to romantic rejection and acceptance in healthy adults",
+      "url": "https://doi.org/10.1080/17470919.2020.1801502",
+      "year": 2020
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "32715953",
+    "pmcid": "PMC7674199",
+    "journal_matched": "Social Neuroscience",
+    "matched_topic_tags": [
+      "Artificial Intelligence"
+    ],
+    "matched_method_tags": [],
+    "used_fulltext": false,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "accented-speech-modulates-multiple-event-related",
+  "name": "Accented speech modulates multiple event-related potential components across multiple levels of language processing",
+  "modality": [
+    "EEG"
+  ],
+  "topics": [
+    "communication"
+  ],
+  "citation": "Llanos F, Wu YC, Abel TJ, Holt LL. (2025). Accented speech modulates multiple event-related potential components across multiple levels of language processing. Communications Psychology.",
+  "doi": "10.1038/s44271-025-00345-z",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/n7pky/",
+  "downloadUrl": "https://osf.io/n7pky/",
+  "publications": [
+    {
+      "title": "Accented speech modulates multiple event-related potential components across multiple levels of language processing",
+      "url": "https://doi.org/10.1038/s44271-025-00345-z",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc",
+    "pmid": "41423557",
+    "pmcid": "PMC12722251",
+    "journal_matched": "Communications Psychology",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}
