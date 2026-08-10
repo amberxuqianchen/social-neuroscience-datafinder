@@ -1,0 +1,60 @@
+{
+  "id": "brain-wide-representation-of-social-knowledge",
+  "name": "Brain-wide representation of social knowledge",
+  "modality": [
+    "fMRI"
+  ],
+  "topics": [
+    "social cognition"
+  ],
+  "citation": "Alcal\u00e1-L\u00f3pez D, Mei N, Margolles P, Soto D. (2024). Brain-wide representation of social knowledge. SCAN.",
+  "doi": "10.1093/scan/nsae032",
+  "year": 2024,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Brain-wide representation of social knowledge",
+      "url": "https://doi.org/10.1093/scan/nsae032",
+      "year": 2024
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "38804694",
+    "pmcid": "PMC11173195",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Magnetic Resonance Imaging",
+      "Social Perception"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

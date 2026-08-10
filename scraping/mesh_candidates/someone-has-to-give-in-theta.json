@@ -1,0 +1,62 @@
+{
+  "id": "someone-has-to-give-in-theta",
+  "name": "Someone has to give in: theta oscillations correlate with adaptive behavior in social bargaining",
+  "modality": [
+    "EEG"
+  ],
+  "topics": [
+    "cooperation",
+    "social interaction"
+  ],
+  "citation": "Billeke P, Zamorano F, L\u00f3pez T, Rodriguez C, Cosmelli D, Aboitiz F. (2014). Someone has to give in: theta oscillations correlate with adaptive behavior in social bargaining. SCAN.",
+  "doi": "10.1093/scan/nsu012",
+  "year": 2014,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Someone has to give in: theta oscillations correlate with adaptive behavior in social bargaining",
+      "url": "https://doi.org/10.1093/scan/nsu012",
+      "year": 2014
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "24493841",
+    "pmcid": "PMC4249481",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Electroencephalography",
+      "Games, Experimental",
+      "Social Behavior"
+    ],
+    "used_fulltext": false,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

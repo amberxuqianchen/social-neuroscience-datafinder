@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "source": "MeSH_SCAN_SN.txt",
+    "description": "MeSH-heading-based keyword taxonomy, curated from the actual meshHeadingList values found on papers in Social Cognitive and Affective Neuroscience (SCAN) and Social Neuroscience via the Europe PMC core API. Unlike keywords.json, entries here have a single 'mesh_terms' list matched by EXACT set membership against a paper's own indexed MeSH descriptor names (no 'search_terms'/'stems' split, no stemmer -- MeSH is already a controlled vocabulary, so there is nothing to stem). 'schema_topics'/'schema_modality' map an entry onto data/schema.json's enums; an empty list means no clean enum match, so hits are stored under 'tags' instead. There is no 'journals' key here -- the pipeline reuses the 23-journal list already in keywords.json. Excluded from the source vocabulary: MEDLINE checktags (Humans, Animals, Male, Female, Adult, Child, Aged, Infant, ...), generic statistical/design terms present on nearly every paper (Regression Analysis, Reproducibility of Results, Surveys and Questionnaires, Neuropsychological Tests, Photic/Acoustic Stimulation, ...), pure brain-anatomy terms with no topic/method meaning alone (Prefrontal Cortex, Amygdala, Hippocampus, Brain, Brain Mapping, ...) -- this is the 'brain regions' noise flagged in SCRAPING_NOTE.md -- and country/institution/demographic-group/species terms (Canada, White People, Students, Macaca mulatta, ...). Also confirmed by spot-checking Europe PMC: PET, TMS, tDCS, DTI and iEEG (all present in keywords.json's free-text methods list) have combined hit counts of 0-1 across SCAN + Social Neuroscience's MeSH indexing, so they are deliberately omitted from schema_modality methods here rather than carried over unverified."
+  },
+  "topics": [
+    { "label": "Emotion (general)", "mesh_terms": ["Emotions", "Affect", "Affective Symptoms"], "schema_topics": ["Emotion"] },
+    { "label": "Basic/discrete emotions", "mesh_terms": ["Fear", "Anger", "Pleasure", "Crying", "Laughter", "Humor"], "schema_topics": ["Emotion"] },
+    { "label": "Empathy", "mesh_terms": ["Empathy", "Emotional Intelligence"], "schema_topics": ["Empathy"] },
+    { "label": "Theory of mind / mentalizing", "mesh_terms": ["Theory of Mind", "Mentalization"], "schema_topics": ["Theory of Mind"] },
+    { "label": "Moral cognition", "mesh_terms": ["Morals", "Ethical Theory", "Judgment", "Social Values"], "schema_topics": ["Moral Judgment"] },
+    { "label": "Face perception", "mesh_terms": ["Face", "Facial Expression", "Facial Recognition", "Social Perception"], "schema_topics": ["Social Perception"]},
+    { "label": "Decision making / risk", "mesh_terms": ["Decision Making", "Risk-Taking", "Impulsive Behavior"], "schema_topics": ["Decision Making"] },
+    { "label": "Reward / motivation", "mesh_terms": ["Reward", "Motivation"], "schema_topics": ["Reward"]},
+    { "label": "Cooperation / prosocial behavior", "mesh_terms": ["Cooperative Behavior", "Altruism", "Helping Behavior", "Games, Experimental"], "schema_topics": ["Prosocial Behavior"]},
+    { "label": "Trust", "mesh_terms": ["Trust"], "schema_topics": ["Social Cognition"] },
+    { "label": "Aggression / violence", "mesh_terms": ["Aggression", "Violence"], "schema_topics": ["Intergroup Processes"] },
+    { "label": "Intergroup bias / prejudice", "mesh_terms": ["Prejudice", "Racism", "Social Identification", "Group Processes"], "schema_topics": ["Intergroup Processes"]},
+    { "label": "Social behavior / interaction", "mesh_terms": ["Social Behavior", "Social Interaction", "Social Environment", "Interpersonal Relations"], "schema_topics": ["Social Interaction"] },
+    { "label": "Social comparison / self", "mesh_terms": ["Social Comparison", "Self Concept", "Ego", "Individuality"], "schema_topics": ["Self and identity"] },
+    { "label": "Communication / language", "mesh_terms": ["Communication", "Speech Perception", "Voice", "Gestures"], "schema_topics": ["Communication"]},
+    { "label": "Parenting relationships", "mesh_terms": ["Parent-Child Relations", "Parenting", "Mother-Child Relations", "Mothers", "Family Relations", "Family", "Object Attachment"], "schema_topics": ["Developmental Psychology"] },
+    { "label": "Family relationship / close relationship", "mesh_terms": ["Marriage", "Spouses", "Siblings"], "schema_topics": ["Close Relationship"]},
+    { "label": "Culture", "mesh_terms": ["Culture", "Emigrants and Immigrants"], "schema_topics": ["Culture"] },
+    { "label": "Memory / recognition", "mesh_terms": ["Mental Recall", "Memory, Short-Term", "Recognition, Psychology"], "schema_topics": ["Memory"] },
+    { "label": "Cognitive control / attention", "mesh_terms": ["Attention", "Cognition", "Executive Function", "Problem Solving", "Thinking", "Inhibition, Psychological"], "schema_topics": ["Cognition"]},
+    { "label": "Learning / reinforcement", "mesh_terms": ["Learning", "Reinforcement, Psychology", "Conditioning, Classical", "Conditioning, Operant", "Social Learning"], "schema_topics": ["Learning"]},
+    { "label": "Adolescent/child development", "mesh_terms": ["Adolescent Behavior"], "schema_topics": ["Developmental Psychology"] },
+    { "label": "Aging", "mesh_terms": ["Aging"], "schema_topics": ["Developmental Psychology"]},
+    { "label": "Mental health / psychopathology", "mesh_terms": ["Major Depressive Disorder", "Depression", "Anxiety", "Stress, Psychological", "Stress Disorders, Post-Traumatic", "Substance-Related Disorders", "Antisocial Personality Disorder", "Psychopathy", "Attention Deficit Disorder with Hyperactivity", "Autism Spectrum Disorder", "Autistic Disorder"], "schema_topics": ["Clinical Psychology"] },
+    { "label": "COVID-19 / public health", "mesh_terms": ["COVID-19", "Pandemics", "COVID-19 Vaccines", "Vaccination Hesitancy"], "schema_topics": ["Public Health"]},
+    { "label": "Pain", "mesh_terms": ["Pain", "Pain Perception"], "schema_topics": ["Clinical Psychology"]}
+  ],
+  "methods": [
+    { "label": "fMRI / MRI (general)", "mesh_terms": ["Magnetic Resonance Imaging", "Functional Neuroimaging", "Neuroimaging"], "schema_modality": ["Neuroimaging (general)"]},
+    { "label": "EEG / ERP", "mesh_terms": ["Electroencephalography", "Evoked Potentials", "Event-Related Potentials, P300", "Cortical Synchronization"], "schema_modality": ["EEG"] },
+    { "label": "MEG", "mesh_terms": ["Magnetoencephalography"], "schema_modality": ["MEG"] },
+    { "label": "fNIRS", "mesh_terms": ["Spectroscopy, Near-Infrared"], "schema_modality": ["fNIRS"] },
+    { "label": "Eye tracking", "mesh_terms": ["Fixation, Ocular", "Eye Movements"], "schema_modality": ["Eye Tracking"] },
+    { "label": "Connectomics", "mesh_terms": ["Connectome"], "schema_modality": ["Connectomics"] },
+    { "label": "Genetics / hormones", "mesh_terms": ["Genetic Variation", "Monoamine Oxidase", "Catechol O-Methyltransferase", "Dopamine Plasma Membrane Transport Proteins", "Oxytocin"], "schema_modality": ["Genotyping/Hormone/Neurotransmitter"]},
+    { "label": "Peripheral psychophysiology", "mesh_terms": ["Heart Rate", "Heart Rate Determination", "Interbeat Interval"], "schema_modality": ["Psychophysiology"]}
+  ]
+}

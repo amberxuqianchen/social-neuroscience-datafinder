@@ -1,0 +1,63 @@
+{
+  "id": "do-stress-hormones-influence-choice-a",
+  "name": "Do stress hormones influence choice? A systematic review of pharmacological interventions on the HPA axis and/or SAM system",
+  "modality": [],
+  "topics": [
+    "decision making",
+    "mental health"
+  ],
+  "citation": "Sarmiento LF, R\u00edos-Fl\u00f3rez JA, Rinc\u00f3n Uribe FA, Rodrigues Lima R, Kalenscher T, Gouveia A, Nitsch FJ. (2024). Do stress hormones influence choice? A systematic review of pharmacological interventions on the HPA axis and/or SAM system. SCAN.",
+  "doi": "10.1093/scan/nsae069",
+  "year": 2024,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Do stress hormones influence choice? A systematic review of pharmacological interventions on the HPA axis and/or SAM system",
+      "url": "https://doi.org/10.1093/scan/nsae069",
+      "year": 2024
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "39363151",
+    "pmcid": "PMC11498176",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Decision Making",
+      "Stress, Psychological"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": false,
+      "errors": [
+        "modality: [] should be non-empty"
+      ],
+      "missing_required": [
+        "description",
+        "modality",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "modality",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

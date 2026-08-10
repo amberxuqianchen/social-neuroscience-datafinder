@@ -63,10 +63,15 @@ def build_query(journal_entry, topics, methods):
     )
 
 
-def search_journal(journal_entry, keywords_data, limit=25, sleep_seconds=1.0, session=None):
-    """Return up to `limit` core records for a single journal's combined query."""
+def search_journal(journal_entry, keywords_data, limit=25, sleep_seconds=1.0, session=None, query_builder=build_query):
+    """Return up to `limit` core records for a single journal's combined query.
+
+    `query_builder` defaults to the free-text `build_query` above; pass
+    `mesh_search_europepmc.build_mesh_query` to reuse this same pagination logic
+    for a MeSH-heading-based query instead.
+    """
     session = session or requests.Session()
-    query = build_query(journal_entry, keywords_data["topics"], keywords_data["methods"])
+    query = query_builder(journal_entry, keywords_data["topics"], keywords_data["methods"])
 
     results = []
     cursor_mark = "*"
@@ -99,14 +104,14 @@ def search_journal(journal_entry, keywords_data, limit=25, sleep_seconds=1.0, se
     return query, results[:limit]
 
 
-def get_hit_count(journal_entry, keywords_data, session=None):
+def get_hit_count(journal_entry, keywords_data, session=None, query_builder=build_query):
     """Return (query, total_hit_count) for a journal without fetching any full records.
 
     Cheap way to size up a journal (e.g. SCAN has 1000+ hits, Social Neuroscience has 6)
     before picking a --limit for the real run.
     """
     session = session or requests.Session()
-    query = build_query(journal_entry, keywords_data["topics"], keywords_data["methods"])
+    query = query_builder(journal_entry, keywords_data["topics"], keywords_data["methods"])
     params = {
         "query": query,
         "format": "json",

@@ -1,0 +1,68 @@
+{
+  "id": "neural-basis-of-conditional-cooperation",
+  "name": "Neural basis of conditional cooperation",
+  "modality": [
+    "fMRI"
+  ],
+  "topics": [
+    "cooperation",
+    "social interaction"
+  ],
+  "citation": "Suzuki S, Niki K, Fujisaki S, Akiyama E. (2011). Neural basis of conditional cooperation. SCAN.",
+  "doi": "10.1093/scan/nsq042",
+  "year": 2011,
+  "tags": [
+    "Reward / motivation"
+  ],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Neural basis of conditional cooperation",
+      "url": "https://doi.org/10.1093/scan/nsq042",
+      "year": 2011
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "20501484",
+    "pmcid": "PMC3110432",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [
+      "Reward / motivation"
+    ],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Cooperative Behavior",
+      "Games, Experimental",
+      "Magnetic Resonance Imaging",
+      "Reward",
+      "Social Behavior"
+    ],
+    "used_fulltext": false,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

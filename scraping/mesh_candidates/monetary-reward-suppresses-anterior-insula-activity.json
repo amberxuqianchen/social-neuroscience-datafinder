@@ -1,0 +1,71 @@
+{
+  "id": "monetary-reward-suppresses-anterior-insula-activity",
+  "name": "Monetary reward suppresses anterior insula activity during social pain",
+  "modality": [
+    "EEG"
+  ],
+  "topics": [
+    "cooperation",
+    "social cognition"
+  ],
+  "citation": "Cristofori I, Harquel S, Isnard J, Maugui\u00e8re F, Sirigu A. (2015). Monetary reward suppresses anterior insula activity during social pain. SCAN.",
+  "doi": "10.1093/scan/nsv054",
+  "year": 2015,
+  "tags": [
+    "Pain",
+    "Reward / motivation"
+  ],
+  "featured": false,
+  "publications": [
+    {
+      "title": "Monetary reward suppresses anterior insula activity during social pain",
+      "url": "https://doi.org/10.1093/scan/nsv054",
+      "year": 2015
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "25964499",
+    "pmcid": "PMC4666104",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [
+      "Pain",
+      "Reward / motivation"
+    ],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Electroencephalography",
+      "Games, Experimental",
+      "Motivation",
+      "Pain",
+      "Reward",
+      "Social Perception"
+    ],
+    "used_fulltext": false,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}

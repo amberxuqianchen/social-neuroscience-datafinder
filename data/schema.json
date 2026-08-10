@@ -33,9 +33,8 @@
       "minItems": 1,
       "items": {
         "enum": [
-          "fMRI", "EEG", "MEG", "iEEG", "fNIRS", "Behavioral",
-          "Social Network", "Multimodal", "Developmental", "Naturalistic",
-          "Electrophysiology", "Calcium Imaging", "Connectomics", "Genetics",
+          "Neuroimaging (general)", "fMRI", "MRI", "EEG", "MEG", "iEEG", "fNIRS",
+          "Psychophysiology", "Calcium Imaging", "Connectomics", "Genotyping/Hormone/Neurotransmitter",
           "Eye Tracking", "Structural MRI", "Diffusion MRI"
         ]
       }
@@ -44,12 +43,13 @@
       "type": "array",
       "items": {
         "enum": [
-          "social cognition", "friendship", "social networks", "moral judgment",
-          "cooperation", "competition", "empathy", "theory of mind",
-          "impression formation", "social learning", "group behavior", "identity",
-          "culture", "decision making", "communication", "collective behavior",
-          "emotion", "face perception", "social interaction", "naturalistic viewing",
-          "memory", "development", "aging", "mental health"
+          "Social Cognition", "Close Relationship", "Social Networks", "Moral Judgment",
+          "Intergroup Processes", "Competition", "Empathy", "Theory of Mind",
+          "Impression Formation", "Self and identity",
+          "Culture", "Decision Making", "Communication",
+          "Emotion", "Social Perception", "Social Interaction",
+          "Memory", "Developmental Psychology", "Clinical Psychology", "Cognition", "Learning", "Public Health",
+          "Reward", "Prosocial Behavior"
         ]
       }
     },

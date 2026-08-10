@@ -1,0 +1,65 @@
+{
+  "id": "how-face-blurring-affects-body-language",
+  "name": "How face blurring affects body language processing of static gestures in women and men",
+  "modality": [
+    "EEG"
+  ],
+  "topics": [
+    "communication",
+    "face perception",
+    "social cognition"
+  ],
+  "citation": "Proverbio AM, Ornaghi L, Gabaro V. (2018). How face blurring affects body language processing of static gestures in women and men. SCAN.",
+  "doi": "10.1093/scan/nsy033",
+  "year": 2018,
+  "tags": [],
+  "featured": false,
+  "publications": [
+    {
+      "title": "How face blurring affects body language processing of static gestures in women and men",
+      "url": "https://doi.org/10.1093/scan/nsy033",
+      "year": 2018
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "29767792",
+    "pmcid": "PMC6022678",
+    "journal_matched": "SCAN",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Electroencephalography",
+      "Evoked Potentials",
+      "Face",
+      "Gestures",
+      "Social Perception"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": false,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess",
+        "url"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "url",
+    "dataset link not found in abstract/full text -- search manually"
+  ]
+}
