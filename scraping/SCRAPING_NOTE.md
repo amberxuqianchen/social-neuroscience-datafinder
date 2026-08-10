@@ -63,11 +63,7 @@ Be careful when using the note!! The explanation if from developer's understandi
         Computational Biology
         Pattern Recognition, Visual
 
-# August
-- Log progress. Next: 
-    1. pull up those terms: Generic experimental-procedure terms (nearly universal, no topical signal), e.g., Photic Stimulation, Acoustic Stimulation, Motor Activity
-    2. Confirm if one-off/single-occurence curiosities are terms that only occur once
-    3. are those 95 terms all in @scraping/mesh_keywords.json? 
-    4. report the terms that is currently not in @data/schema.json `enum`
-    5. In the new pipeline, are you matching papers' title, keyword, and abstract, or just keywords?
-- Remove three more method-keywords: "Machine Learning", "Neural Networks, Computer" - they are not indicators for neuroscience
+# August-09-2026
+- A key issue: PMC's API search the full text + title + abstract by default, so many papers that is irrelavent to social psychology also are included
+- solution: add a offline filter that strictly check if key terms appear in paper's `meshHeadingList` (essentially the keywords), and only retain the papers that have both method and topic key terms
+- result: use 25 as cap, most journals reach this cap, except *Social Neuroscience*, *Frontiers in Human Neuroscience*, *Molecular Psychiatry*. However, only very few survive the filter: 8 valid results out of 374 survived

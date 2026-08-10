@@ -1,0 +1,61 @@
+{
+  "id": "parkinson-s-disease-as-a-somato",
+  "name": "Parkinson's disease as a somato-cognitive action network disorder",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Cognition"
+  ],
+  "citation": "Ren J, Zhang W, Dahmani L, Gordon EM, Li S, Zhou Y, Long Y, Huang J, Zhu Y, Guo N, Jiang C, Zhang F, Bai Y, Wei W, Wu Y, Bush A, Vissani M, Wei L, Oehrn CR, Morrison MA, Zhu Y, Zhang C, Hu Q, Yin Y, Cui W, Fu X, Zhang P, Wang W, Ji GJ, He J, Wang K, Fan D, Wang Z, Kimberley T, Little S, Starr PA, Richardson RM, Li L, Wang M, Wang D, Dosenbach NUF, Liu H. (2026). Parkinson's disease as a somato-cognitive action network disorder. Nature.",
+  "doi": "10.1038/s41586-025-10059-1",
+  "year": 2026,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/cmndq/",
+  "downloadUrl": "https://osf.io/cmndq/",
+  "publications": [
+    {
+      "title": "Parkinson's disease as a somato-cognitive action network disorder",
+      "url": "https://doi.org/10.1038/s41586-025-10059-1",
+      "year": 2026
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "41639440",
+    "pmcid": "PMC13017517",
+    "journal_matched": "Nature",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Cognition",
+      "Magnetic Resonance Imaging"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "the-spatial-layout-of-antagonistic-brain",
+  "name": "The spatial layout of antagonistic brain regions is explicable based on geometric principles",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Cognition"
+  ],
+  "citation": "Leech R, Braga RM, Haydock D, Vowles N, Jefferies E, Bernhardt B, Turkheimer F, Alberti F, Margulies D, Sherwood O, Jones EJ, Smallwood J, V\u00e1\u0161a F. (2025). The spatial layout of antagonistic brain regions is explicable based on geometric principles. Communications Biology.",
+  "doi": "10.1038/s42003-025-08295-2",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "repository": "OpenNeuro",
+  "url": "https://openneuro.org/datasets/ds000224",
+  "downloadUrl": "https://openneuro.org/datasets/ds000224",
+  "publications": [
+    {
+      "title": "The spatial layout of antagonistic brain regions is explicable based on geometric principles",
+      "url": "https://doi.org/10.1038/s42003-025-08295-2",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "40483283",
+    "pmcid": "PMC12145436",
+    "journal_matched": "Communications Biology",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Cognition",
+      "Magnetic Resonance Imaging"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "reconfigurations-of-cortical-manifold-structure-during",
+  "name": "Reconfigurations of cortical manifold structure during reward-based motor learning",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Learning",
+    "Reward"
+  ],
+  "citation": "Nick Q, Gale DJ, Areshenkoff C, De Brouwer A, Nashed J, Wammes J, Zhu T, Flanagan R, Smallwood J, Gallivan J. (2024). Reconfigurations of cortical manifold structure during reward-based motor learning. eLife.",
+  "doi": "10.7554/elife.91928",
+  "year": 2024,
+  "tags": [],
+  "featured": false,
+  "repository": "OpenNeuro",
+  "url": "https://openneuro.org/datasets/ds005230/versions/1.0.0",
+  "downloadUrl": "https://openneuro.org/datasets/ds005230/versions/1.0.0",
+  "publications": [
+    {
+      "title": "Reconfigurations of cortical manifold structure during reward-based motor learning",
+      "url": "https://doi.org/10.7554/elife.91928",
+      "year": 2024
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "38916598",
+    "pmcid": "PMC11198988",
+    "journal_matched": "eLife",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Learning",
+      "Magnetic Resonance Imaging",
+      "Reward"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

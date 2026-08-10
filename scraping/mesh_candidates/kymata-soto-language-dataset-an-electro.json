@@ -1,0 +1,63 @@
+{
+  "id": "kymata-soto-language-dataset-an-electro",
+  "name": "Kymata Soto Language Dataset: an electro-magnetoencephalographic dataset for natural speech processing",
+  "modality": [
+    "EEG",
+    "MEG"
+  ],
+  "topics": [
+    "Communication"
+  ],
+  "citation": "Yang C, Parish O, Klimovich-Gray A, Wingfield C, Marslen-Wilson WD, Zhang C, Woolgar A, Thwaites A. (2026). Kymata Soto Language Dataset: an electro-magnetoencephalographic dataset for natural speech processing. Scientific Data.",
+  "doi": "10.1038/s41597-026-06579-8",
+  "year": 2026,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/qdzgh/",
+  "downloadUrl": "https://osf.io/qdzgh/",
+  "publications": [
+    {
+      "title": "Kymata Soto Language Dataset: an electro-magnetoencephalographic dataset for natural speech processing",
+      "url": "https://doi.org/10.1038/s41597-026-06579-8",
+      "year": 2026
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "41559110",
+    "pmcid": "PMC12916794",
+    "journal_matched": "Scientific Data",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Electroencephalography",
+      "Magnetoencephalography",
+      "Speech Perception"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

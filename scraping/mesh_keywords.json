@@ -1,8 +1,33 @@
 {
   "_meta": {
     "source": "MeSH_SCAN_SN.txt",
-    "description": "MeSH-heading-based keyword taxonomy, curated from the actual meshHeadingList values found on papers in Social Cognitive and Affective Neuroscience (SCAN) and Social Neuroscience via the Europe PMC core API. Unlike keywords.json, entries here have a single 'mesh_terms' list matched by EXACT set membership against a paper's own indexed MeSH descriptor names (no 'search_terms'/'stems' split, no stemmer -- MeSH is already a controlled vocabulary, so there is nothing to stem). 'schema_topics'/'schema_modality' map an entry onto data/schema.json's enums; an empty list means no clean enum match, so hits are stored under 'tags' instead. There is no 'journals' key here -- the pipeline reuses the 23-journal list already in keywords.json. Excluded from the source vocabulary: MEDLINE checktags (Humans, Animals, Male, Female, Adult, Child, Aged, Infant, ...), generic statistical/design terms present on nearly every paper (Regression Analysis, Reproducibility of Results, Surveys and Questionnaires, Neuropsychological Tests, Photic/Acoustic Stimulation, ...), pure brain-anatomy terms with no topic/method meaning alone (Prefrontal Cortex, Amygdala, Hippocampus, Brain, Brain Mapping, ...) -- this is the 'brain regions' noise flagged in SCRAPING_NOTE.md -- and country/institution/demographic-group/species terms (Canada, White People, Students, Macaca mulatta, ...). Also confirmed by spot-checking Europe PMC: PET, TMS, tDCS, DTI and iEEG (all present in keywords.json's free-text methods list) have combined hit counts of 0-1 across SCAN + Social Neuroscience's MeSH indexing, so they are deliberately omitted from schema_modality methods here rather than carried over unverified."
+    "description": "MeSH-heading-based keyword taxonomy, curated from the actual meshHeadingList values found on papers in Social Cognitive and Affective Neuroscience (SCAN) and Social Neuroscience via the Europe PMC core API. Entries here have a single 'mesh_terms' list matched by EXACT set membership against a paper's own indexed MeSH descriptor names (no 'search_terms'/'stems' split, no stemmer -- MeSH is already a controlled vocabulary, so there is nothing to stem). 'schema_topics'/'schema_modality' map an entry onto data/schema.json's enums; an empty list means no clean enum match, so hits are stored under 'tags' instead. This file is self-contained (journals + topics + methods) so the MeSH pipeline (mesh_search_europepmc.py / mesh_extract_candidate.py / mesh_run_pipeline.py) has no dependency on keywords.json or the free-text pipeline. Excluded from the source vocabulary: MEDLINE checktags (Humans, Animals, Male, Female, Adult, Child, Aged, Infant, ...), generic statistical/design terms present on nearly every paper (Regression Analysis, Reproducibility of Results, Surveys and Questionnaires, Neuropsychological Tests, Photic/Acoustic Stimulation, ...), pure brain-anatomy terms with no topic/method meaning alone (Prefrontal Cortex, Amygdala, Hippocampus, Brain, Brain Mapping, ...) -- this is the 'brain regions' noise flagged in SCRAPING_NOTE.md -- and country/institution/demographic-group/species terms (Canada, White People, Students, Macaca mulatta, ...). Also confirmed by spot-checking Europe PMC: PET, TMS, tDCS, DTI and iEEG (all present in keywords.json's free-text methods list) have combined hit counts of 0-1 across SCAN + Social Neuroscience's MeSH indexing, so they are deliberately omitted from schema_modality methods here rather than carried over unverified."
   },
+  "journals": [
+    { "name": "Scientific Data", "query_names": ["Scientific Data"] },
+    { "name": "SCAN", "query_names": ["Social Cognitive and Affective Neuroscience", "Soc Cogn Affect Neurosci", "SCAN"] },
+    { "name": "Social Neuroscience", "query_names": ["Social Neuroscience"] },
+    { "name": "NeuroImage", "query_names": ["NeuroImage"] },
+    { "name": "Imaging Neuroscience", "query_names": ["Imaging Neuroscience"] },
+    { "name": "Human Brain Mapping", "query_names": ["Human Brain Mapping"] },
+    { "name": "Journal of Neuroscience", "query_names": ["Journal of Neuroscience", "J Neurosci"] },
+    { "name": "Journal of Cognitive Neuroscience", "query_names": ["Journal of Cognitive Neuroscience", "J Cogn Neurosci"] },
+    { "name": "European Journal of Neuroscience", "query_names": ["European Journal of Neuroscience", "Eur J Neurosci"] },
+    { "name": "Nature Communications", "query_names": ["Nature Communications", "Nat Commun"] },
+    { "name": "Nature Human Behaviour", "query_names": ["Nature Human Behaviour", "Nat Hum Behav"] },
+    { "name": "Nature Neuroscience", "query_names": ["Nature Neuroscience", "Nat Neurosci"] },
+    { "name": "Cerebral Cortex", "query_names": ["Cerebral cortex (New York, N.Y. : 1991)", "Cereb Cortex", "Cerebral Cortex"] },
+    { "name": "Cortex", "query_names": ["Cortex"] },
+    { "name": "Nature", "query_names": ["Nature"] },
+    { "name": "Science", "query_names": ["Science"] },
+    { "name": "Science Advances", "query_names": ["Science Advances", "Sci Adv"] },
+    { "name": "PNAS", "query_names": ["Proceedings of the National Academy of Sciences", "PNAS", "Proc Natl Acad Sci U S A"] },
+    { "name": "Communications Psychology", "query_names": ["Communications Psychology", "Commun Psychol"] },
+    { "name": "Communications Biology", "query_names": ["Communications Biology", "Commun Biol"] },
+    { "name": "eLife", "query_names": ["eLife"] },
+    { "name": "Frontiers in Human Neuroscience", "query_names": ["Frontiers in Human Neuroscience", "Front Hum Neurosci"] },
+    { "name": "Molecular Psychiatry", "query_names": ["Molecular Psychiatry", "Mol Psychiatry"] }
+  ],
   "topics": [
     { "label": "Emotion (general)", "mesh_terms": ["Emotions", "Affect", "Affective Symptoms"], "schema_topics": ["Emotion"] },
     { "label": "Basic/discrete emotions", "mesh_terms": ["Fear", "Anger", "Pleasure", "Crying", "Laughter", "Humor"], "schema_topics": ["Emotion"] },

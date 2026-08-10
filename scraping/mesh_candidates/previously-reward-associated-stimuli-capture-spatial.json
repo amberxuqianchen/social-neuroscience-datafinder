@@ -1,0 +1,65 @@
+{
+  "id": "previously-reward-associated-stimuli-capture-spatial",
+  "name": "Previously Reward-Associated Stimuli Capture Spatial Attention in the Absence of Changes in the Corresponding Sensory Representations as Measured with MEG",
+  "modality": [
+    "MEG"
+  ],
+  "topics": [
+    "Cognition",
+    "Learning",
+    "Reward"
+  ],
+  "citation": "Tankelevitch L, Spaak E, Rushworth MFS, Stokes MG. (2020). Previously Reward-Associated Stimuli Capture Spatial Attention in the Absence of Changes in the Corresponding Sensory Representations as Measured with MEG. Journal of Neuroscience.",
+  "doi": "10.1523/jneurosci.1172-19.2020",
+  "year": 2020,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/6ky8b/",
+  "downloadUrl": "https://osf.io/6ky8b/",
+  "publications": [
+    {
+      "title": "Previously Reward-Associated Stimuli Capture Spatial Attention in the Absence of Changes in the Corresponding Sensory Representations as Measured with MEG",
+      "url": "https://doi.org/10.1523/jneurosci.1172-19.2020",
+      "year": 2020
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "32366722",
+    "pmcid": "PMC7314418",
+    "journal_matched": "Journal of Neuroscience",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Attention",
+      "Learning",
+      "Magnetoencephalography",
+      "Reward"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

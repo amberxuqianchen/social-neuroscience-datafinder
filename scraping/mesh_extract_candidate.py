@@ -1,13 +1,45 @@
 """Turn a raw Europe PMC record into a draft dataset candidate, matched via MeSH headings.
 
-Same candidate shape as extract_candidate.build_candidate -- reuses its slugify() and
-find_repository_link() directly -- but topic/method matching is exact set membership
-against the record's own `meshHeadingList`, not regex over title/abstract text. Since
-the Europe PMC query itself already filters server-side on MESH:"...", every hit
-returned is guaranteed to have at least one qualifying heading.
+Self-contained: does not import extract_candidate.py, so the MeSH pipeline has no
+dependency on the free-text pipeline's code. Candidate shape mirrors what that module
+produces, but topic/method matching here is exact set membership against the record's
+own `meshHeadingList`, not regex over title/abstract text. Since the Europe PMC query
+itself already filters server-side on MESH:"...", every hit returned is guaranteed to
+have at least one qualifying heading.
 """
 
-from extract_candidate import find_repository_link, slugify
+import re
+
+# Known dataset-repository domains -> canonical repository label used in dataset JSON.
+REPOSITORY_PATTERNS = [
+    (r"openneuro\.org/datasets/(ds\d+)", "OpenNeuro"),
+    (r"neurovault\.org/collections/(\w+)", "NeuroVault"),
+    (r"osf\.io/(\w+)", "OSF"),
+    (r"datadryad\.org/[\w./-]+", "Dryad"),
+    (r"zenodo\.org/record[s]?/(\d+)", "Zenodo"),
+    (r"figshare\.com/[\w./-]+", "figshare"),
+    (r"openicpsr\.org/[\w./-]+", "openICPSR"),
+    (r"balsa\.wustl\.edu/[\w./-]+", "BALSA"),
+    (r"nda\.nih\.gov/[\w./-]+", "NDA"),
+]
+
+URL_RE = re.compile(r"https?://[^\s)\]}\"',;]+", re.IGNORECASE)
+
+
+def slugify(title, max_words=6):
+    words = re.findall(r"[a-z0-9]+", title.lower())
+    return "-".join(words[:max_words]) or "untitled-dataset"
+
+
+def find_repository_link(text):
+    """Return (repository, url) for the first known-repository URL found in text, else (None, None)."""
+    if not text:
+        return None, None
+    for url in URL_RE.findall(text):
+        for pattern, repo_name in REPOSITORY_PATTERNS:
+            if re.search(pattern, url, re.IGNORECASE):
+                return repo_name, url.rstrip(".,)")
+    return None, None
 
 
 def _record_mesh_terms(record):
