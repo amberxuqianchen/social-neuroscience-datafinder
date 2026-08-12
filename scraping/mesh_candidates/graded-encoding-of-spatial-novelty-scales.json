@@ -1,0 +1,61 @@
+{
+  "id": "graded-encoding-of-spatial-novelty-scales",
+  "name": "Graded encoding of spatial novelty scales in the human brain",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Memory"
+  ],
+  "citation": "Quent JA, Song L, Liang X, Su Y, Yu W, Wang H, Vatansever D. (2025). Graded encoding of spatial novelty scales in the human brain. Nature Communications.",
+  "doi": "10.1038/s41467-025-67012-z",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "repository": "BALSA",
+  "url": "https://balsa.wustl.edu/study/0w1gk",
+  "downloadUrl": "https://balsa.wustl.edu/study/0w1gk",
+  "publications": [
+    {
+      "title": "Graded encoding of spatial novelty scales in the human brain",
+      "url": "https://doi.org/10.1038/s41467-025-67012-z",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "41345117",
+    "pmcid": "PMC12789431",
+    "journal_matched": "Nature Communications",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Magnetic Resonance Imaging",
+      "Recognition, Psychology"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

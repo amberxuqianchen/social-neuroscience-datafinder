@@ -1,0 +1,61 @@
+{
+  "id": "individual-brain-charting-dataset-extension-second",
+  "name": "Individual Brain Charting dataset extension, second release of high-resolution fMRI data for cognitive mapping",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Cognition"
+  ],
+  "citation": "Pinho AL, Amadon A, Gauthier B, Clairis N, Knops A, Genon S, Dohmatob E, Torre JJ, Ginisty C, Becuwe-Desmidt S, Roger S, Lecomte Y, Berland V, Laurier L, Joly-Testault V, M\u00e9diouni-Cloarec G, Doubl\u00e9 C, Martins B, Salmon E, Piazza M, Melcher D, Pessiglione M, van Wassenhove V, Eger E, Varoquaux G, Dehaene S, Hertz-Pannier L, Thirion B. (2020). Individual Brain Charting dataset extension, second release of high-resolution fMRI data for cognitive mapping. Scientific Data.",
+  "doi": "10.1038/s41597-020-00670-4",
+  "year": 2020,
+  "tags": [],
+  "featured": false,
+  "repository": "OpenNeuro",
+  "url": "https://openneuro.org/datasets/ds002685/versions/1.0.0",
+  "downloadUrl": "https://openneuro.org/datasets/ds002685/versions/1.0.0",
+  "publications": [
+    {
+      "title": "Individual Brain Charting dataset extension, second release of high-resolution fMRI data for cognitive mapping",
+      "url": "https://doi.org/10.1038/s41597-020-00670-4",
+      "year": 2020
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "33067452",
+    "pmcid": "PMC7567863",
+    "journal_matched": "Scientific Data",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Cognition",
+      "Magnetic Resonance Imaging"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

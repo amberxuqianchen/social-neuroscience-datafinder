@@ -1,0 +1,63 @@
+{
+  "id": "age-associated-cortical-thinning-in-speech",
+  "name": "Age-Associated Cortical Thinning in Speech Motor Regions Precedes Hippocampal Decline: Implications for Alzheimer's Disease",
+  "modality": [
+    "Connectomics",
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Developmental Psychology"
+  ],
+  "citation": "Hanford LC, Jacoby J, Salat DH, Arnold SE, Eshghi M. (2025). Age-Associated Cortical Thinning in Speech Motor Regions Precedes Hippocampal Decline: Implications for Alzheimer's Disease. Human Brain Mapping.",
+  "doi": "10.1002/hbm.70288",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "repository": "NDA",
+  "url": "https://nda.nih.gov/study.html?id=1062",
+  "downloadUrl": "https://nda.nih.gov/study.html?id=1062",
+  "publications": [
+    {
+      "title": "Age-Associated Cortical Thinning in Speech Motor Regions Precedes Hippocampal Decline: Implications for Alzheimer's Disease",
+      "url": "https://doi.org/10.1002/hbm.70288",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "40698900",
+    "pmcid": "PMC12284906",
+    "journal_matched": "Human Brain Mapping",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Aging",
+      "Connectome",
+      "Magnetic Resonance Imaging"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

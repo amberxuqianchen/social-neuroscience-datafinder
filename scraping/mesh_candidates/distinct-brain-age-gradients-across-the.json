@@ -1,0 +1,61 @@
+{
+  "id": "distinct-brain-age-gradients-across-the",
+  "name": "Distinct brain age gradients across the adult lifespan reflect diverse neurobiological hierarchies",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Developmental Psychology"
+  ],
+  "citation": "Riccardi N, Teghipco A, Newman-Norlund S, Newman-Norlund R, Rangus I, Rorden C, Fridriksson J, Bonilha L. (2025). Distinct brain age gradients across the adult lifespan reflect diverse neurobiological hierarchies. Communications Biology.",
+  "doi": "10.1038/s42003-025-08228-z",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "repository": "OpenNeuro",
+  "url": "https://openneuro.org/datasets/ds005270/versions/1.0.0",
+  "downloadUrl": "https://openneuro.org/datasets/ds005270/versions/1.0.0",
+  "publications": [
+    {
+      "title": "Distinct brain age gradients across the adult lifespan reflect diverse neurobiological hierarchies",
+      "url": "https://doi.org/10.1038/s42003-025-08228-z",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "40415122",
+    "pmcid": "PMC12104373",
+    "journal_matched": "Communications Biology",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Aging",
+      "Magnetic Resonance Imaging"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

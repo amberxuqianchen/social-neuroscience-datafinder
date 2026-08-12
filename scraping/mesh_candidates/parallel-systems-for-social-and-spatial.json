@@ -1,0 +1,61 @@
+{
+  "id": "parallel-systems-for-social-and-spatial",
+  "name": "Parallel systems for social and spatial cognition reaching the cortical apex",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Cognition"
+  ],
+  "citation": "Deen B, Freiwald WA. (2025). Parallel systems for social and spatial cognition reaching the cortical apex. PNAS.",
+  "doi": "10.1073/pnas.2520067122",
+  "year": 2025,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/5yjgh/",
+  "downloadUrl": "https://osf.io/5yjgh/",
+  "publications": [
+    {
+      "title": "Parallel systems for social and spatial cognition reaching the cortical apex",
+      "url": "https://doi.org/10.1073/pnas.2520067122",
+      "year": 2025
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "41166425",
+    "pmcid": "PMC12595413",
+    "journal_matched": "PNAS",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Cognition",
+      "Magnetic Resonance Imaging"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

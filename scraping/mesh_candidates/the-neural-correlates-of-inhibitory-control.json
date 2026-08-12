@@ -1,0 +1,62 @@
+{
+  "id": "the-neural-correlates-of-inhibitory-control",
+  "name": "The neural correlates of inhibitory control in 10-month-old infants: A functional near-infrared spectroscopy study",
+  "modality": [
+    "fNIRS"
+  ],
+  "topics": [
+    "Cognition"
+  ],
+  "citation": "Fiske A, de Klerk C, Lui KYK, Collins-Jones L, Hendry A, Greenhalgh I, Hall A, Scerif G, Dvergsdal H, Holmboe K. (2022). The neural correlates of inhibitory control in 10-month-old infants: A functional near-infrared spectroscopy study. NeuroImage.",
+  "doi": "10.1016/j.neuroimage.2022.119241",
+  "year": 2022,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/qs4h8",
+  "downloadUrl": "https://osf.io/qs4h8",
+  "publications": [
+    {
+      "title": "The neural correlates of inhibitory control in 10-month-old infants: A functional near-infrared spectroscopy study",
+      "url": "https://doi.org/10.1016/j.neuroimage.2022.119241",
+      "year": 2022
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "35537598",
+    "pmcid": "PMC7616317",
+    "journal_matched": "NeuroImage",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Executive Function",
+      "Inhibition, Psychological",
+      "Spectroscopy, Near-Infrared"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}

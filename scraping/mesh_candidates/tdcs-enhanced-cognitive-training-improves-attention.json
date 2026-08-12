@@ -1,0 +1,63 @@
+{
+  "id": "tdcs-enhanced-cognitive-training-improves-attention",
+  "name": "tDCS-enhanced cognitive training improves attention and alters connectivity in control and somatomotor networks: A triple blind study",
+  "modality": [
+    "Neuroimaging (general)"
+  ],
+  "topics": [
+    "Cognition"
+  ],
+  "citation": "Kazinka R, Roediger D, Xuan L, Yu L, Mueller BA, Camchong J, Opitz A, MacDonald A, Lim KO. (2024). tDCS-enhanced cognitive training improves attention and alters connectivity in control and somatomotor networks: A triple blind study. NeuroImage.",
+  "doi": "10.1016/j.neuroimage.2024.120792",
+  "year": 2024,
+  "tags": [],
+  "featured": false,
+  "repository": "OSF",
+  "url": "https://osf.io/ayzjt/",
+  "downloadUrl": "https://osf.io/ayzjt/",
+  "publications": [
+    {
+      "title": "tDCS-enhanced cognitive training improves attention and alters connectivity in control and somatomotor networks: A triple blind study",
+      "url": "https://doi.org/10.1016/j.neuroimage.2024.120792",
+      "year": 2024
+    }
+  ],
+  "_meta": {
+    "source": "europepmc-mesh",
+    "pmid": "39147294",
+    "pmcid": "PMC11425656",
+    "journal_matched": "NeuroImage",
+    "matched_topic_tags": [],
+    "matched_method_tags": [],
+    "matched_mesh_headings": [
+      "Attention",
+      "Cognition",
+      "Executive Function",
+      "Magnetic Resonance Imaging"
+    ],
+    "used_fulltext": true,
+    "has_repository_link": true,
+    "schema_check": {
+      "valid": true,
+      "errors": [],
+      "missing_required": [
+        "description",
+        "sampleSize",
+        "species",
+        "longitudinal",
+        "openAccess"
+      ]
+    }
+  },
+  "_needs_review": [
+    "accessType",
+    "description",
+    "longitudinal",
+    "openAccess",
+    "sampleSize",
+    "shortName",
+    "socialNetworkData",
+    "species",
+    "confirm dataset link, repository name, and accessType against source"
+  ]
+}
