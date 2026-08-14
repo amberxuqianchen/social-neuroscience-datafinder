@@ -42,7 +42,7 @@
     { "label": "Aggression / violence", "mesh_terms": ["Aggression", "Violence"], "schema_topics": ["Intergroup Processes"] },
     { "label": "Intergroup bias / prejudice", "mesh_terms": ["Prejudice", "Racism", "Social Identification", "Group Processes"], "schema_topics": ["Intergroup Processes"]},
     { "label": "Social behavior / interaction", "mesh_terms": ["Social Behavior", "Social Interaction", "Social Environment", "Interpersonal Relations"], "schema_topics": ["Social Interaction"] },
-    { "label": "Social comparison / self", "mesh_terms": ["Social Comparison", "Self Concept", "Ego", "Individuality"], "schema_topics": ["Self and identity"] },
+    { "label": "Social comparison / self", "mesh_terms": ["Social Comparison", "Self Concept", "Ego", "Individuality"], "schema_topics": ["Self and Identity"] },
     { "label": "Communication / language", "mesh_terms": ["Communication", "Speech Perception", "Voice", "Gestures"], "schema_topics": ["Communication"]},
     { "label": "Parenting relationships", "mesh_terms": ["Parent-Child Relations", "Parenting", "Mother-Child Relations", "Mothers", "Family Relations", "Family", "Object Attachment"], "schema_topics": ["Developmental Psychology"] },
     { "label": "Family relationship / close relationship", "mesh_terms": ["Marriage", "Spouses", "Siblings"], "schema_topics": ["Close Relationship"]},
