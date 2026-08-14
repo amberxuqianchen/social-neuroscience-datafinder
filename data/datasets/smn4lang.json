@@ -4,13 +4,14 @@
   "shortName": "SMN4Lang",
   "description": "OpenNeuro dataset (ds004078) pairing fMRI with rich speech and music stimuli and detailed linguistic annotations in Mandarin Chinese. Designed for fine-grained modeling of naturalistic language and auditory processing.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication",
-    "culture"
+    "Communication",
+    "Culture"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 12,
   "species": "Human",

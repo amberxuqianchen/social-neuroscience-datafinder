@@ -23,7 +23,12 @@ export function datasetPageUrl(dataset: Dataset): string {
 /** A `schema.org/Dataset` description of a single catalog entry. */
 export function datasetJsonLd(dataset: Dataset): Record<string, unknown> {
   const keywords = Array.from(
-    new Set([...dataset.topics, ...dataset.modality, ...(dataset.tags ?? [])])
+    new Set([
+      ...dataset.topics,
+      ...dataset.modality,
+      ...(dataset.paradigm ?? []),
+      ...(dataset.tags ?? []),
+    ])
   );
 
   const sameAs = Array.from(

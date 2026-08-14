@@ -4,14 +4,15 @@
   "shortName": "Paranoia",
   "description": "OpenNeuro dataset (ds001338) in which 22 participants listened to an original spoken story engineered to evoke varying degrees of paranoia and suspicion. Designed to study individual differences in social inference and mentalizing during naturalistic listening.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "theory of mind",
-    "social cognition",
-    "communication"
+    "Theory of Mind",
+    "Social Cognition",
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 22,
   "species": "Human",

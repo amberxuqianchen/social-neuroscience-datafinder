@@ -31,11 +31,13 @@
     "modality": {
       "type": "array",
       "minItems": 1,
+      "description": "How the data were measured. Measurement method only — stimulus paradigm belongs in `paradigm`, study population in `topics`.",
       "items": {
         "enum": [
           "Neuroimaging (general)", "fMRI", "MRI", "EEG", "MEG", "iEEG", "fNIRS",
-          "Psychophysiology", "Calcium Imaging", "Connectomics", "Genotyping/Hormone/Neurotransmitter",
-          "Eye Tracking", "Structural MRI", "Diffusion MRI"
+          "Psychophysiology", "Electrophysiology", "Calcium Imaging", "Connectomics",
+          "Genotyping/Hormone/Neurotransmitter", "Eye Tracking", "Structural MRI", "Diffusion MRI",
+          "Behavioral", "Social Network"
         ]
       }
     },
@@ -45,11 +47,20 @@
         "enum": [
           "Social Cognition", "Close Relationship", "Social Networks", "Moral Judgment",
           "Intergroup Processes", "Competition", "Empathy", "Theory of Mind",
-          "Impression Formation", "Self and identity",
+          "Impression Formation", "Self and Identity",
           "Culture", "Decision Making", "Communication",
           "Emotion", "Social Perception", "Social Interaction",
-          "Memory", "Developmental Psychology", "Clinical Psychology", "Cognition", "Learning", "Public Health",
+          "Memory", "Developmental Psychology", "Aging", "Clinical Psychology", "Cognition", "Learning", "Public Health",
           "Reward", "Prosocial Behavior"
+        ]
+      }
+    },
+    "paradigm": {
+      "type": "array",
+      "description": "Stimulus / task design used to acquire the data. Orthogonal to `modality`.",
+      "items": {
+        "enum": [
+          "Naturalistic", "Task-based", "Resting-state", "Hyperscanning"
         ]
       }
     },

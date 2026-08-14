@@ -4,11 +4,13 @@
   "shortName": "Life",
   "description": "fMRI from 18 participants watching the BBC 'Life' nature documentary, shared via DataLad. A naturalistic dataset for hyperalignment and modeling of dynamic audiovisual representation.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing"
+    "Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 18,
   "species": "Human",

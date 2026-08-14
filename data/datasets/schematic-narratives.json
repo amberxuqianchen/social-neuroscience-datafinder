@@ -4,13 +4,14 @@
   "shortName": "Schematic Narratives",
   "description": "OpenNeuro dataset (ds001510) using audiovisual and audio narratives that share underlying event schemas. Used to study how the brain represents abstract event structure and social scripts across different stories.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "memory",
-    "social cognition"
+    "Memory",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 31,
   "species": "Human",

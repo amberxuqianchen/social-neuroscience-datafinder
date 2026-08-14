@@ -4,12 +4,13 @@
   "shortName": "BOLDmoments",
   "description": "OpenNeuro dataset (ds005165) of 10 participants viewing thousands of brief (3 s) naturalistic video clips during fMRI. A dense event-related resource for modeling rapid dynamic visual and social scene perception.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "social interaction"
+    "Social Interaction"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 10,
   "species": "Human",

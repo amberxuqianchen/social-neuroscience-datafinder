@@ -6,12 +6,13 @@
   "modality": [
     "EEG",
     "Eye Tracking",
-    "Naturalistic",
     "Behavioral"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication"
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 12,
   "species": "Human",

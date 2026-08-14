@@ -4,12 +4,13 @@
   "shortName": "Reading Brain L2",
   "description": "OpenNeuro dataset (ds003988) of second-language readers during naturalistic text reading, complementing the L1 Reading Brain Project. Used to study bilingual and second-language comprehension.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication"
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 56,
   "species": "Human",

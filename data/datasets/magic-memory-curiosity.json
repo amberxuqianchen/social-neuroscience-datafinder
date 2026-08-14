@@ -4,13 +4,14 @@
   "shortName": "MMC",
   "description": "OpenNeuro dataset (ds004182) of 50 participants watching naturalistic magic-trick videos during fMRI. Designed to study curiosity, surprise, prediction error, and memory in a rich naturalistic setting.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "memory",
-    "decision making"
+    "Memory",
+    "Decision Making"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 50,
   "species": "Human",

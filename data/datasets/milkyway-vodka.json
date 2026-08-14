@@ -4,13 +4,14 @@
   "shortName": "MilkyWay/Vodka",
   "description": "OpenNeuro dataset (ds001131) in which participants heard ambiguous spoken narratives ('MilkyWay' and 'Vodka') under different contextual primes. Designed to study how prior context shapes shared neural interpretation of the same social story.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication",
-    "social cognition"
+    "Communication",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 54,
   "species": "Human",

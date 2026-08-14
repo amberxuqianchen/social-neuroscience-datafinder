@@ -5,14 +5,15 @@
   "description": "OpenNeuro dataset (ds001110) in which participants watched or listened to 'Sherlock' and 'Merlin' episodes and then freely recalled them during fMRI. Used to study how narrative comprehension and memory are shared across encoding and recall.",
   "modality": [
     "fMRI",
-    "Naturalistic",
     "Behavioral"
   ],
   "topics": [
-    "naturalistic viewing",
-    "memory",
-    "communication",
-    "social cognition"
+    "Memory",
+    "Communication",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 37,
   "species": "Human",

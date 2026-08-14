@@ -6,15 +6,14 @@
   "modality": [
     "fMRI",
     "Structural MRI",
-    "Diffusion MRI",
-    "Multimodal"
+    "Diffusion MRI"
   ],
   "topics": [
-    "social cognition",
-    "theory of mind",
-    "emotion",
-    "culture",
-    "decision making"
+    "Social Cognition",
+    "Theory of Mind",
+    "Emotion",
+    "Culture",
+    "Decision Making"
   ],
   "sampleSize": 366,
   "species": "Human",

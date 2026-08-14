@@ -41,7 +41,7 @@ export function HBarList({
         const pct = Math.round((d.count / scaleMax) * 100);
         return (
           <li key={d.label} className="grid grid-cols-[8rem_1fr_2rem] items-center gap-3 text-sm">
-            <span className="truncate capitalize text-muted" title={d.label}>
+            <span className="truncate text-muted" title={d.label}>
               {d.label}
             </span>
             <span className="relative h-5 overflow-hidden rounded bg-surface-2">

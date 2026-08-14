@@ -4,11 +4,13 @@
   "shortName": "vim-2",
   "description": "BOLD fMRI from 3 participants viewing hours of natural movie trailers, released via CRCNS. A widely used benchmark for encoding/decoding models of dynamic natural vision and reconstruction of perceived movies.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing"
+    "Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 3,
   "species": "Human",

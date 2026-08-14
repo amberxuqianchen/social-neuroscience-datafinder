@@ -4,11 +4,13 @@
   "shortName": "Short Clips",
   "description": "fMRI from 5 participants watching natural short video clips, shared on G-Node GIN. Used to build voxel-wise semantic models mapping how the brain represents object and action categories in continuous natural vision.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing"
+    "Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 5,
   "species": "Human",

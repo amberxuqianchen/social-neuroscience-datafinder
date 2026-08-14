@@ -36,6 +36,9 @@ export default function DatasetCard({ dataset }: { dataset: Dataset }) {
           <Badge key={m} variant="brand">{m}</Badge>
         ))}
         {extraModalities > 0 && <Badge variant="outline">+{extraModalities}</Badge>}
+        {(dataset.paradigm ?? []).map((p) => (
+          <Badge key={p} variant="outline" title="Stimulus paradigm">{p}</Badge>
+        ))}
       </div>
 
       <dl className="mt-4 grid grid-cols-3 gap-2 border-t border-border pt-4 text-xs">

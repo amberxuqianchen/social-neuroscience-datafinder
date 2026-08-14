@@ -5,14 +5,14 @@
   "description": "An FCP/INDI dataset of 22 adults with simultaneous EEG and fMRI during naturalistic movie viewing, rest, and flicker tasks. A multimodal resource for studying dynamic brain activity during naturalistic social and emotional stimulation.",
   "modality": [
     "EEG",
-    "fMRI",
-    "Naturalistic",
-    "Multimodal"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "emotion",
-    "social cognition"
+    "Emotion",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 22,
   "species": "Human",

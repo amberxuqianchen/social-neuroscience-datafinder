@@ -4,13 +4,15 @@
   "shortName": "Public Speaking",
   "description": "OpenNeuro dataset (ds005920) of 31 young adults during a naturalistic public-speaking paradigm in fMRI. Designed to study social-evaluative stress, anxiety, and self-presentation.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "social interaction",
-    "emotion",
-    "communication"
+    "Social Interaction",
+    "Emotion",
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 31,
   "species": "Human",

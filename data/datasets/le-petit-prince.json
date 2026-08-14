@@ -4,13 +4,14 @@
   "shortName": "Le Petit Prince",
   "description": "OpenNeuro dataset (ds003643) of 112 participants listening to an audiobook of 'The Little Prince' in English, Chinese, and French during fMRI. A multilingual naturalistic language resource for cross-language comprehension.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication",
-    "culture"
+    "Communication",
+    "Culture"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 112,
   "species": "Human",

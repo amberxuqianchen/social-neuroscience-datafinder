@@ -4,11 +4,13 @@
   "shortName": "NFED",
   "description": "OpenNeuro dataset (ds005047) of 5 participants viewing large numbers of natural scenes during fMRI. A deep per-subject resource for building and testing visual encoding models on naturalistic imagery.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing"
+    "Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 5,
   "species": "Human",

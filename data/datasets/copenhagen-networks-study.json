@@ -4,7 +4,7 @@
   "shortName": "Copenhagen Networks",
   "description": "A multi-layer temporal social network connecting more than 700 university students over four weeks, collected via smartphones. Layers include physical proximity (Bluetooth), phone calls, text messages, and Facebook friendships (no message content). One of the richest open human social-interaction datasets, ideal for collective behavior, social-network, and computational social-science research.",
   "modality": ["Social Network", "Behavioral"],
-  "topics": ["social networks", "collective behavior", "communication", "friendship", "group behavior"],
+  "topics": ["Social Networks", "Intergroup Processes", "Communication", "Close Relationship"],
   "sampleSize": 700,
   "species": "Human",
   "longitudinal": true,

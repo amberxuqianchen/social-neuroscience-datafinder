@@ -15,6 +15,7 @@ const CSV_COLUMNS: { key: keyof Dataset; header: string }[] = [
   { key: "description", header: "description" },
   { key: "modality", header: "modality" },
   { key: "topics", header: "topics" },
+  { key: "paradigm", header: "paradigm" },
   { key: "sampleSize", header: "sample_size" },
   { key: "species", header: "species" },
   { key: "longitudinal", header: "longitudinal" },

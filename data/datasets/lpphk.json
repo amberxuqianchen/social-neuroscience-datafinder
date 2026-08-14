@@ -4,14 +4,15 @@
   "shortName": "LPPHK",
   "description": "OpenNeuro dataset (ds004718) of 46 older Cantonese-speaking adults listening to 'The Little Prince' during fMRI. A naturalistic language resource extending Le Petit Prince to Cantonese and ageing populations.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication",
-    "aging",
-    "culture"
+    "Communication",
+    "Aging",
+    "Culture"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 46,
   "species": "Human",

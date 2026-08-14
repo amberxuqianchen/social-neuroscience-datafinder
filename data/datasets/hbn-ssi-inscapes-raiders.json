@@ -4,12 +4,13 @@
   "shortName": "HBN-SSI",
   "description": "A deep-scanning fMRI dataset from the Healthy Brain Network Serial Scanning Initiative, with participants repeatedly viewing naturalistic stimuli including 'Inscapes' and 'Raiders of the Lost Ark'. Supports test–retest reliability research on naturalistic and social processing.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "social cognition"
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 13,
   "species": "Human",

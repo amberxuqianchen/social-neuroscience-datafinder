@@ -4,12 +4,13 @@
   "shortName": "Human Action",
   "description": "OpenNeuro dataset (ds004488) of participants viewing short clips of everyday human actions during fMRI. Supports research on action understanding and the social perception of others' behavior.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "social interaction"
+    "Social Interaction"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 30,
   "species": "Human",

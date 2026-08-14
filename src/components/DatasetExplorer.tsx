@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Dataset, Modality, Topic } from "@/lib/types";
-import { MODALITIES, SAMPLE_SIZE_BUCKETS, TOPICS } from "@/lib/constants";
+import type { Dataset, Modality, Paradigm, Topic } from "@/lib/types";
+import { MODALITIES, PARADIGMS, SAMPLE_SIZE_BUCKETS, TOPICS } from "@/lib/constants";
 import DatasetCard from "./DatasetCard";
 import ExportButtons from "./ExportButtons";
 
@@ -14,6 +14,8 @@ interface Props {
   initialQuery?: string;
   /** Pre-select a modality filter (e.g. from a category card link). */
   initialModality?: Modality;
+  /** Pre-select a paradigm filter (e.g. from the homepage "naturalistic" chip). */
+  initialParadigm?: Paradigm;
 }
 
 /**
@@ -21,10 +23,18 @@ interface Props {
  * the entire dataset list is small and statically bundled, every keystroke and
  * filter recomputes instantly with no network requests.
  */
-export default function DatasetExplorer({ datasets, initialQuery = "", initialModality }: Props) {
+export default function DatasetExplorer({
+  datasets,
+  initialQuery = "",
+  initialModality,
+  initialParadigm,
+}: Props) {
   const [query, setQuery] = useState(initialQuery);
   const [selectedModalities, setSelectedModalities] = useState<Set<Modality>>(
     initialModality ? new Set([initialModality]) : new Set()
+  );
+  const [selectedParadigms, setSelectedParadigms] = useState<Set<Paradigm>>(
+    initialParadigm ? new Set([initialParadigm]) : new Set()
   );
   const [selectedTopics, setSelectedTopics] = useState<Set<Topic>>(new Set());
   const [sizeBucket, setSizeBucket] = useState<string>("any");
@@ -46,6 +56,11 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
     return MODALITIES.filter((m) => present.has(m));
   }, [datasets]);
 
+  const availableParadigms = useMemo(() => {
+    const present = new Set(datasets.flatMap((d) => d.paradigm ?? []));
+    return PARADIGMS.filter((p) => present.has(p));
+  }, [datasets]);
+
   const availableTopics = useMemo(() => {
     const present = new Set(datasets.flatMap((d) => d.topics));
     return TOPICS.filter((t) => present.has(t));
@@ -65,6 +80,7 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
           d.repository ?? "",
           d.species,
           d.modality.join(" "),
+          (d.paradigm ?? []).join(" "),
           d.topics.join(" "),
           (d.tags ?? []).join(" "),
         ]
@@ -74,6 +90,12 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
       }
 
       if (selectedModalities.size > 0 && !d.modality.some((m) => selectedModalities.has(m))) {
+        return false;
+      }
+      if (
+        selectedParadigms.size > 0 &&
+        !(d.paradigm ?? []).some((p) => selectedParadigms.has(p))
+      ) {
         return false;
       }
       if (selectedTopics.size > 0 && !d.topics.some((t) => selectedTopics.has(t))) {
@@ -96,6 +118,7 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
     datasets,
     query,
     selectedModalities,
+    selectedParadigms,
     selectedTopics,
     sizeBucket,
     openOnly,
@@ -115,6 +138,7 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
   function clearAll() {
     setQuery("");
     setSelectedModalities(new Set());
+    setSelectedParadigms(new Set());
     setSelectedTopics(new Set());
     setSizeBucket("any");
     setOpenOnly(false);
@@ -125,6 +149,7 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
 
   const activeFilterCount =
     selectedModalities.size +
+    selectedParadigms.size +
     selectedTopics.size +
     (sizeBucket !== "any" ? 1 : 0) +
     (openOnly ? 1 : 0) +
@@ -204,6 +229,27 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
           </div>
         </FilterGroup>
 
+        {availableParadigms.length > 0 && (
+          <FilterGroup title="Paradigm">
+            <div className="flex flex-wrap gap-1.5">
+              {availableParadigms.map((p) => {
+                const active = selectedParadigms.has(p);
+                return (
+                  <button
+                    key={p}
+                    onClick={() => toggleSet(selectedParadigms, p, setSelectedParadigms)}
+                    className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
+                      active ? "bg-brand text-brand-fg" : "bg-surface-2 text-muted hover:text-fg"
+                    }`}
+                  >
+                    {p}
+                  </button>
+                );
+              })}
+            </div>
+          </FilterGroup>
+        )}
+
         <FilterGroup title="Topic">
           <div className="flex flex-wrap gap-1.5">
             {availableTopics.map((t) => {
@@ -212,7 +258,7 @@ export default function DatasetExplorer({ datasets, initialQuery = "", initialMo
                 <button
                   key={t}
                   onClick={() => toggleSet(selectedTopics, t, setSelectedTopics)}
-                  className={`rounded-full px-2.5 py-1 text-xs font-medium capitalize transition-colors ${
+                  className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
                     active ? "bg-accent text-white" : "bg-surface-2 text-muted hover:text-fg"
                   }`}
                 >

@@ -4,14 +4,16 @@
   "shortName": "DynAMoS",
   "description": "A multimodal dataset of naturalistic dyadic social interactions with synchronized audio, video, and facial-behavior coding from 83 adults. Designed for studying dynamic affect, facial expression, and communication during real conversations.",
   "modality": [
-    "Behavioral",
-    "Naturalistic"
+    "Behavioral"
   ],
   "topics": [
-    "social interaction",
-    "emotion",
-    "communication",
-    "face perception"
+    "Social Interaction",
+    "Emotion",
+    "Communication",
+    "Social Perception"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 83,
   "species": "Human",

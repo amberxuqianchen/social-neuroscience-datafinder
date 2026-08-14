@@ -5,13 +5,14 @@
   "description": "An OSF dataset of 229 participants who watched naturalistic videos and then freely recalled them, with transcribed recall. A large behavioral/neural resource for studying naturalistic memory and narrative reconstruction.",
   "modality": [
     "fMRI",
-    "Naturalistic",
     "Behavioral"
   ],
   "topics": [
-    "naturalistic viewing",
-    "memory",
-    "communication"
+    "Memory",
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 229,
   "species": "Human",

@@ -4,15 +4,15 @@
   "shortName": "HBN Movies",
   "description": "Naturalistic movie fMRI from the Child Mind Institute Healthy Brain Network: ~830 children and adolescents viewed short films ('Despicable Me' and 'The Present'). A large developmental resource for naturalistic social and emotional processing.",
   "modality": [
-    "fMRI",
-    "Naturalistic",
-    "Developmental"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "development",
-    "emotion",
-    "social cognition"
+    "Developmental Psychology",
+    "Emotion",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 830,
   "species": "Human",

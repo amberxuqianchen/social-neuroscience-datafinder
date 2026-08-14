@@ -4,7 +4,7 @@
   "shortName": "fNIRS Social Touch",
   "description": "An open fNIRS hyperscanning dataset of 47 female dyads (24 friend pairs, 23 stranger pairs) measuring concurrent hemodynamic activity in both partners during social touch, with trial-by-trial valence/arousal ratings and extensive questionnaires. It enables study of inter-brain synchrony, social relationship, and affective touch — a model two-brain dataset for real-world social neuroscience.",
   "modality": ["fNIRS", "Behavioral", "Social Network"],
-  "topics": ["social interaction", "friendship", "empathy", "emotion", "communication", "cooperation"],
+  "topics": ["Social Interaction", "Close Relationship", "Empathy", "Emotion", "Communication", "Prosocial Behavior"],
   "sampleSize": 94,
   "species": "Human",
   "longitudinal": false,

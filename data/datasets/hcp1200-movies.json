@@ -4,13 +4,14 @@
   "shortName": "HCP Movies",
   "description": "The Human Connectome Project 7T movie-watching fMRI release: ~184 young adults viewed Hollywood and independent film clips. A high-field naturalistic resource often paired with HCP's rich behavioral and social-task data.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "social cognition",
-    "emotion"
+    "Social Cognition",
+    "Emotion"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 184,
   "species": "Human",

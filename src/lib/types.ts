@@ -8,52 +8,64 @@
  * validate community contributions in CI.
  */
 
-/** Acquisition / data categories supported by the directory. */
+/**
+ * How the data were measured. Measurement method only — the stimulus design
+ * lives in `Paradigm` and the study population in `Topic`, so a movie-watching
+ * fMRI study is `modality: ["fMRI"]` + `paradigm: ["Naturalistic"]`.
+ */
 export type Modality =
+  | "Neuroimaging (general)"
   | "fMRI"
+  | "MRI"
   | "EEG"
   | "MEG"
   | "iEEG"
   | "fNIRS"
-  | "Behavioral"
-  | "Social Network"
-  | "Multimodal"
-  | "Developmental"
-  | "Naturalistic"
+  | "Psychophysiology"
   | "Electrophysiology"
   | "Calcium Imaging"
   | "Connectomics"
-  | "Genetics"
+  | "Genotyping/Hormone/Neurotransmitter"
   | "Eye Tracking"
   | "Structural MRI"
-  | "Diffusion MRI";
+  | "Diffusion MRI"
+  | "Behavioral"
+  | "Social Network";
+
+/** Stimulus / task design used to acquire the data. Orthogonal to `Modality`. */
+export type Paradigm =
+  | "Naturalistic"
+  | "Task-based"
+  | "Resting-state"
+  | "Hyperscanning";
 
 /** Social-neuroscience research topics a dataset can be tagged with. */
 export type Topic =
-  | "social cognition"
-  | "friendship"
-  | "social networks"
-  | "moral judgment"
-  | "cooperation"
-  | "competition"
-  | "empathy"
-  | "theory of mind"
-  | "impression formation"
-  | "social learning"
-  | "group behavior"
-  | "identity"
-  | "culture"
-  | "decision making"
-  | "communication"
-  | "collective behavior"
-  | "emotion"
-  | "face perception"
-  | "social interaction"
-  | "naturalistic viewing"
-  | "memory"
-  | "development"
-  | "aging"
-  | "mental health";
+  | "Social Cognition"
+  | "Close Relationship"
+  | "Social Networks"
+  | "Moral Judgment"
+  | "Intergroup Processes"
+  | "Competition"
+  | "Empathy"
+  | "Theory of Mind"
+  | "Impression Formation"
+  | "Self and Identity"
+  | "Culture"
+  | "Decision Making"
+  | "Communication"
+  | "Emotion"
+  | "Social Perception"
+  | "Social Interaction"
+  | "Memory"
+  | "Developmental Psychology"
+  | "Aging"
+  | "Clinical Psychology"
+  | "Cognition"
+  | "Learning"
+  | "Public Health"
+  | "Reward"
+  | "Prosocial Behavior";
 
 /** How a researcher can obtain the data. */
 export type AccessType = "open" | "registered" | "restricted";
@@ -80,6 +92,8 @@ export interface Dataset {
   description: string;
   modality: Modality[];
   topics: Topic[];
+  /** Stimulus / task design, e.g. ["Naturalistic"]. Absent when unclassified. */
+  paradigm?: Paradigm[];
   sampleSize: number;
   /** Free-text species, e.g. "Human", "Mouse". */
   species: string;

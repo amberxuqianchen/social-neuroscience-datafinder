@@ -4,12 +4,13 @@
   "shortName": "MEG-MASC",
   "description": "A MEG dataset of 27 participants listening to ~2 hours of naturalistic narrated stories (the MASC corpus), with rich linguistic annotations. A high-temporal-resolution resource for modeling continuous speech comprehension.",
   "modality": [
-    "MEG",
-    "Naturalistic"
+    "MEG"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication"
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 27,
   "species": "Human",

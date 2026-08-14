@@ -4,13 +4,14 @@
   "shortName": "Raiders",
   "description": "fMRI responses from 11 young adults watching the full feature film 'Raiders of the Lost Ark' (~115 min). A foundational naturalistic dataset for functional hyperalignment, modeling shared representational geometry across brains during rich, socially complex viewing.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "social cognition",
-    "memory"
+    "Social Cognition",
+    "Memory"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 11,
   "species": "Human",

@@ -4,12 +4,13 @@
   "shortName": "Emo-FilM",
   "description": "OpenNeuro dataset (ds004892) of 30 participants watching emotionally rich films during fMRI, with continuous emotion annotations. A resource for modeling the dynamics of affective experience during naturalistic viewing.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "emotion"
+    "Emotion"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 30,
   "species": "Human",

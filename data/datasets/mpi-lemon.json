@@ -4,7 +4,7 @@
   "shortName": "LEMON",
   "description": "A cross-sectional mind-brain-body dataset from 228 healthy adults in two age groups (young, ~20-35; older, ~59-77) combining 3T MRI (resting-state fMRI, structural, diffusion), 62-channel resting EEG, and extensive cognition, emotion, and personality measures. Useful for studying emotional and social-affective traits and how they differ across healthy aging.",
   "modality": ["EEG", "fMRI", "Structural MRI", "Behavioral"],
-  "topics": ["emotion", "aging", "mental health", "decision making"],
+  "topics": ["Emotion", "Aging", "Clinical Psychology", "Decision Making"],
   "sampleSize": 228,
   "species": "Human",
   "longitudinal": false,

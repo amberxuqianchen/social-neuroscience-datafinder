@@ -4,11 +4,13 @@
   "shortName": "Dr. Who",
   "description": "A single-subject deep fMRI dataset from the Radboud Data Repository in which one participant watched ~23 hours ('Doctor Who') of audiovisual drama. Designed for high-power individual encoding/decoding models of naturalistic vision.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing"
+    "Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 1,
   "species": "Human",

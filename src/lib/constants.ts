@@ -1,4 +1,4 @@
-import type { Modality, Topic } from "./types";
+import type { Modality, Paradigm, Topic } from "./types";
 
 /** Site-wide metadata. */
 export const SITE = {
@@ -11,7 +11,11 @@ export const SITE = {
   repo: "https://github.com/amberxuqianchen/social-neuroscience-datafinder",
 };
 
-/** The ten dataset categories from the project brief, used for the home grid. */
+/**
+ * The dataset categories used for the home grid. `Naturalistic` is a paradigm
+ * rather than a modality, so it is keyed off `paradigm` instead — see
+ * `PARADIGMS` below.
+ */
 export const CATEGORIES: { modality: Modality; label: string; blurb: string }[] = [
   { modality: "fMRI", label: "fMRI", blurb: "Functional MRI of the social brain" },
   { modality: "EEG", label: "EEG", blurb: "Electroencephalography time series" },
@@ -20,58 +24,67 @@ export const CATEGORIES: { modality: Modality; label: string; blurb: string }[] 
   { modality: "fNIRS", label: "fNIRS", blurb: "Optical hemodynamic imaging" },
   { modality: "Behavioral", label: "Behavioral", blurb: "Tasks, surveys, ratings" },
   { modality: "Social Network", label: "Social Networks", blurb: "Relational & graph data" },
-  { modality: "Multimodal", label: "Multimodal", blurb: "Combined acquisition methods" },
-  { modality: "Developmental", label: "Developmental", blurb: "Children & adolescents" },
-  { modality: "Naturalistic", label: "Naturalistic", blurb: "Movies, narratives, real life" },
+  { modality: "Structural MRI", label: "Structural MRI", blurb: "Anatomy & morphometry" },
+  { modality: "Diffusion MRI", label: "Diffusion MRI", blurb: "White-matter tractography" },
+  { modality: "Eye Tracking", label: "Eye Tracking", blurb: "Gaze & pupillometry" },
 ];
 
 /** All modalities exposed as filters in the directory. */
 export const MODALITIES: Modality[] = [
+  "Neuroimaging (general)",
   "fMRI",
+  "MRI",
   "EEG",
   "MEG",
   "iEEG",
   "fNIRS",
-  "Behavioral",
-  "Social Network",
-  "Multimodal",
-  "Developmental",
-  "Naturalistic",
+  "Psychophysiology",
   "Electrophysiology",
   "Calcium Imaging",
   "Connectomics",
+  "Genotyping/Hormone/Neurotransmitter",
+  "Eye Tracking",
   "Structural MRI",
   "Diffusion MRI",
-  "Genetics",
-  "Eye Tracking",
+  "Behavioral",
+  "Social Network",
+];
+
+/** All paradigms exposed as filters in the directory. */
+export const PARADIGMS: Paradigm[] = [
+  "Naturalistic",
+  "Task-based",
+  "Resting-state",
+  "Hyperscanning",
 ];
 
 /** All topics exposed as filters in the directory. */
 export const TOPICS: Topic[] = [
-  "social cognition",
-  "friendship",
-  "social networks",
-  "moral judgment",
-  "cooperation",
-  "competition",
-  "empathy",
-  "theory of mind",
-  "impression formation",
-  "social learning",
-  "group behavior",
-  "identity",
-  "culture",
-  "decision making",
-  "communication",
-  "collective behavior",
-  "emotion",
-  "face perception",
-  "social interaction",
-  "naturalistic viewing",
-  "memory",
-  "development",
-  "aging",
-  "mental health",
+  "Social Cognition",
+  "Close Relationship",
+  "Social Networks",
+  "Moral Judgment",
+  "Intergroup Processes",
+  "Competition",
+  "Empathy",
+  "Theory of Mind",
+  "Impression Formation",
+  "Self and Identity",
+  "Culture",
+  "Decision Making",
+  "Communication",
+  "Emotion",
+  "Social Perception",
+  "Social Interaction",
+  "Memory",
+  "Developmental Psychology",
+  "Aging",
+  "Clinical Psychology",
+  "Cognition",
+  "Learning",
+  "Public Health",
+  "Reward",
+  "Prosocial Behavior",
 ];
 
 /** Sample-size buckets used by the directory's range filter. */

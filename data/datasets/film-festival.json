@@ -4,13 +4,14 @@
   "shortName": "FilmFestival",
   "description": "OpenNeuro dataset (ds004042) of participants watching a set of emotionally engaging short films. Supports research on affective and social responses to diverse cinematic narratives.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "emotion",
-    "social cognition"
+    "Emotion",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 20,
   "species": "Human",

@@ -5,13 +5,13 @@
   "description": "OpenNeuro dataset (ds006642) of 40 young adults combining naturalistic movie watching, eye-tracking, sensorimotor mapping, and cognitive tasks at 3T. An extension of the Naturalistic Neuroimaging Database for multimodal naturalistic research.",
   "modality": [
     "fMRI",
-    "Naturalistic",
-    "Eye Tracking",
-    "Multimodal"
+    "Eye Tracking"
   ],
   "topics": [
-    "naturalistic viewing",
-    "social cognition"
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 40,
   "species": "Human",

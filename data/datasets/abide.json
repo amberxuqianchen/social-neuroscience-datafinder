@@ -4,7 +4,7 @@
   "shortName": "ABIDE",
   "description": "A large multi-site aggregation of resting-state fMRI and structural MRI from 1,112 individuals — 539 with autism spectrum disorder and 573 typical controls — with accompanying phenotypic data. Because autism centrally involves social cognition and social interaction, ABIDE is a heavily used resource for studying the neural basis of social-brain differences and for building predictive models of social-cognitive phenotypes.",
   "modality": ["fMRI", "Structural MRI"],
-  "topics": ["social cognition", "social interaction", "mental health", "development"],
+  "topics": ["Social Cognition", "Social Interaction", "Clinical Psychology", "Developmental Psychology"],
   "sampleSize": 1112,
   "species": "Human",
   "longitudinal": false,

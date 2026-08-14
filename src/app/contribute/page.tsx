@@ -12,8 +12,9 @@ const EXAMPLE = `{
   "name": "My New Social Neuroscience Dataset",
   "shortName": "MND",
   "description": "A clear 2–4 sentence summary of what the dataset contains and why it is relevant to social neuroscience.",
-  "modality": ["fMRI", "Naturalistic"],
-  "topics": ["social cognition", "theory of mind"],
+  "modality": ["fMRI"],
+  "topics": ["Social Cognition", "Theory of Mind"],
+  "paradigm": ["Naturalistic"],
   "sampleSize": 64,
   "species": "Human",
   "longitudinal": false,
@@ -102,7 +103,8 @@ export default function ContributePage() {
         <h2 className="text-lg font-semibold">Curation guidelines</h2>
         <ul className="mt-3 space-y-2 text-sm text-muted">
           <li>• Prefer datasets with a clear social-neuroscience relevance and a citable source.</li>
-          <li>• Use the controlled vocabularies for <code className="font-mono text-xs">modality</code> and <code className="font-mono text-xs">topics</code> (see the schema). Propose new terms in your PR if needed.</li>
+          <li>• Use the controlled vocabularies for <code className="font-mono text-xs">modality</code>, <code className="font-mono text-xs">topics</code>, and <code className="font-mono text-xs">paradigm</code> (see the schema). Propose new terms in your PR if needed.</li>
+          <li>• Keep the axes separate: <code className="font-mono text-xs">modality</code> is how the data were measured (fMRI, EEG, Behavioral), <code className="font-mono text-xs">paradigm</code> is the stimulus design (Naturalistic, Task-based), and study population belongs in <code className="font-mono text-xs">topics</code> (Developmental Psychology, Aging).</li>
           <li>• Write neutral, factual descriptions; avoid promotional language.</li>
           <li>• Record <code className="font-mono text-xs">sampleSize</code> as the number of participants (use 0 for repositories that aggregate many studies).</li>
           <li>• Always credit original authors in <code className="font-mono text-xs">citation</code>.</li>

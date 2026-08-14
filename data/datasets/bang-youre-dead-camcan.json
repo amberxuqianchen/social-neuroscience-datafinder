@@ -4,14 +4,15 @@
   "shortName": "Bang! (Cam-CAN)",
   "description": "Naturalistic movie-watching fMRI from the Cam-CAN cohort: ~649 participants spanning the adult lifespan watched a condensed Hitchcock film ('Bang! You're Dead', ~8 min). A key resource for studying naturalistic social cognition and ageing.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "aging",
-    "social cognition",
-    "emotion"
+    "Aging",
+    "Social Cognition",
+    "Emotion"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 649,
   "species": "Human",

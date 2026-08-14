@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getAllDatasets } from "@/lib/datasets";
-import { MODALITIES } from "@/lib/constants";
-import type { Modality } from "@/lib/types";
+import { MODALITIES, PARADIGMS } from "@/lib/constants";
+import type { Modality, Paradigm } from "@/lib/types";
 import DatasetExplorer from "@/components/DatasetExplorer";
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 interface PageProps {
-  searchParams: { q?: string; modality?: string };
+  searchParams: { q?: string; modality?: string; paradigm?: string };
 }
 
 export default function DatasetsPage({ searchParams }: PageProps) {
@@ -20,6 +20,10 @@ export default function DatasetsPage({ searchParams }: PageProps) {
   const modalityParam = searchParams.modality;
   const initialModality = MODALITIES.includes(modalityParam as Modality)
     ? (modalityParam as Modality)
+    : undefined;
+  const paradigmParam = searchParams.paradigm;
+  const initialParadigm = PARADIGMS.includes(paradigmParam as Paradigm)
+    ? (paradigmParam as Paradigm)
     : undefined;
 
   return (
@@ -35,6 +39,7 @@ export default function DatasetsPage({ searchParams }: PageProps) {
         datasets={datasets}
         initialQuery={initialQuery}
         initialModality={initialModality}
+        initialParadigm={initialParadigm}
       />
     </div>
   );

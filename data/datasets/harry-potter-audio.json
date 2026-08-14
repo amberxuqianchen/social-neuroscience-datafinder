@@ -4,12 +4,13 @@
   "shortName": "Harry Potter",
   "description": "fMRI from 8 participants listening to a chapter of 'Harry Potter and the Sorcerer's Stone' (~45 min), shared on Dryad. A naturalistic language comprehension dataset linking word-by-word narrative features to brain activity.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication"
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 8,
   "species": "Human",

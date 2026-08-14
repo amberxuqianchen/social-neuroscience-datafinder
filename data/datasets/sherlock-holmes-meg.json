@@ -4,12 +4,13 @@
   "shortName": "Sherlock (MEG)",
   "description": "A Radboud Data Repository dataset of 3 participants who each underwent many hours of MEG while listening to a Sherlock Holmes audiobook (~9 hours total). A deep electrophysiological resource for naturalistic language processing.",
   "modality": [
-    "MEG",
-    "Naturalistic"
+    "MEG"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication"
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 3,
   "species": "Human",

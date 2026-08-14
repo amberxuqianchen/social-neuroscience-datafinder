@@ -4,13 +4,14 @@
   "shortName": "Twilight Zone",
   "description": "fMRI from participants watching an episode of 'The Twilight Zone', shared on OpenNeuro (ds001145). A naturalistic narrative dataset used to study how the brain integrates information over long timescales and constructs situation models.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "social cognition",
-    "memory"
+    "Social Cognition",
+    "Memory"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 24,
   "species": "Human",

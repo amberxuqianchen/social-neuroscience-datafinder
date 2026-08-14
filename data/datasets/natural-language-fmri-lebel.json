@@ -4,12 +4,13 @@
   "shortName": "Natural Language fMRI",
   "description": "OpenNeuro dataset (ds003020) of 8 participants listening to many hours of naturalistic spoken stories during fMRI. A large per-subject resource for building voxel-wise language encoding models.",
   "modality": [
-    "fMRI",
-    "Naturalistic"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "communication"
+    "Communication"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 8,
   "species": "Human",

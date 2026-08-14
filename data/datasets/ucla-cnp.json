@@ -4,7 +4,7 @@
   "shortName": "UCLA CNP",
   "description": "Multimodal MRI from 272 participants — healthy adults and people with schizophrenia, bipolar disorder, or ADHD — performing tasks including emotional face matching, social and affective processing, working memory, and response inhibition. A widely used open dataset for linking dimensional psychiatric phenotypes to brain function, including social and emotional processing.",
   "modality": ["fMRI", "Structural MRI"],
-  "topics": ["emotion", "face perception", "decision making", "mental health", "memory"],
+  "topics": ["Emotion", "Social Perception", "Decision Making", "Clinical Psychology", "Memory"],
   "sampleSize": 272,
   "species": "Human",
   "longitudinal": false,

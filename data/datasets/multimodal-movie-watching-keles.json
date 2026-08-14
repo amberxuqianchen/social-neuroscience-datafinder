@@ -5,13 +5,13 @@
   "description": "OpenNeuro dataset (ds004798) of 20 clinical participants with multimodal brain responses recorded during naturalistic movie watching. Supports research on naturalistic processing in clinical populations.",
   "modality": [
     "EEG",
-    "fMRI",
-    "Naturalistic",
-    "Multimodal"
+    "fMRI"
   ],
   "topics": [
-    "naturalistic viewing",
-    "mental health"
+    "Clinical Psychology"
+  ],
+  "paradigm": [
+    "Naturalistic"
   ],
   "sampleSize": 20,
   "species": "Human",
