@@ -12,7 +12,9 @@
     "Social Cognition"
   ],
   "paradigm": [
-    "Naturalistic"
+    "Naturalistic",
+    "Task-based",
+    "Resting-state"
   ],
   "sampleSize": 22,
   "species": "Human",

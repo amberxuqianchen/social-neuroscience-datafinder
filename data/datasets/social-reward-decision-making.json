@@ -5,6 +5,7 @@
   "description": "An OpenNeuro interim multi-echo fMRI and diffusion dataset from 114 adults ages 21-80 completing social and nonsocial reward tasks. The task battery includes social and monetary doors tasks, a trust game where participants invest with friend, stranger, or computer partners, a shared reward/loss task with social and nonsocial partners, and Ultimatum/Dictator Game conditions. Its explicit partner and reward manipulations make it a direct resource for cooperation, fairness, trust, social reward, financial-exploitation risk, and aging-related differences in social decision making.",
   "modality": ["fMRI", "Diffusion MRI", "Behavioral"],
   "topics": ["Decision Making", "Prosocial Behavior", "Competition", "Moral Judgment", "Social Cognition", "Developmental Psychology"],
+  "paradigm": ["Task-based"],
   "sampleSize": 114,
   "species": "Human",
   "longitudinal": false,

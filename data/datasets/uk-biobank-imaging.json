@@ -5,6 +5,7 @@
   "description": "A population-scale imaging enhancement aiming for multimodal brain MRI from 100,000 UK Biobank participants (structural, diffusion, resting-state and task fMRI), linked to extensive health, lifestyle, cognitive, genetic, and social-circumstance data. Its scale supports population and individual-differences approaches to social behavior, loneliness, and mental health.",
   "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "Genotyping/Hormone/Neurotransmitter", "Behavioral"],
   "topics": ["Decision Making", "Emotion", "Clinical Psychology", "Developmental Psychology", "Social Cognition"],
+  "paradigm": ["Task-based", "Resting-state"],
   "sampleSize": 100000,
   "species": "Human",
   "longitudinal": true,

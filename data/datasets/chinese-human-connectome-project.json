@@ -15,6 +15,10 @@
     "Culture",
     "Decision Making"
   ],
+  "paradigm": [
+    "Task-based",
+    "Resting-state"
+  ],
   "sampleSize": 366,
   "species": "Human",
   "longitudinal": false,

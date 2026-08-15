@@ -5,6 +5,7 @@
   "description": "A multimodal dataset in which 40 participants watched emotional videos both alone and in groups while EEG, ECG, and galvanic skin response plus frontal video were recorded, with affect and personality annotations. Its individual-versus-group design makes it especially useful for studying how social context shapes emotional responses.",
   "modality": ["EEG", "Behavioral"],
   "topics": ["Emotion", "Intergroup Processes", "Social Interaction", "Self and Identity"],
+  "paradigm": ["Naturalistic"],
   "sampleSize": 40,
   "species": "Human",
   "longitudinal": false,

@@ -5,6 +5,7 @@
   "description": "A 204-participant multimodal dataset for studying language processing, pairing MEG and fMRI as participants read or listened to sentences (versus word-scrambled controls). Because comprehending language is a core channel of human communication, MOUS is a large, openly available resource for the neural basis of communication, combining high temporal (MEG) and spatial (fMRI) resolution in the same cohort.",
   "modality": ["MEG", "fMRI"],
   "topics": ["Communication"],
+  "paradigm": ["Task-based"],
   "sampleSize": 204,
   "species": "Human",
   "longitudinal": false,

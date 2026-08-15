@@ -5,6 +5,7 @@
   "description": "A massive cross-cultural study of human moral preferences: an online platform collected roughly 40 million decisions about unavoidable autonomous-vehicle dilemmas from millions of people across 233 countries and territories. The aggregated, openly released data reveal how moral judgments about whom to save vary across cultures — a behavioral resource for studying social and moral cognition at global scale.",
   "modality": ["Behavioral"],
   "topics": ["Moral Judgment", "Culture", "Decision Making", "Intergroup Processes"],
+  "paradigm": ["Task-based"],
   "sampleSize": 2300000,
   "species": "Human",
   "longitudinal": false,

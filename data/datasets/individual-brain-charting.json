@@ -5,7 +5,7 @@
   "description": "A deep-phenotyping fMRI dataset in which a fixed cohort of 12 participants each performed dozens of cognitive tasks at high spatial resolution (1.5 mm), yielding hundreds of functional contrasts per person. The task battery includes social-cognition and theory-of-mind paradigms (e.g., false-belief and animated social-interaction tasks), making IBC a precise within-subject reference for localizing the social brain.",
   "modality": ["fMRI"],
   "topics": ["Theory of Mind", "Social Cognition", "Decision Making", "Social Perception"],
-  "paradigm": ["Naturalistic"],
+  "paradigm": ["Naturalistic", "Task-based"],
   "sampleSize": 12,
   "species": "Human",
   "longitudinal": false,

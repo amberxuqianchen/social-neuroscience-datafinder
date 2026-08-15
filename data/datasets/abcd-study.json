@@ -5,6 +5,7 @@
   "description": "The largest long-term longitudinal study of brain development and child health in the United States, following 11,878 children recruited at ages 9–10 from 21 sites. Biennial multimodal MRI (structural, resting-state and task fMRI, diffusion) is paired with deep phenotyping of cognition, mental health, social relationships, culture/environment, screen and social media use, and peer networks — a rich substrate for developmental social neuroscience.",
   "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "Behavioral", "Genotyping/Hormone/Neurotransmitter"],
   "topics": ["Developmental Psychology", "Social Cognition", "Decision Making", "Clinical Psychology", "Self and Identity", "Culture"],
+  "paradigm": ["Task-based", "Resting-state"],
   "sampleSize": 11878,
   "species": "Human",
   "longitudinal": true,

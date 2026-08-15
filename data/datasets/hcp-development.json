@@ -5,6 +5,7 @@
   "description": "A large developmental extension of the Human Connectome Project: high-quality multimodal MRI (resting and task fMRI, structural, diffusion) from more than 1,300 children and adolescents ages 5-21 across four U.S. sites, including an emotion-processing task and rich cognitive and social-emotional measures. A key resource for charting how social and emotional brain systems mature. Distributed through the NIMH Data Archive.",
   "modality": ["fMRI", "Structural MRI", "Diffusion MRI"],
   "topics": ["Developmental Psychology", "Emotion", "Social Cognition"],
+  "paradigm": ["Task-based", "Resting-state"],
   "sampleSize": 1305,
   "species": "Human",
   "longitudinal": false,

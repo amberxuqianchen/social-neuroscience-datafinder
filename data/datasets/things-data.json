@@ -5,6 +5,7 @@
   "description": "A multimodal collection probing how the brain represents objects and concepts: dense 7T fMRI from 3 participants and MEG from 4 participants viewing thousands of images spanning 1,854 object concepts, plus a 12,340-participant behavioral similarity dataset. Many concepts are people, faces, and socially meaningful objects, making THINGS useful for situating face and social perception within a broad, well-characterized semantic space.",
   "modality": ["fMRI", "MEG", "Behavioral"],
   "topics": ["Social Perception", "Social Cognition", "Memory"],
+  "paradigm": ["Task-based"],
   "sampleSize": 3,
   "species": "Human",
   "longitudinal": false,

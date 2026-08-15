@@ -5,6 +5,7 @@
   "description": "A multimodal dataset capturing 16 paired participants (32 people) during naturalistic debate conversations, with wearable EEG, ECG, and physiology plus audio-video, and continuous emotion annotations from self, partner, and external raters. Designed for studying affect during real social interaction, including the gap between felt and perceived emotion.",
   "modality": ["EEG", "Behavioral"],
   "topics": ["Emotion", "Social Interaction", "Communication"],
+  "paradigm": ["Naturalistic", "Hyperscanning"],
   "sampleSize": 32,
   "species": "Human",
   "longitudinal": false,

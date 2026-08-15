@@ -5,6 +5,7 @@
   "description": "fMRI from 108 participants performing a mixed-gambles task: on each trial they accept or reject a 50/50 gamble with a potential monetary gain and an equal-or-smaller loss — the classic paradigm for studying loss aversion and value-based decision making. Fully BIDS-formatted with fMRIPrep derivatives, NARPS is an ideal teaching dataset for model-based fMRI: fit a participant's loss-aversion parameter from their choices, then map trial-wise subjective value onto the brain.",
   "modality": ["fMRI", "Behavioral"],
   "topics": ["Decision Making", "Emotion"],
+  "paradigm": ["Task-based"],
   "sampleSize": 108,
   "species": "Human",
   "longitudinal": false,
