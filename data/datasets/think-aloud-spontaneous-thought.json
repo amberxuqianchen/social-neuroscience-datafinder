@@ -1,0 +1,48 @@
+{
+  "id": "think-aloud-spontaneous-thought",
+  "name": "Think-Aloud fMRI — Spontaneous Memory Recall & Future Thinking",
+  "shortName": "Think-Aloud",
+  "description": "An OpenNeuro dataset (ds006067) in which participants completed a single 10-minute think-aloud session in the scanner, continuously speaking aloud their uninterrupted stream of thought rather than responding to any external stimulus. Transcripts were segmented into individual thought units and hand-labelled by 15 annotators into categories including episodic memory, imagining or planning the future, semantic knowledge about oneself, and semantic knowledge about the world or other people. 126 participants were scanned; 118 were retained for behavioural analyses and 75 for fMRI analyses. Because it captures internally generated thought boundaries rather than externally driven ones, it is a rare resource for studying how self- and other-related thoughts arise and transition in the absence of a task.",
+  "modality": [
+    "fMRI",
+    "Behavioral"
+  ],
+  "topics": [
+    "Memory",
+    "Cognition",
+    "Self and Identity",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Resting-state"
+  ],
+  "sampleSize": 126,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds006067",
+  "downloadUrl": "https://openneuro.org/datasets/ds006067",
+  "repository": "OpenNeuro",
+  "citation": "Su H, Li X, Born S, Honey CJ, Chen J, Lee H. (2025). Neural dynamics of spontaneous memory recall and future thinking in the continuous flow of thoughts. Nature Communications, 16, 6433.",
+  "doi": "10.1038/s41467-025-61807-w",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "Neural dynamics of spontaneous memory recall and future thinking in the continuous flow of thoughts",
+      "url": "https://doi.org/10.1038/s41467-025-61807-w",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "think-aloud",
+    "spontaneous thought",
+    "mind-wandering",
+    "episodic memory",
+    "future thinking",
+    "OpenNeuro ds006067",
+    "Honey Lab"
+  ],
+  "featured": false
+}

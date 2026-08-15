@@ -113,6 +113,41 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="mt-12">
+        <h2 className="text-xl font-semibold tracking-tight">Acknowledgements</h2>
+        <p className="mt-2 text-muted">
+          This directory builds on curation work that others did first and shared openly.
+        </p>
+        <ul className="mt-4 space-y-3 text-sm text-muted">
+          <li>
+            •{" "}
+            <a
+              href="https://www.honeylab.org/resources/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-fg hover:text-brand hover:underline"
+            >
+              The Honey Lab
+            </a>{" "}
+            (Johns Hopkins University), whose public resources page pointed us to several
+            naturalistic and spontaneous-thought datasets.
+          </li>
+          <li>
+            • The <span className="font-medium text-fg">OHBM naturalistic-datasets collection</span>,
+            a community-maintained list that seeded a large share of the naturalistic entries in this
+            catalog.
+          </li>
+          <li>
+            • <span className="font-medium text-fg">David Dai</span>, for surfacing the Chinese Human
+            Connectome Project and other datasets that would otherwise have been easy to miss.
+          </li>
+        </ul>
+        <p className="mt-4 text-sm text-muted">
+          Every dataset remains the work of the researchers who collected and released it; please
+          cite the original authors, not this directory.
+        </p>
+      </section>
+
       <section className="mt-12 rounded-xl border border-dashed border-border p-6 text-center">
         <h2 className="text-lg font-semibold">Help build it</h2>
         <p className="mx-auto mt-2 max-w-md text-sm text-muted">
