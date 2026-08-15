@@ -4,7 +4,7 @@
   "shortName": "NKI-RS",
   "description": "A large community-ascertained lifespan dataset (ages 6-85) combining resting-state and task fMRI, structural and diffusion MRI, and deep psychiatric, cognitive, and behavioral phenotyping, including naturalistic movie-viewing scans. Its breadth supports the study of social and emotional function across development, adulthood, and aging, and the dimensional links between social-emotional traits and brain function.",
   "modality": ["fMRI", "Structural MRI", "Behavioral"],
-  "topics": ["Developmental Psychology", "Aging", "Emotion", "Clinical Psychology"],
+  "topics": ["Developmental Psychology", "Emotion", "Clinical Psychology"],
   "sampleSize": 1000,
   "species": "Human",
   "longitudinal": false,

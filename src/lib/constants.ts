@@ -78,7 +78,6 @@ export const TOPICS: Topic[] = [
   "Social Interaction",
   "Memory",
   "Developmental Psychology",
-  "Aging",
   "Clinical Psychology",
   "Cognition",
   "Learning",

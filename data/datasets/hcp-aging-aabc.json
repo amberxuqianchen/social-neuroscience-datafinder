@@ -4,7 +4,7 @@
   "shortName": "HCP-A / AABC",
   "description": "A large adult-aging extension of the Human Connectome Project combining HCP-Aging (HCA) and the Aging Adult Brain Connectome (AABC) extension. Current AABC releases include cross-sectional and longitudinal 3T multimodal MRI sessions from typically aging adults ages 36-90+, with structural MRI, resting-state fMRI, task fMRI, diffusion MRI, ASL, high-resolution hippocampal T2 imaging, selected 7T MRS data, and broad non-imaging behavioral, cognitive, health, and biomeasure variables. It is a flagship resource for studying healthy brain aging, resilience, cognition, and age-related change in brain networks.",
   "modality": ["fMRI", "Structural MRI", "Diffusion MRI", "Behavioral"],
-  "topics": ["Aging", "Memory", "Emotion", "Social Cognition", "Clinical Psychology"],
+  "topics": ["Developmental Psychology", "Memory", "Emotion", "Social Cognition", "Clinical Psychology"],
   "sampleSize": 1396,
   "species": "Human",
   "longitudinal": true,

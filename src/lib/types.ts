@@ -59,7 +59,6 @@ export type Topic =
   | "Social Interaction"
   | "Memory"
   | "Developmental Psychology"
-  | "Aging"
   | "Clinical Psychology"
   | "Cognition"
   | "Learning"
