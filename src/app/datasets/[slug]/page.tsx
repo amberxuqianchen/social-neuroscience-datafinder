@@ -78,7 +78,7 @@ export default function DatasetPage({ params }: PageProps) {
 
       <p className="mt-6 text-base leading-relaxed text-fg/90">{dataset.description}</p>
 
-      {/* Modalities & topics */}
+      {/* Modalities, paradigm & topics */}
       <div className="mt-8 grid gap-6 sm:grid-cols-2">
         <div>
           <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-muted">Modalities</h2>
@@ -87,6 +87,18 @@ export default function DatasetPage({ params }: PageProps) {
               <Badge key={m} variant="brand">{m}</Badge>
             ))}
           </div>
+          {dataset.paradigm?.length ? (
+            <>
+              <h2 className="mb-2 mt-4 text-sm font-semibold uppercase tracking-wide text-muted">
+                Paradigm
+              </h2>
+              <div className="flex flex-wrap gap-1.5">
+                {dataset.paradigm.map((p) => (
+                  <Badge key={p} variant="outline">{p}</Badge>
+                ))}
+              </div>
+            </>
+          ) : null}
         </div>
         <div>
           <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-muted">Social topics</h2>

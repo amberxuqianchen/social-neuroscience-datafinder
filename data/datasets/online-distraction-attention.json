@@ -1,0 +1,48 @@
+{
+  "id": "online-distraction-attention",
+  "name": "Online Social vs Non-Social Distraction — Attention fMRI",
+  "shortName": "Distraction & Attention",
+  "description": "An OpenNeuro dataset (ds007126, ~14 GB) of 38 young adults performing a modified global-local attention task in the scanner under three distraction conditions: a social condition with a WeChat message icon and its sound alert, a non-social condition with a 360 browser download-complete icon and alert, and an undistracted baseline. Each condition ran as its own block of 48 event-related trials. Because the social and non-social interruptions are matched on timing and sensory form and differ only in social meaning, the dataset isolates what makes a social notification distinct as an attentional cue. Includes task fMRI, defaced T1 structural scans, trial-level accuracy and reaction times, MRIQC quality-control derivatives, and questionnaires on digital-media habits, affective traits, and attentional control in participants.tsv. Acquired at Sichuan Normal University on a 3T Siemens Prisma; the interleaved working-memory control runs are not part of the release.",
+  "modality": [
+    "fMRI",
+    "Structural MRI",
+    "Behavioral"
+  ],
+  "topics": [
+    "Social Cognition",
+    "Cognition",
+    "Communication"
+  ],
+  "paradigm": [
+    "Task-based"
+  ],
+  "sampleSize": 38,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds007126",
+  "downloadUrl": "https://openneuro.org/datasets/ds007126",
+  "repository": "OpenNeuro",
+  "citation": "Liu C, Dai X, Yuan M, Kou J. (2026). An open fMRI dataset examining the effects of online social and non-social information distraction on attention. Scientific Data.",
+  "doi": "10.1038/s41597-026-07827-7",
+  "year": 2026,
+  "publications": [
+    {
+      "title": "An open fMRI dataset examining the effects of online social and non-social information distraction on attention",
+      "url": "https://doi.org/10.1038/s41597-026-07827-7",
+      "year": 2026
+    }
+  ],
+  "tags": [
+    "social distraction",
+    "digital media",
+    "notifications",
+    "global-local attention",
+    "BIDS",
+    "MRIQC",
+    "OpenNeuro ds007126"
+  ],
+  "featured": false
+}
