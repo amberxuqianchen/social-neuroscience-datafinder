@@ -5,7 +5,12 @@ import { useState } from "react";
 
 const SUGGESTIONS = ["fMRI", "friendship", "naturalistic", "theory of mind", "EEG", "social networks"];
 
-export default function HomeSearch() {
+interface Props {
+  /** Catalog size, passed from the server so the placeholder never goes stale. */
+  datasetCount: number;
+}
+
+export default function HomeSearch({ datasetCount }: Props) {
   const router = useRouter();
   const [value, setValue] = useState("");
 
@@ -34,7 +39,7 @@ export default function HomeSearch() {
           type="search"
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          placeholder="Search 40+ datasets — e.g. 'naturalistic fMRI', 'social networks'…"
+          placeholder={`Search ${datasetCount} datasets — e.g. 'naturalistic fMRI', 'social networks'…`}
           aria-label="Search datasets"
           className="w-full rounded-xl border border-border bg-surface py-3.5 pl-12 pr-28 text-sm shadow-sm"
         />
