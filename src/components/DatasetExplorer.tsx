@@ -67,11 +67,14 @@ export default function DatasetExplorer({
   }, [datasets]);
 
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    // Match each whitespace-separated term independently, so "emo fmri" finds
+    // "Emo-FilM — Emotion in Naturalistic Films fMRI". Matching the raw query
+    // as one string would only hit when the words happen to be adjacent.
+    const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const bucket = SAMPLE_SIZE_BUCKETS.find((b) => b.id === sizeBucket) ?? SAMPLE_SIZE_BUCKETS[0];
 
     const filtered = datasets.filter((d) => {
-      if (q) {
+      if (terms.length > 0) {
         const haystack = [
           d.name,
           d.shortName ?? "",
@@ -86,7 +89,7 @@ export default function DatasetExplorer({
         ]
           .join(" ")
           .toLowerCase();
-        if (!haystack.includes(q)) return false;
+        if (!terms.every((t) => haystack.includes(t))) return false;
       }
 
       if (selectedModalities.size > 0 && !d.modality.some((m) => selectedModalities.has(m))) {
