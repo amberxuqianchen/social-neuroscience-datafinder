@@ -1,0 +1,43 @@
+{
+  "id": "naturalistic-social-mind",
+  "name": "Naturalistic Social Mind Database (NSM)",
+  "shortName": "NSM",
+  "description": "An OpenNeuro dataset (ds007544, ~28 GB) pairing fMRI from 41 healthy Mandarin-speaking adults with time-resolved manual annotations of social content aligned to the 2 s repetition time. Each participant completed a 6-minute eyes-open resting-state scan and watched eight audiovisual films totalling ~30 minutes, spanning animated and live-action material, positive and negative interactions, and dialogue-present and dialogue-absent clips, with 'Banana Kong' included as a non-social control. The annotation framework codes social information across 3 layers, 5 attributes and 25 dimensions — Person (state, trait, action), Interpersonal (relationship) and Context (situation) — which is what distinguishes NSM from movie-watching datasets that ship without a social feature space. The TR-matched design suits encoding models, RSA, reverse correlation, event segmentation, and benchmarking computational models of social cognition. Acquired at Beijing Normal University on a 3T Siemens Prisma; released under CC0 in BIDS 1.9.0 with fMRIPrep derivatives.",
+  "modality": [
+    "fMRI",
+    "Structural MRI"
+  ],
+  "topics": [
+    "Social Cognition",
+    "Social Interaction",
+    "Social Perception",
+    "Emotion"
+  ],
+  "paradigm": [
+    "Naturalistic",
+    "Resting-state"
+  ],
+  "sampleSize": 41,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds007544",
+  "downloadUrl": "https://openneuro.org/datasets/ds007544/versions/2.0.0",
+  "repository": "OpenNeuro",
+  "citation": "Zhang Y, Tao W, Wang Y, Wen Y. (2026). Naturalistic Social Mind Neuroimaging Dataset (NSM). OpenNeuro, version 2.0.0.",
+  "doi": "10.18112/openneuro.ds007544.v2.0.0",
+  "year": 2026,
+  "tags": [
+    "social annotations",
+    "movie watching",
+    "TR-aligned features",
+    "encoding models",
+    "RSA",
+    "CC0",
+    "BIDS",
+    "OpenNeuro ds007544"
+  ],
+  "featured": false
+}
