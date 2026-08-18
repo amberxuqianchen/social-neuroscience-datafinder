@@ -1,0 +1,52 @@
+{
+  "id": "caltech-conte-center",
+  "name": "Caltech Conte Center — Social Cognition & Decision-Making",
+  "shortName": "Caltech Conte",
+  "description": "An OpenNeuro dataset (ds003798) from the NIMH-funded Caltech Conte Center: 117 healthy community-dwelling adults with structural MRI (T1w and T2w, plus manually edited FreeSurfer segmentations), resting-state fMRI, and movie-watching fMRI, paired with a deep battery of questionnaire- and task-based psychological measures spanning intelligence, personality, mood, and social cognition. In-scanner movies are Hitchcock's 'Bang! You're Dead' (1954), cut to 8 minutes, and Pixar's 'Partly Cloudy' — the same stimuli used by the Cam-CAN and Richardson datasets in this directory, which makes cross-dataset comparison unusually direct. A subset of participants was retested over months to years. Data are released in BIDS with fMRIPrep and MRIQC outputs, denoised and available in three anatomical spaces, alongside a customisable denoising pipeline and code for generating functional-connectivity matrices and running individual-difference analyses.",
+  "modality": [
+    "fMRI",
+    "Structural MRI",
+    "Behavioral"
+  ],
+  "topics": [
+    "Social Cognition",
+    "Decision Making",
+    "Cognition",
+    "Emotion"
+  ],
+  "paradigm": [
+    "Naturalistic",
+    "Resting-state",
+    "Task-based"
+  ],
+  "sampleSize": 117,
+  "species": "Human",
+  "longitudinal": true,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds003798",
+  "downloadUrl": "https://openneuro.org/datasets/ds003798",
+  "repository": "OpenNeuro",
+  "citation": "Kliemann D, Adolphs R, Armstrong T, Galdi P, Kahn DA, Rusch T, Enkavi AZ, Liang D, Lograsso S, Zhu W, Yu R, Nair R, Paul LK, Tyszka JM. (2022). Caltech Conte Center, a multimodal data resource for exploring social cognition and decision-making. Scientific Data, 9, 138.",
+  "doi": "10.1038/s41597-022-01171-2",
+  "year": 2022,
+  "publications": [
+    {
+      "title": "Caltech Conte Center, a multimodal data resource for exploring social cognition and decision-making",
+      "url": "https://doi.org/10.1038/s41597-022-01171-2",
+      "year": 2022
+    }
+  ],
+  "tags": [
+    "individual differences",
+    "Bang! You're Dead",
+    "Partly Cloudy",
+    "test-retest",
+    "functional connectivity",
+    "fMRIPrep",
+    "BIDS",
+    "OpenNeuro ds003798"
+  ],
+  "featured": false
+}
