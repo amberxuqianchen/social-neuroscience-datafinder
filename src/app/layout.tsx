@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: { card: "summary_large_image", title: SITE.name, description: SITE.description },
+  // Google Search Console ownership proof. Must stay in place after verification
+  // succeeds — removing it un-verifies the property.
+  verification: {
+    google: "iT96I-Rn8Iuie9LQ4YhgTkpgcb5FRnV6KbV7WehzekA",
+  },
 };
 
 // Set the theme class before paint to prevent a flash of incorrect theme.
