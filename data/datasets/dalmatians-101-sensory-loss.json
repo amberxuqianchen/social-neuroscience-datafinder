@@ -1,0 +1,47 @@
+{
+  "id": "dalmatians-101-sensory-loss",
+  "name": "101 Dalmatians — Naturalistic fMRI in Congenital Sensory Loss",
+  "shortName": "101 Dalmatians",
+  "description": "A Figshare release of naturalistic fMRI from 50 participants — typically developing, congenitally blind and congenitally deaf individuals — watching audiovisual, audio-only or visual-only versions of the live-action film 101 Dalmatians. Matching one narrative across three sensory presentations and three populations is what makes it distinctive: it supports direct tests of how congenital sensory deprivation reshapes functional organisation and cross-modal plasticity. The release adds auditory and visual descriptors from VGGish and VGG-19, GPT-4 semantic embeddings, and human-tagged annotations of movie events, all in BIDS, with data quality assessed by inter-subject correlation.",
+  "modality": [
+    "fMRI",
+    "Structural MRI"
+  ],
+  "topics": [
+    "Social Perception",
+    "Communication",
+    "Developmental Psychology",
+    "Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
+  ],
+  "sampleSize": 50,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://doi.org/10.6084/m9.figshare.28264178",
+  "downloadUrl": "https://doi.org/10.6084/m9.figshare.28264178",
+  "repository": "Figshare",
+  "citation": "Setti F, Bottari D, Leo A, Diano M, Bruno V, et al. (2025). 101 Dalmatians: a multimodal naturalistic fMRI dataset in typical development and congenital sensory loss. Scientific Data, 12, 1792.",
+  "doi": "10.1038/s41597-025-06077-3",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "101 Dalmatians: a multimodal naturalistic fMRI dataset in typical development and congenital sensory loss",
+      "url": "https://doi.org/10.1038/s41597-025-06077-3",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "congenital blindness",
+    "congenital deafness",
+    "cross-modal plasticity",
+    "inter-subject correlation",
+    "GPT-4 embeddings",
+    "BIDS"
+  ],
+  "featured": false
+}

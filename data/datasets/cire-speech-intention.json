@@ -1,0 +1,47 @@
+{
+  "id": "cire-speech-intention",
+  "name": "CIRE — Speech Intention & Prosodic Emotion EEG",
+  "shortName": "CIRE",
+  "description": "A ScienceDB release of 128-channel EEG from 38 participants listening to Mandarin utterances in which identical text carries different intended meanings purely through prosodic emotion — the same words spoken so as to convey different attitudes, with no disambiguating context. That design isolates how listeners infer a speaker's intent from vocal affect rather than semantics, which is the core inferential problem in spoken social communication. The release includes raw 1000 Hz recordings and several preprocessed and segmented versions in BIDS-style organisation, plus Wav2vec2 acoustic embeddings of the stimuli. A baseline model classified intent across subjects at 68.2%.",
+  "modality": [
+    "EEG",
+    "Behavioral"
+  ],
+  "topics": [
+    "Communication",
+    "Emotion",
+    "Social Cognition",
+    "Theory of Mind"
+  ],
+  "paradigm": [
+    "Task-based"
+  ],
+  "sampleSize": 38,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://doi.org/10.57760/sciencedb.23372",
+  "downloadUrl": "https://doi.org/10.57760/sciencedb.23372",
+  "repository": "Science Data Bank",
+  "citation": "He S, Li Z, Dang J, Luo Y, Zhang G. (2025). CIRE: A Chinese EEG Dataset for decoding speech intention modulated by prosodic emotion. Scientific Data, 12, 1664.",
+  "doi": "10.1038/s41597-025-05957-y",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "CIRE: A Chinese EEG Dataset for decoding speech intention modulated by prosodic emotion",
+      "url": "https://doi.org/10.1038/s41597-025-05957-y",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "prosody",
+    "speech intention",
+    "Mandarin",
+    "high-density EEG",
+    "Wav2vec2",
+    "ScienceDB"
+  ],
+  "featured": false
+}

@@ -1,0 +1,47 @@
+{
+  "id": "reelmo-movie-emotion",
+  "name": "REELMO — Real-Time Emotional Responses to Movies",
+  "shortName": "REELMO",
+  "description": "A Figshare release of 1,060 hours of moment-by-moment emotional reports collected from 161 participants across 20 affective states while they watched 60 full-length movies, together with personality and empathy measures, movie synopses and liking ratings. A separate fMRI component records 20 volunteers watching the full-length film Jojo Rabbit. Visual and acoustic features plus deep-learning-derived semantic content accompany the reports, so affect can be modelled against the stimulus directly. The combination of full-length films, dense continuous self-report and a matched fMRI sample suits work on affective chronometry, mixed-valence states, narrative structure and trait moderation of emotional experience.",
+  "modality": [
+    "fMRI",
+    "Behavioral"
+  ],
+  "topics": [
+    "Emotion",
+    "Empathy",
+    "Social Cognition",
+    "Social Perception"
+  ],
+  "paradigm": [
+    "Naturalistic"
+  ],
+  "sampleSize": 161,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://doi.org/10.6084/m9.figshare.28255745",
+  "downloadUrl": "https://doi.org/10.6084/m9.figshare.28255745",
+  "repository": "Figshare",
+  "citation": "Sampaolo E, Handjaras G, Lettieri G, Cecchetti L. (2025). Lights, Camera, Emotion: REELMO's 1060 Hours of Affective Reports to Explore Emotions in Naturalistic Settings. Scientific Data, 12, 797.",
+  "doi": "10.1038/s41597-025-05159-6",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "Lights, Camera, Emotion: REELMO's 1060 Hours of Affective Reports to Explore Emotions in Naturalistic Settings",
+      "url": "https://doi.org/10.1038/s41597-025-05159-6",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "affective reports",
+    "full-length movies",
+    "Jojo Rabbit",
+    "empathy",
+    "affective chronometry",
+    "Figshare"
+  ],
+  "featured": false
+}

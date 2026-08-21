@@ -1,0 +1,50 @@
+{
+  "id": "chongqing-adolescent-twins",
+  "name": "Chongqing Adolescent Twin Study (CATS)",
+  "shortName": "CATS",
+  "description": "A multimodal MRI and phenotyping resource from 136 typically developing twins aged 12-19, designed to separate genetic from environmental influences on adolescent brain and behaviour. Imaging covers structural, resting-state functional and diffusion MRI; the non-imaging battery spans cognitive ability, emotional and social behaviour, familial and parenting dynamics, sleep, stress, anxiety and depression. Benchmarked against HCP-Development, CATS meets or exceeds it on signal quality, tissue contrast, sharpness and head-motion control, and phenotype correlations with HCP-D support reliability. Preprocessed imaging phenotypes are provided. Distributed by the Brain Science Data Center of the Chinese Academy of Sciences; access requires a request following the instructions in the paper's Usage Notes.",
+  "modality": [
+    "fMRI",
+    "Structural MRI",
+    "Diffusion MRI",
+    "Behavioral"
+  ],
+  "topics": [
+    "Developmental Psychology",
+    "Social Interaction",
+    "Emotion",
+    "Clinical Psychology",
+    "Cognition"
+  ],
+  "paradigm": [
+    "Resting-state"
+  ],
+  "sampleSize": 136,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": false,
+  "accessType": "registered",
+  "socialNetworkData": false,
+  "url": "https://doi.org/10.12412/BSDC.1736128526.40001",
+  "downloadUrl": "https://doi.org/10.12412/BSDC.1736128526.40001",
+  "repository": "Brain Science Data Center (CAS)",
+  "citation": "Zhu Y, Fu Y, Han J, Wang R, Ma X, et al. (2025). The Chongqing Adolescent Twin Study: An Integrative Multimodal Brain Imaging and Non-imaging Dataset. Scientific Data, 12, 1211.",
+  "doi": "10.1038/s41597-025-05449-z",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "The Chongqing Adolescent Twin Study: An Integrative Multimodal Brain Imaging and Non-imaging Dataset",
+      "url": "https://doi.org/10.1038/s41597-025-05449-z",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "twins",
+    "adolescence",
+    "behaviour genetics",
+    "parenting",
+    "HCP-D benchmark",
+    "access on request"
+  ],
+  "featured": false
+}

@@ -1,0 +1,48 @@
+{
+  "id": "china-social-fake-news",
+  "name": "China Social Fake News — Brain & Behaviour",
+  "shortName": "Fake News fMRI",
+  "description": "An OpenNeuro dataset (ds005875, ~84 GB) pairing T1 structural, resting-state and task fMRI from 43 Chinese college students with a standardised corpus of Chinese social-lifestyle fake and true news items. In the scanner participants both judged the accuracy of news and decided whether to share it, so the release covers the two behaviours that actually drive misinformation spread. Trait questionnaires and item-level ratings support individual-difference analyses linking brain structure and intrinsic functional state to susceptibility. Most neuroimaging work on misinformation uses Western political material; this dataset deliberately targets social-lifestyle content in a Chinese cultural context, where that genre dominates.",
+  "modality": [
+    "fMRI",
+    "Structural MRI",
+    "Behavioral"
+  ],
+  "topics": [
+    "Social Cognition",
+    "Communication",
+    "Culture",
+    "Decision Making"
+  ],
+  "paradigm": [
+    "Task-based",
+    "Resting-state"
+  ],
+  "sampleSize": 43,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds005875",
+  "downloadUrl": "https://openneuro.org/datasets/ds005875",
+  "repository": "OpenNeuro",
+  "citation": "Chen W, Shi J, He Q. (2025). China's social fake news database release with brain structural, functional, and behavioural measurements. Scientific Data, 12, 538.",
+  "doi": "10.1038/s41597-025-04901-4",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "China's social fake news database release with brain structural, functional, and behavioural measurements",
+      "url": "https://doi.org/10.1038/s41597-025-04901-4",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "misinformation",
+    "fake news",
+    "news sharing",
+    "cross-cultural",
+    "OpenNeuro ds005875"
+  ],
+  "featured": false
+}

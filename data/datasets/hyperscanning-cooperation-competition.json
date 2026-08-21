@@ -1,0 +1,50 @@
+{
+  "id": "hyperscanning-cooperation-competition",
+  "name": "fMRI Hyperscanning — Cooperation & Competition",
+  "shortName": "Hyperscanning Co-op",
+  "description": "A Scientific Data release of fMRI hyperscanning from 33 dyads (66 participants) scanned simultaneously at two Taiwanese sites 305 km apart over an internet-synchronised platform. Pairs played a Sender-Receiver game in which monetary outcomes depended on whether the Receiver followed the Sender's suggestion, run under both cooperative and competitive framings — a design that puts cooperation, competition, deception and strategic inference in one dataset. fMRI hyperscanning stays rare because synchronising acquisition across scanners is hard, so this is an unusual resource for inter-brain synchrony, dynamic functional connectivity and condition-specific network analysis. Released via OpenNeuro (ds004103) in BIDS, with subject folders suffixed by site.",
+  "modality": [
+    "fMRI",
+    "Behavioral"
+  ],
+  "topics": [
+    "Social Interaction",
+    "Decision Making",
+    "Competition",
+    "Prosocial Behavior",
+    "Social Cognition"
+  ],
+  "paradigm": [
+    "Hyperscanning",
+    "Task-based"
+  ],
+  "sampleSize": 66,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://openneuro.org/datasets/ds004103",
+  "downloadUrl": "https://openneuro.org/datasets/ds004103",
+  "repository": "OpenNeuro",
+  "citation": "Wang L, Shen S, Cheng J, Hsu I, Chen D, et al. (2025). An fMRI hyperscanning dataset on cooperation and competition during strategic interactions. Scientific Data, 12, 1414.",
+  "doi": "10.1038/s41597-025-05774-3",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "An fMRI hyperscanning dataset on cooperation and competition during strategic interactions",
+      "url": "https://doi.org/10.1038/s41597-025-05774-3",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "hyperscanning",
+    "inter-brain synchrony",
+    "dyads",
+    "Sender-Receiver game",
+    "deception",
+    "economic games",
+    "OpenNeuro ds004103"
+  ],
+  "featured": false
+}

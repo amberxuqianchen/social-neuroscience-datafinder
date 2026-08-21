@@ -1,0 +1,47 @@
+{
+  "id": "fnirs-appearance-conversations",
+  "name": "Natural Conversations About Appearance — fNIRS",
+  "shortName": "Fat Talk fNIRS",
+  "description": "An OSF dataset of 40-channel portable fNIRS from 31 women (mean age 19.6) recorded during unscripted conversations about appearance — 'fat talk', where people make negative or self-deprecating remarks about their bodies — contrasted against conversations on neutral topics such as travel and home decoration. Coverage is frontal and parietal. Subjective reports confirmed that fat talk raised body surveillance and dissatisfaction, indicating successful induction of a self-objectification state. The release pairs fNIRS with behavioural data, subjective reports and conversation transcripts, making it useful both for studying self-objectification and as a rare worked example of fNIRS processing during free-flowing interpersonal conversation.",
+  "modality": [
+    "fNIRS",
+    "Behavioral"
+  ],
+  "topics": [
+    "Social Interaction",
+    "Self and Identity",
+    "Emotion",
+    "Social Perception"
+  ],
+  "paradigm": [
+    "Naturalistic"
+  ],
+  "sampleSize": 31,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://doi.org/10.17605/OSF.IO/HMVSU",
+  "downloadUrl": "https://osf.io/hmvsu/",
+  "repository": "OSF",
+  "citation": "Hu Y, Liu Y, Hou Y, Pan Y, Gao X. (2025). Dataset of natural conversations about appearance using fNIRS. Scientific Data, 12, 1486.",
+  "doi": "10.1038/s41597-025-05574-9",
+  "year": 2025,
+  "publications": [
+    {
+      "title": "Dataset of natural conversations about appearance using fNIRS",
+      "url": "https://doi.org/10.1038/s41597-025-05574-9",
+      "year": 2025
+    }
+  ],
+  "tags": [
+    "fat talk",
+    "self-objectification",
+    "body image",
+    "natural conversation",
+    "fNIRS",
+    "transcripts"
+  ],
+  "featured": false
+}
