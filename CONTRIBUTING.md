@@ -21,8 +21,9 @@ Every dataset is a single JSON file in `data/datasets/`. No web-development know
 git clone https://github.com/amberxuqianchen/social-neuroscience-datafinder.git
 cd social-neuroscience-datafinder
 npm install
-npm run dev   # optional: preview locally at http://localhost:3000
 ```
+
+The site itself is live at <https://social-neuroscience-datafinder.vercel.app/>; you don't need to run it locally to contribute.
 
 ### 2. Create the file
 
@@ -36,8 +37,9 @@ Use this template:
   "name": "My New Social Neuroscience Dataset",
   "shortName": "MND",
   "description": "A clear 2–4 sentence summary of what the dataset contains and why it is relevant to social neuroscience.",
-  "modality": ["fMRI", "Naturalistic"],
-  "topics": ["social cognition", "theory of mind"],
+  "modality": ["fMRI"],
+  "topics": ["Social Cognition", "Theory of Mind"],
+  "paradigm": ["Naturalistic"],
   "sampleSize": 64,
   "species": "Human",
   "longitudinal": false,
@@ -57,11 +59,23 @@ Use this template:
 
 ### 3. Follow the controlled vocabularies
 
-`modality` and `topics` must use the allowed values defined in [`data/schema.json`](data/schema.json) (and `src/lib/constants.ts`). If a value you need is missing, add it to **both** the schema's `enum` and the corresponding union type in `src/lib/types.ts` and explain why in your PR.
+`modality`, `paradigm`, `topics`, and `accessType` must use the allowed values defined in [`data/schema.json`](data/schema.json) (mirrored in `src/lib/types.ts` and `src/lib/constants.ts`). Values are **case-sensitive** and must match exactly. If a value you need is missing, add it to the schema's `enum`, the union type in `src/lib/types.ts`, and the list in `src/lib/constants.ts`, and explain why in your PR.
 
-**Modalities:** `fMRI`, `EEG`, `MEG`, `iEEG`, `fNIRS`, `Behavioral`, `Social Network`, `Multimodal`, `Developmental`, `Naturalistic`, `Electrophysiology`, `Calcium Imaging`, `Connectomics`, `Genetics`, `Eye Tracking`, `Structural MRI`, `Diffusion MRI`.
+Keep the three axes separate:
 
-**Topics:** `social cognition`, `friendship`, `social networks`, `moral judgment`, `cooperation`, `competition`, `empathy`, `theory of mind`, `impression formation`, `social learning`, `group behavior`, `identity`, `culture`, `decision making`, `communication`, `collective behavior`, `emotion`, `face perception`, `social interaction`, `naturalistic viewing`, `memory`, `development`, `aging`, `mental health`.
+- `modality` — how the data were **measured**.
+- `paradigm` — the **stimulus / task design** (optional).
+- `topics` — the **subject matter or study population**.
+
+For example, a movie-watching fMRI study is `"modality": ["fMRI"]` + `"paradigm": ["Naturalistic"]`, not `"modality": ["fMRI", "Naturalistic"]`.
+
+**Modalities:** `Neuroimaging (general)`, `fMRI`, `MRI`, `EEG`, `MEG`, `iEEG`, `fNIRS`, `Psychophysiology`, `Electrophysiology`, `Calcium Imaging`, `Connectomics`, `Genotyping/Hormone/Neurotransmitter`, `Eye Tracking`, `Structural MRI`, `Diffusion MRI`, `Behavioral`, `Social Network`.
+
+**Paradigms:** `Naturalistic`, `Task-based`, `Resting-state`, `Hyperscanning`.
+
+**Topics:** `Social Cognition`, `Close Relationship`, `Social Networks`, `Moral Judgment`, `Intergroup Processes`, `Competition`, `Empathy`, `Theory of Mind`, `Impression Formation`, `Self and Identity`, `Culture`, `Decision Making`, `Communication`, `Emotion`, `Social Perception`, `Social Interaction`, `Memory`, `Developmental Psychology`, `Clinical Psychology`, `Cognition`, `Learning`, `Public Health`, `Reward`, `Prosocial Behavior`.
+
+**Access types:** `open`, `registered`, `restricted`.
 
 ### 4. Curation guidelines
 
