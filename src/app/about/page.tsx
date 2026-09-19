@@ -12,9 +12,10 @@ const ROADMAP = [
     phase: "Now — v1",
     status: "shipped",
     items: [
-      "Curated starter catalog of 20+ datasets",
+      "Curated catalog of 90+ datasets, each tagged by modality, paradigm, and topic",
       "Client-side keyword search and multi-filter directory",
       "Catalog overview with coverage visualizations",
+      "Hands-on Learn tutorials that analyze catalog datasets",
       "Machine-readable export (JSON / CSV) and schema.org structured data for Google Dataset Search",
       "Static, fast, free-to-host site (no backend)",
       "Community contributions via GitHub pull requests",
