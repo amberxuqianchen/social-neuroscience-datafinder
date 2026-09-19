@@ -1,6 +1,6 @@
 # Social Neuroscience DataFinder
 
-> The most comprehensive, searchable, community-driven directory of datasets relevant to **social neuroscience**.
+> A searchable, community-driven directory of datasets relevant to **social neuroscience**.
 >
 > 🌐 **Live site: <https://social-neuroscience-datafinder.vercel.app/>**
 
