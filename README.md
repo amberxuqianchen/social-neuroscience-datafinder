@@ -1,107 +1,78 @@
 # Social Neuroscience DataFinder
 
-> A searchable, community-driven directory of datasets relevant to **social neuroscience**.
->
-> 🌐 **Live site: <https://social-neuroscience-datafinder.vercel.app/>**
+A free, searchable directory of datasets for the study of the social brain.
 
-A public research resource — in the spirit of [OpenNeuro](https://openneuro.org/), [Papers With Code](https://paperswithcode.com/), [NeuroVault](https://neurovault.org/), and community "awesome lists" — that helps researchers discover brain and behavioral datasets for studying the social brain. Search and filter by modality, paradigm, social-neuroscience topic, sample size, species, longitudinal design, open-access status, and social-network data availability.
+**🔍 Website: <https://social-neuroscience-datafinder.vercel.app/>**
 
-This is **not** a personal website. It is an open, version-controlled catalog that anyone can contribute to via a pull request.
+## About
 
----
+After decades of research, social neuroscience—the study of the neural mechanisms underlying everyday social perception, interaction, and decision-making—has developed a substantial empirical foundation. Numerous datasets have been generated to support this work, yet they remain fragmented across repositories, individual studies, and supplementary materials, making relevant datasets difficult to discover and access.
 
-## ✨ Features
+**Social Neuroscience DataFinder** brings them together in one place. Researchers, students, and teachers can search the directory and filter it by:
 
-- **90+ curated datasets** with real, sourced metadata — major repositories and resources (OpenNeuro, DANDI, NEMAR, NeuroVault, NIMH Data Archive, HCP, ABCD, UK Biobank, Healthy Brain Network, Cam-CAN, Allen Brain Observatory, IBL, MICrONS) plus social-neuroscience-specific and naturalistic datasets (the friendship-network fMRI study, Courtois NeuroMod, Naturalistic Neuroimaging Database, Narratives, Sherlock, SPACETOP, and more).
-- **Instant client-side search & filtering** — keyword search plus filters for modality, paradigm, topic, sample size, species, open access, longitudinal design, and social-network data. No backend, no network round-trips.
-- **Catalog overview** — coverage charts across modalities, topics, and paradigms.
-- **Learn** — hands-on tutorials (with notebooks and code) that analyze datasets from the catalog.
-- **Export** — download the catalog as JSON / CSV, fetch it at [`/catalog.json`](https://social-neuroscience-datafinder.vercel.app/catalog.json), and rely on schema.org structured data for Google Dataset Search.
-- **Static generation** — every page (including one per dataset) is pre-rendered at build time for speed and free hosting.
-- **Dark / light mode** with no flash on load.
-- **Responsive, data-centric, academic design** built with Tailwind CSS.
-- **Contribution model = one JSON file per dataset**, validated against a shared JSON Schema.
+- Data type (for example, fMRI, EEG, or behavioral data)
+- Study design (for example, task-based, resting-state, or naturalistic)
+- Topic (for example, empathy, theory of mind, or social networks)
+- Sample size and species
+- Whether the study followed people over time
+- Whether the data are open access
+- Whether social-network data are available
 
-## 🧱 Tech stack
+The project is open to everyone. The catalog is stored in a public repository, and anyone can suggest a new dataset or a correction.
 
-| Layer        | Choice                                  |
-| ------------ | --------------------------------------- |
-| Framework    | Next.js 14 (App Router)                 |
-| Language     | TypeScript (strict)                     |
-| Styling      | Tailwind CSS (semantic CSS-variable tokens) |
-| Data         | Static JSON files validated by JSON Schema |
-| Rendering    | Static Site Generation (SSG)            |
-| Hosting      | Vercel (zero-config) or any static host |
+## What the site offers
 
-## 🚀 Using the site
+- **A curated catalog.** The directory lists more than 90 datasets, each with a description, a link to the data, and a citation. It includes large repositories such as OpenNeuro, DANDI, NeuroVault, the Human Connectome Project, ABCD, and UK Biobank. It also includes datasets built for social neuroscience, such as the friendship-network fMRI study, Courtois NeuroMod, Narratives, and Sherlock.
+- **Fast search.** Search and filters respond immediately in the browser.
+- **Catalog overview.** Charts show how the datasets are spread across data types, topics, and study designs.
+- **Learn.** Step-by-step tutorials, with notebooks and code, show how to analyze datasets from the catalog.
+- **Export.** The full catalog can be downloaded as JSON or CSV. It is also available at [`/catalog.json`](https://social-neuroscience-datafinder.vercel.app/catalog.json). Each dataset page includes structured data so that Google Dataset Search can index it.
+- **Light and dark display modes.** The layout adapts to phones, tablets, and computers.
 
-The site is live at **<https://social-neuroscience-datafinder.vercel.app/>** — no installation needed. Browse the [directory](https://social-neuroscience-datafinder.vercel.app/datasets), or see the [Contribute page](https://social-neuroscience-datafinder.vercel.app/contribute) to add a dataset.
+## How to use the site
 
-### Validating a contribution
+Open the site in any web browser. No installation or account is needed.
 
-Before opening a pull request, confirm your JSON parses and the site builds:
+1. Go to the [directory](https://social-neuroscience-datafinder.vercel.app/datasets).
+2. Type a keyword or choose filters to narrow the list.
+3. Select a dataset to see its details and follow the link to the source.
+
+When you use a dataset, please cite the original authors.
+
+## How to add a dataset
+
+Each dataset is stored as one JSON file. No web development skills are needed.
+
+1. Fork and clone this repository.
+2. Create a file named `data/datasets/<your-id>.json` that follows the schema in `data/schema.json`.
+3. Run `npm run build` to check that the file is valid.
+4. Open a pull request that links to the source of the dataset.
+
+The [Contribute page](https://social-neuroscience-datafinder.vercel.app/contribute) has an annotated example. [`CONTRIBUTING.md`](CONTRIBUTING.md) has the full guide.
+
+### Checking a contribution
+
+Before opening a pull request, run these commands to confirm that the file is valid and the site builds:
 
 ```bash
 git clone https://github.com/amberxuqianchen/social-neuroscience-datafinder.git
 cd social-neuroscience-datafinder
 npm install
-npm run build   # production build (static) — fails if a dataset file is malformed
-npm run lint    # ESLint
+npm run build   # fails if a dataset file is invalid
+npm run lint    # checks code style
 ```
 
-## 📁 Project structure
+## Data format
 
-```
-.
-├── data/
-│   ├── datasets/            # One JSON file per dataset (the database)
-│   │   ├── human-connectome-project.json
-│   │   ├── abcd-study.json
-│   │   └── …
-│   ├── schema.json          # JSON Schema all dataset files must satisfy
-│   └── resources.json       # Curated tools & reading for the Resources page
-├── tutorials/               # Notebooks, code, and results for the Learn pages
-├── scraping/                # Europe PMC / MeSH pipeline for finding candidate datasets
-├── public/                  # Static assets (tutorial figures)
-├── src/
-│   ├── app/                 # Next.js App Router pages
-│   │   ├── page.tsx                 # Home
-│   │   ├── datasets/page.tsx        # Directory (search + filter)
-│   │   ├── datasets/[slug]/page.tsx # Individual dataset (static per dataset)
-│   │   ├── overview/page.tsx        # Catalog coverage charts
-│   │   ├── learn/                   # Tutorials index + [slug] pages
-│   │   ├── catalog.json/route.ts    # Static machine-readable export of the catalog
-│   │   ├── resources/page.tsx
-│   │   ├── contribute/page.tsx
-│   │   ├── about/page.tsx
-│   │   ├── sitemap.ts, robots.ts
-│   │   ├── not-found.tsx
-│   │   ├── layout.tsx
-│   │   └── globals.css
-│   ├── components/          # Navbar, Footer, DatasetCard, DatasetExplorer, Charts, ExportButtons, …
-│   └── lib/
-│       ├── types.ts         # The Dataset data model
-│       ├── constants.ts     # Controlled vocabularies & site config
-│       ├── datasets.ts      # Build-time data loader & catalog stats
-│       ├── export.ts        # JSON / CSV export helpers
-│       ├── structured-data.ts # schema.org Dataset JSON-LD
-│       └── tutorials.ts     # Learn-page tutorial content
-├── tailwind.config.ts
-├── next.config.mjs
-└── package.json
-```
-
-## 🗃️ Data model
-
-Each dataset is a JSON file in `data/datasets/`. See [`data/schema.json`](data/schema.json) for the authoritative schema and `src/lib/types.ts` for the TypeScript type. Required fields:
+Each dataset file contains the following required fields. The file `data/schema.json` defines the format in full, and `src/lib/types.ts` holds the matching TypeScript type.
 
 ```jsonc
 {
-  "id": "human-connectome-project",       // unique lowercase slug, matches the filename
+  "id": "human-connectome-project",       // unique lowercase name; matches the file name
   "name": "Human Connectome Project — Young Adult",
   "description": "…",                      // at least 20 characters
-  "modality": ["fMRI", "Diffusion MRI"],  // HOW the data were measured (controlled vocabulary)
-  "topics": ["Theory of Mind", "Emotion"],// study topics (controlled vocabulary, Title Case)
+  "modality": ["fMRI", "Diffusion MRI"],  // how the data were measured
+  "topics": ["Theory of Mind", "Emotion"],// what the study is about
   "sampleSize": 1206,
   "species": "Human",
   "longitudinal": false,
@@ -112,40 +83,84 @@ Each dataset is a JSON file in `data/datasets/`. See [`data/schema.json`](data/s
 }
 ```
 
-Optional fields: `shortName`, `paradigm`, `accessType`, `socialNetworkData`, `downloadUrl`, `repository`, `doi`, `publications`, `tags`, and `featured`.
+Optional fields are `shortName`, `paradigm`, `accessType`, `socialNetworkData`, `downloadUrl`, `repository`, `doi`, `publications`, `tags`, and `featured`.
 
-**Modality, paradigm, and topics are separate.** `modality` is the measurement method only; the stimulus/task design goes in `paradigm`, and the subject matter in `topics`. For example, a movie-watching fMRI study is `"modality": ["fMRI"]` with `"paradigm": ["Naturalistic"]`.
+Three fields describe a dataset from different angles:
 
-| Field      | Allowed values |
-| ---------- | -------------- |
-| `modality` | `Neuroimaging (general)`, `fMRI`, `MRI`, `EEG`, `MEG`, `iEEG`, `fNIRS`, `Psychophysiology`, `Electrophysiology`, `Calcium Imaging`, `Connectomics`, `Genotyping/Hormone/Neurotransmitter`, `Eye Tracking`, `Structural MRI`, `Diffusion MRI`, `Behavioral`, `Social Network` |
-| `paradigm` | `Naturalistic`, `Task-based`, `Resting-state`, `Hyperscanning` |
-| `topics`   | `Social Cognition`, `Close Relationship`, `Social Networks`, `Moral Judgment`, `Intergroup Processes`, `Competition`, `Empathy`, `Theory of Mind`, `Impression Formation`, `Self and Identity`, `Culture`, `Decision Making`, `Communication`, `Emotion`, `Social Perception`, `Social Interaction`, `Memory`, `Developmental Psychology`, `Clinical Psychology`, `Cognition`, `Learning`, `Public Health`, `Reward`, `Prosocial Behavior` |
+- `modality` states how the data were measured.
+- `paradigm` states the design of the task or stimulus.
+- `topics` states the subject of the study.
+
+For example, a movie-watching fMRI study uses `"modality": ["fMRI"]` and `"paradigm": ["Naturalistic"]`.
+
+| Field        | Allowed values |
+| ------------ | -------------- |
+| `modality`   | `Neuroimaging (general)`, `fMRI`, `MRI`, `EEG`, `MEG`, `iEEG`, `fNIRS`, `Psychophysiology`, `Electrophysiology`, `Calcium Imaging`, `Connectomics`, `Genotyping/Hormone/Neurotransmitter`, `Eye Tracking`, `Structural MRI`, `Diffusion MRI`, `Behavioral`, `Social Network` |
+| `paradigm`   | `Naturalistic`, `Task-based`, `Resting-state`, `Hyperscanning` |
+| `topics`     | `Social Cognition`, `Close Relationship`, `Social Networks`, `Moral Judgment`, `Intergroup Processes`, `Competition`, `Empathy`, `Theory of Mind`, `Impression Formation`, `Self and Identity`, `Culture`, `Decision Making`, `Communication`, `Emotion`, `Social Perception`, `Social Interaction`, `Memory`, `Developmental Psychology`, `Clinical Psychology`, `Cognition`, `Learning`, `Public Health`, `Reward`, `Prosocial Behavior` |
 | `accessType` | `open`, `registered`, `restricted` |
 
-Values are case-sensitive and must match exactly. To add a new value, update the `enum` in `data/schema.json` **and** the matching union in `src/lib/types.ts` / list in `src/lib/constants.ts`.
+Values are case-sensitive and must match exactly. To add a new value, update the `enum` in `data/schema.json`, the matching type in `src/lib/types.ts`, and the list in `src/lib/constants.ts`.
 
-The loader reads every file at build time and bakes the whole catalog into the static site — there is no database.
+The site reads all dataset files when it is built and includes them in the finished pages. No database is used.
 
-## 🤝 Contributing a dataset
+## Technology
 
-Adding a dataset means adding **one JSON file** — no web-development knowledge required.
+| Part      | Choice                                        |
+| --------- | --------------------------------------------- |
+| Framework | Next.js 14 (App Router)                       |
+| Language  | TypeScript (strict mode)                      |
+| Styling   | Tailwind CSS                                  |
+| Data      | JSON files checked against a JSON Schema      |
+| Rendering | Static site generation                        |
+| Hosting   | Vercel, or any static hosting service         |
 
-1. Fork and clone the repo.
-2. Create `data/datasets/<your-id>.json` following `data/schema.json`.
-3. Run `npm run build` to confirm everything compiles and your file parses (see [Validating a contribution](#validating-a-contribution)).
-4. Open a pull request linking to the dataset's source.
+Every page, including one page per dataset, is created in advance when the site is built. This keeps the site fast and inexpensive to host.
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full guide and the [`/contribute` page](https://social-neuroscience-datafinder.vercel.app/contribute) for an annotated example.
+## Project structure
 
-## ☁️ Deployment
+```
+.
+├── data/
+│   ├── datasets/            # One JSON file per dataset
+│   ├── schema.json          # Rules that every dataset file must follow
+│   └── resources.json       # Tools and reading for the Resources page
+├── tutorials/               # Notebooks, code, and results for the Learn pages
+├── scraping/                # Europe PMC / MeSH pipeline for finding candidate datasets
+├── public/                  # Static files, such as tutorial figures
+├── src/
+│   ├── app/                 # Site pages (Next.js App Router)
+│   ├── components/          # Navbar, Footer, DatasetCard, DatasetExplorer, Charts, and others
+│   └── lib/
+│       ├── types.ts         # Dataset data model
+│       ├── constants.ts     # Allowed values and site settings
+│       ├── datasets.ts      # Loads the data and computes catalog statistics
+│       ├── export.ts        # JSON and CSV export
+│       ├── structured-data.ts # schema.org Dataset markup
+│       └── tutorials.ts     # Tutorial content
+├── tailwind.config.ts
+├── next.config.mjs
+└── package.json
+```
 
-The site is deployed on **Vercel** at <https://social-neuroscience-datafinder.vercel.app/>. It deploys with zero configuration; it can also be exported to a fully static bundle for any static host (GitHub Pages, Netlify, S3, etc.). Step-by-step instructions are in [`DEPLOYMENT.md`](DEPLOYMENT.md).
+## Deployment
 
-## 🧭 Roadmap
+The site runs on Vercel at <https://social-neuroscience-datafinder.vercel.app/> and needs no special configuration. It can also be exported as a static bundle for other hosts, such as GitHub Pages, Netlify, or Amazon S3. See [`DEPLOYMENT.md`](DEPLOYMENT.md) for instructions.
 
-The architecture is intentionally designed so each of these can be added without rewrites: papers-linked-to-datasets, dataset ratings & "used by" counts, benchmark tasks, linked code repositories, guided user submissions, a versioned public REST API (a static [`/catalog.json`](https://social-neuroscience-datafinder.vercel.app/catalog.json) export already exists), and AI-assisted dataset discovery. See the `/about` page.
+## Roadmap
 
-## 📄 License
+Planned additions include:
 
-Released under the [MIT License](LICENSE). Dataset metadata is curated from public sources — **please cite the original authors** when using any dataset listed here. This project is not affiliated with the repositories or studies it indexes.
+- Links between datasets and the papers that use them
+- Ratings and "used by" counts
+- Benchmark tasks
+- Links to related code repositories
+- Guided dataset submission
+- A versioned public API (the static [`/catalog.json`](https://social-neuroscience-datafinder.vercel.app/catalog.json) export already exists)
+- AI-assisted dataset discovery
+
+The site is built so that each of these can be added without major changes. The `/about` page gives more detail.
+
+## License
+
+The project is released under the [MIT License](LICENSE). The dataset information comes from public sources. Please cite the original authors when you use any dataset listed here. The project has no affiliation with the repositories or studies it lists.
