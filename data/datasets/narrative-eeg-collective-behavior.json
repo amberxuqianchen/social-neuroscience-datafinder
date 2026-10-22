@@ -1,0 +1,64 @@
+{
+  "id": "narrative-eeg-collective-behavior",
+  "name": "A multimodal dataset bridging brain activity, cognition, and real-world collective behavior",
+  "shortName": "Narrative EEG and Collective Behavior",
+  "description": "Naturalistic narrative-video recordings from 65 participants with usable EEG after six exclusions from 71 recruits. The 64-channel acquisition comprises 59 EEG channels plus ECG/EOG. Fourteen experimental videos span seven semantic themes with grand versus individual narrative perspectives; each participant viewed one version per theme. Multidimensional subjective evaluations, demographics and psychological traits accompany stimulus-level Bilibili engagement metrics (plays, likes, comments, danmaku, saves, coin rewards and shares), enabling exploratory links between neural synchrony, psychological responses and real-world collective engagement. OSF provides raw BDF recordings in RAR archives, preprocessed FIF recordings, stimulus annotations, aggregated measures and MNE-Python preprocessing scripts. Download files from the Raw_EEG, Preprocessed_EEG, Aggregated_data, Stimulus_Videos and Codes folders; consult ReadMe.docx for formats and use instructions. The paper and repository README specify CC BY 4.0 and downloads without an access request; the OSF project license field is unset. Original videos are excluded for copyright reasons. Narrative comparisons are stimulus-bound, and platform confounds limit causal and neuroforecasting claims. A separate code license was not verified.",
+  "modality": [
+    "EEG",
+    "Behavioral"
+  ],
+  "topics": [
+    "Social Cognition",
+    "Communication",
+    "Emotion",
+    "Empathy",
+    "Cognition"
+  ],
+  "paradigm": [
+    "Naturalistic"
+  ],
+  "sampleSize": 65,
+  "species": "Human",
+  "longitudinal": false,
+  "openAccess": true,
+  "accessType": "open",
+  "socialNetworkData": false,
+  "url": "https://osf.io/2apcs/",
+  "downloadUrl": "https://osf.io/2apcs/files/",
+  "repository": "Open Science Framework (OSF)",
+  "citation": "Deng Y, Lin H, Wu J, Guo X, Li M, Wang Y, Xiao H, Zhang Y. (2026). A multimodal dataset bridging brain activity, cognition, and real-world collective behavior. Scientific Data. https://doi.org/10.1038/s41597-026-08410-w",
+  "doi": "10.17605/OSF.IO/2APCS",
+  "year": 2026,
+  "publications": [
+    {
+      "title": "A multimodal dataset bridging brain activity, cognition, and real-world collective behavior",
+      "url": "https://doi.org/10.1038/s41597-026-08410-w",
+      "year": 2026
+    },
+    {
+      "title": "EEG preprocessing code (MNE-Python; GitHub)",
+      "url": "https://github.com/YalingDeng/A-multimodal-dataset-bridging-brain-activity-cognition-and-real-world-collective-behavior",
+      "year": 2026
+    }
+  ],
+  "tags": [
+    "EEG",
+    "naturalistic stimuli",
+    "neural synchrony",
+    "inter-subject correlation",
+    "social cognition",
+    "collective behavior",
+    "neuroforecasting",
+    "narrative perspectives",
+    "seven semantic themes",
+    "subjective evaluations",
+    "psychological traits",
+    "Bilibili",
+    "video engagement",
+    "raw and preprocessed EEG",
+    "stimulus annotations",
+    "MNE-Python",
+    "CC BY 4.0"
+  ],
+  "featured": false
+}
